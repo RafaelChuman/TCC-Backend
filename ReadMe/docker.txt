@@ -1,0 +1,29 @@
+docker -v
+
+docker build -t pji510
+
+docker run -p 3333:3333 pji510
+
+docker ps
+
+docer exec -it CONTAINER_NAME /bin/bash
+
+docer exec -id ID /bin/bash
+
+docker-compose up
+
+docker-compose up -d
+
+docker-compose stop
+
+docker-compose start
+
+docker logs pji510 -f
+
+docker ps -a
+
+docker rm ID
+
+docker stop ID
+
+docker start ID 

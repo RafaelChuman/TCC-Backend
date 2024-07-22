@@ -1,0 +1,39 @@
+1º Download and Install VS Code
+2º Download and Install Git
+3º Download and Install NPM
+
+run commands:
+
+//Allow the Git communicate with GitHub behind a proxy
+
+git config --global --list
+
+git config --global --unset http.proxy
+
+git config --global http.proxy http://41315661845:Redes20061994@proxy.cavex.avex.eb.mil.br:8080
+
+git config --global user.email "rafael_chumansantana@outlook.com"
+
+git config --global user.name "Rafael Chuman"
+
+
+//Allow the NPM to communciate with the libraries
+npm config rm proxy
+
+npm config rm https-proxy
+
+npm config set proxy http://41315661845:Redes20061994@proxy.cavex.avex.eb.mil.br:8080
+
+npm install --global yarn
+
+
+4º Inicie o Windows PowerShell com a opção "Executar como administrador"
+
+Set-ExecutionPolicy -ExecutionPolicy Bypass
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
+
+5º Clone o Repositório GitHub
+
+yarn

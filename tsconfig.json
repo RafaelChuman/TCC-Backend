@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "baseUrl": ".",
+    "incremental": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
+    ],
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ],
+      "@entity/*": [
+        "./src/entity/*"
+      ],
+      "@errors/*": [
+        "./src/errors/*"
+      ],
+      "@midlewares/*": [
+        "./src/midlewares/*"
+      ],
+      "@migration/*": [
+        "./src/migration/*"
+      ],
+      "@modules/*": [
+        "./src/modules/*"
+      ],
+      "@routes/*": [
+        "./src/routes/*"
+      ],
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+  },
+  "include": [
+    "./src/**/*",
+    "server.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "jest.config.js"
+  ],
+}

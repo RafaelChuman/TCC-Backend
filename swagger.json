@@ -1,0 +1,103 @@
+{
+    "openapi":"3.0.0.0",
+    "title":"PJI510 Swagger",
+    "description":"Documentação para o PJI510",
+    "version":"0.0.1",
+    "contact":{
+        "name":"Rafael Chuman Santana",
+        "url": "rafaelchuman.com",
+        "email":"rafael_chumansantana@outlook.com"
+    },
+    "servers":{
+        "url":"http://127.0.0.0:3333/api-docs",
+        "description":"Development Server"
+    },
+    "/users":{
+        "post":{
+            "requestBody":{
+                "content":{
+                    "schema":{
+                        "type": "object",
+                        "properties":{
+                            "name":{
+                                "type":"string",
+                                "format":"UUID V4",
+                                "description":"Informe o Nome do Usuário",
+                                "required":true
+                            },
+                            "email":{
+                                "type":"string",
+                                "description":"Informe o E-Mail do Usuário",
+                                "required":true
+                            }
+                        }
+                    }
+                }
+            },
+            "response":{
+
+            },
+            "example":{
+                "name":"Rafael Chuman Santana",
+                "email":"rafael_chumansantana@outlook.com"
+            }
+        },
+        "patch":{
+            "parameters": [
+                {
+                  "id": "user_id",
+                  "in": "path",
+                  "description": "ID of user that needs to be updated",
+                  "required": true,
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+            ],
+            "response":{
+                "200": {
+                    "description": "Pet updated.",
+                    "content": {
+                      "application/json": {}
+                    }
+                }
+            }            
+            "parameters": [
+                {
+                  "id": "user_id",
+                  "in": "path",
+                  "description": "ID of user that want to get values",
+                  "required": true,
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+            ],
+        },
+        "get":{
+            "parameters": [
+                {
+                  "id": "user_id",
+                  "in": "path",
+                  "description": "ID of user that want to get values",
+                  "required": true,
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+            ],
+            "response":{
+                "200":{
+                    
+                }
+            }
+        },
+        "get":{
+            "response":{
+                "200":{
+                    
+                }
+            }
+        }
+    }
+}

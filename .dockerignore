@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vscode
+node_modules
+docker-compose.yml
+dockerfile
+jest.config.js
+package-lock.json
+setupTest.ts
+yarn-error.log
+yarn.lock
+ReadMe
