@@ -3,14 +3,14 @@ version: '3.4'
 services:
   pji510_pg:
     image: postgres
-    container_name: pji510_pg
+    container_name: tcc_pg
     restart: always
     ports:
       - 5432:5432
     environment:
       TZ: utc
-      POSTGRES_USER: chuman
-      POSTGRES_PASSWORD: pji510_univesp!
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: tcc_univesp!
       POSTGRES_DB: postgres
     volumes:
       - pgdata:/data/postgres

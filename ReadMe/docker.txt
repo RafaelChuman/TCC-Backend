@@ -1,6 +1,6 @@
 docker -v
 
-docker build -t pji510
+docker build -t tcc
 
 docker run -p 3333:3333 pji510
 
@@ -18,7 +18,7 @@ docker-compose stop
 
 docker-compose start
 
-docker logs pji510 -f
+docker logs tcc -f
 
 docker ps -a
 

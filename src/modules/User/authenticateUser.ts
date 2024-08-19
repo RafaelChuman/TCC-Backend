@@ -13,14 +13,21 @@ class AuthenticaUser {
     const user = await userRespository.findByUserName(userName);
 
     if (!user) {
-      throw new AppError("User or password incorrect.");
+      throw new AppError("User incorrect.");
     }
 
-    const passwordMatch = await compare(password, user.password);
+    //Do not. It must be implemented at prodution
+    //const passwordMatch = await compare(password, user.password);
+    const passwordMatch = password == user.password;
+
+
+    console.log(request.body.password + " --- " + user.password + " === " + passwordMatch)
 
     if (!passwordMatch) {
-      throw new AppError("User or password incorrect.");
+      throw new AppError("Password incorrect.");
     }
+
+    
 
     const userToken: UserToken = {
       isAdmin: user.isAdmin,
@@ -28,7 +35,14 @@ class AuthenticaUser {
       userId: user.id,
     };
 
-    const resp = sign(userToken, "brasil123",  {expiresIn: "10h"});
+    const resp  = {
+      isAdmin: user.isAdmin,
+      userName: user.userName,
+      userId: user.id,
+      token: sign(userToken, "brasil123",  {expiresIn: "10h"})
+    };
+
+    
 
     return response.status(200).json(resp);
   }

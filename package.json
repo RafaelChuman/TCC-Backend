@@ -1,8 +1,8 @@
 {
-  "name": "pji510-backend",
+  "name": "tcc-backend",
   "private": true,
   "version": "1.0.0",
-  "description": "PJI510-Backend",
+  "description": "TCC-Backend",
   "main": "src/index.ts",
   "author": "Rafael Chuman Santana",
   "license": "MIT",
