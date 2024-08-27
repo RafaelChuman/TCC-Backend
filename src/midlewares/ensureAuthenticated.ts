@@ -2,14 +2,30 @@ import { AppError } from "@errors/AppError";
 import { UserToken } from "@src/entity/User/InterfaceUser";
 import { RepositoryUser } from "@src/entity/User/RepositoryUser";
 import { NextFunction, Request, Response } from "express";
-import { verify } from "jsonwebtoken";
+import { JwtPayload, verify } from "jsonwebtoken";
+
+
+export function isTokenValid(token: string): boolean {
+
+  try {
+    const decoded = verify(token, "brasil123");
+
+    if (!decoded || typeof decoded == "string") {
+      return false
+    }
+
+    return true
+  } catch {
+    return false
+  }
+}
 
 export async function ensureAuthenticated(
   request: Request,
   response: Response,
   next: NextFunction
 ) {
-  //Bearer dkdfvmdlkfvmkdm
+
   const token = request.headers.authorization;
 
   if (!token) {

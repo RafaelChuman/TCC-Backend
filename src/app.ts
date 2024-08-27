@@ -11,6 +11,7 @@ import { groupRoutes } from "./routes/Group.routes";
 import { userRoutes } from "./routes/User.routes";
 import { RescueGroupRoutes } from "./routes/RescueGroup.routes";
 import { iotMonitorRoutes } from "./routes/IoTMonitor.routes";
+import { checkTokenRoutes } from "./routes/CheckToke.routes";
 
 const app = express();
 
@@ -23,6 +24,8 @@ app.use("/ioTMonitor", iotMonitorRoutes);
 app.use(authenticateRoutes);
 
 app.use("/user", userRoutes);
+
+app.use("/checkToken", checkTokenRoutes);
 
 //Midleware para validar a autenticação de todas as rotas seguintes
 
