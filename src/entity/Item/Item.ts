@@ -1,6 +1,6 @@
 import { v4 as uuidV4 } from "uuid";
 import { Entity, CreateDateColumn,  PrimaryColumn, ManyToOne, Column, OneToMany} from "typeorm";
-import { OrderAndItem } from "../OrderAndItem/OrderAndItem";
+import { OrderAndItem } from "../OrderAndItems/OrderAndItems";
 
 @Entity("Item")
 export class Item {

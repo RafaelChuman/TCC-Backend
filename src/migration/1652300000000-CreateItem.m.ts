@@ -6,11 +6,11 @@ import {
   TableIndex,
 } from "typeorm";
 
-export class CreateGroup1652300000000 implements MigrationInterface {
+export class CreateItem1652300000000 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.createTable(
       new Table({
-        name: "Group",
+        name: "Item",
         columns: [
           {
             name: "id",
@@ -24,21 +24,18 @@ export class CreateGroup1652300000000 implements MigrationInterface {
             type: "varchar",
           },
           {
-            name: "temperature",
-            type: "integer",
+            name: "type",
+            type: "varchar",
           },
           {
-            name: "humidity",
-            type: "integer",
+            name: "createdAt",
+            type: "timestamp",
+            default: "now()",
           },
           {
-            name: "noBreak",
-            type: "integer",
-          },
-          {
-            name: "userId",
-            type: "uuid",
-            isNullable: false,
+            name: "deleted",
+            type: "boolean",
+            default: false,
           },
           {
             name: "createdAt",
@@ -50,30 +47,28 @@ export class CreateGroup1652300000000 implements MigrationInterface {
     );
 
     await queryRunner.createIndex(
-      "Group",
+      "Item",
       new TableIndex({
-        name: "IDX_GROUP_NAME",
+        name: "IDX_ITEM_NAME",
         columnNames: ["name"],
       })
     );
 
-    await queryRunner.createForeignKey(
-      "Group",
-      new TableForeignKey({
-        name: "FK_GROUP_USER",
-        columnNames: ["userId"],
-        referencedColumnNames: ["id"],
-        referencedTableName: "User",
-        onDelete: "CASCADE",
+    await queryRunner.createIndex(
+      "Item",
+      new TableIndex({
+        name: "IDX_ITEM_CREATEDAT",
+        columnNames: ["createdAt"],
       })
     );
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
-    await queryRunner.dropIndex("Group", "IDX_GROUP_NAME");
+    await queryRunner.dropIndex("Item", "IDX_ITEM_NAME");
 
-    await queryRunner.dropForeignKey("Group", "FK_GROUP_USER");
+    await queryRunner.dropIndex("Item", "IDX_ITEM_CREATEDAT");
 
-    await queryRunner.dropTable("Group");
+
+    await queryRunner.dropTable("Item");
   }
 }

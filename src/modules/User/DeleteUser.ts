@@ -18,7 +18,7 @@ export class DeleteUser {
       return response.status(200).json(resp);
     }
 
-    return response.status(200).json("Database not modified.");;
+    return response.status(422).json("Database not modified.");;
   }
 }
 

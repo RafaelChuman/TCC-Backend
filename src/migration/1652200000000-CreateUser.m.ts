@@ -34,8 +34,8 @@ export class CreateUser1652200000000 implements MigrationInterface {
             type: "varchar",
           },
           {
-            name: "celular",
-            type: "float",
+            name: "cellphone",
+            type: "string",
           },
           {
             name: "telegram",
@@ -50,6 +50,16 @@ export class CreateUser1652200000000 implements MigrationInterface {
             type: "timestamp",
             default: "now()",
           },
+          {
+            name: "deleted",
+            type: "boolean",
+            default: false,
+          },
+          {
+            name: "updated",
+            type: "timestamp",
+            default: "now()",
+          },
         ],
       })
     );
@@ -61,10 +71,20 @@ export class CreateUser1652200000000 implements MigrationInterface {
         columnNames: ["userName"],
       })
     );
+
+    await queryRunner.createIndex(
+      "User",
+      new TableIndex({
+        name: "IDX_USER_CREATEDAT",
+        columnNames: ["createdAt"],
+      })
+    );
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.dropIndex("User", "IDX_USER_NAME");
+
+    await queryRunner.dropIndex("User", "IDX_USER_CREATEDAT");
 
     await queryRunner.dropTable("User");
   }

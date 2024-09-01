@@ -1,11 +1,11 @@
 import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn } from "typeorm";
 import { v4 as uuidv4 } from "uuid";
 import { Item } from "../Item/Item";
-import { Order } from "../Order/Order";
+import { Orders } from "../Orders/Orders";
 
 
-@Entity("OrderAndItem")
-export class OrderAndItem {
+@Entity("OrderAndItems")
+export class OrderAndItems {
 
     @PrimaryColumn()
     id: string
@@ -26,9 +26,9 @@ export class OrderAndItem {
     @JoinColumn({name:"itemId"})
     item: Item
 
-    @ManyToOne( ()=> Order, (order)=> order.orderAndItem)
-    @JoinColumn({name:"orderId"})
-    order: Order
+    @ManyToOne( ()=> Orders, (orders)=> orders.orderAndItem)
+    @JoinColumn({name:"ordersId"})
+    orders: Orders
 
     
     constructor() {

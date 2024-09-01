@@ -10,9 +10,9 @@ class CreateUser {
       name: request.body.name,
       password: request.body.password,
       userName: request.body.userName,
-      
+
       imgPath: request.body.imgPath,
-      celular: request.body.celular,
+      cellphone: request.body.celular,
       telegram: request.body.telegram,
       email: request.body.email,
 

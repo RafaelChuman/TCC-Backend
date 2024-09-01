@@ -1,7 +1,7 @@
 import { v4 as uuidV4 } from "uuid";
 import { Entity, PrimaryGeneratedColumn, CreateDateColumn, Column, PrimaryColumn, ManyToOne, OneToMany, JoinColumn } from "typeorm";
 import { Car } from "../Car/Car";
-import { Order } from "../Order/Order";
+import { Orders } from "../Orders/Orders";
 
 @Entity("User")
 export class User {
@@ -19,7 +19,7 @@ export class User {
     @Column()
     email: string
     @Column()
-    cellphone: number
+    cellphone: string
     @Column()
     telegram: string
     @Column()
@@ -34,8 +34,8 @@ export class User {
     @OneToMany(() => Car, (car) => car.user)
     car: Car[];
 
-    @OneToMany(() => Order, (order) => order.user)
-    order: Order[];
+    @OneToMany(() => Orders, (orders) => orders.user)
+    orders: Orders[];
 
     constructor() {
         if (!this.id) {

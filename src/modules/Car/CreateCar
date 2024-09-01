@@ -1,19 +1,18 @@
-import { DTOCreateIoT } from "@src/entity/Car/InterfaceIoT";
-import { RepositoryIoT } from "@src/entity/Car/RepositoryIoT";
 import { Request, Response } from "express";
 import { v4 as uuidv4 } from "uuid";
+import {RepositoryCar} from '@src/entity/Car/RepositoryCar';
 
-export class IoTCreate {
+export class CreateCar {
   async execute(request: Request, response: Response): Promise<Response> {
-    const ioTRep = new RepositoryIoT();
+    const carRep = new RepositoryCar();
 
-    const data: DTOCreateIoT = {
+    const data: DTOCreateCar = {
       group: request.body.group,
       name: request.body.name,
     };
 
     
-    const resp = await ioTRep.create(data);
+    const resp = await carRep.create(data);
 
     return response.status(200).json(resp);
   }

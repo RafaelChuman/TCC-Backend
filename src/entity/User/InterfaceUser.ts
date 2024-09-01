@@ -7,10 +7,9 @@ interface DTOCreateUser {
   password: string;
   imgPath: string;
   email: string;
-  cellphone: number;
+  cellphone: string;
   telegram: string;
   isAdmin: boolean;
-  createdAt: Date;
 }
 
 interface DTOUpdateUser {
@@ -20,10 +19,9 @@ interface DTOUpdateUser {
   password: string;
   imgPath: string;
   email: string;
-  cellphone: number;
+  cellphone: string;
   telegram: string;
   isAdmin: boolean;
-  createdAt: Date;
 }
 
 interface DTODeleteUser {

@@ -1,6 +1,6 @@
 import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, OneToMany, PrimaryColumn } from "typeorm";
 import { v4 as uuidv4 } from "uuid";
-import { Order } from "../Order/Order";
+import { Orders } from "../Orders/Orders";
 import { User } from "../User/User";
 
 @Entity("Car")
@@ -35,8 +35,8 @@ export class Car {
     @JoinColumn({ name: "userId" })
     user: User;
 
-    @OneToMany(() => Order, (order) => order.car)
-    order: Order[]
+    @OneToMany(() => Orders, (orders) => orders.car)
+    orders: Orders[]
 
     constructor() {
         if (this.id === undefined) {

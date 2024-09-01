@@ -1,4 +1,4 @@
-import { ioTCreate, ioTDelete, ioTList, ioTUpdate } from "@src/modules/IoT";
+import { ioTCreate, ioTDelete, ioTList, ioTUpdate } from "@src/modules/Car";
 import { Router } from "express";
 
 const ioTRoutes = Router();

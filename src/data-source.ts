@@ -2,8 +2,8 @@ import { DataSource } from "typeorm";
 import { User } from "./entity/User/User";
 import { RescueGroup } from "./entity/Item/Item";
 import { IoT } from "./entity/Car/Car";
-import { Group } from "./entity/Order/Order";
-import { IoTMonitor } from "./entity/OrderAndItem/OrderAndItem";
+import { Group } from "./entity/Orders/Orders";
+import { IoTMonitor } from "./entity/OrderAndItems/OrderAndItems";
 
 export const PostgresDS = new DataSource({
   type: "postgres",

@@ -20,7 +20,6 @@ class RepositoryUser implements InterfaceUser {
     user.cellphone= data.cellphone
     user.telegram= data.telegram
     user.isAdmin= data.isAdmin
-    user.createdAt= data.createdAt
 
     return await PostgresDS.manager.insert(User, user);
   }

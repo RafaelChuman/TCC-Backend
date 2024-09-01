@@ -4,7 +4,7 @@ import { DTOCreateCar, DTODeleteCar, DTOUpdateCar, InterfaceCar } from "./Interf
 import { Car } from "./Car";
 import { DeleteResult, In, InsertResult } from "typeorm";
 
-export class RepositoryCar implements InterfaceCar {
+class RepositoryCar implements InterfaceCar {
   async create(data: DTOCreateCar): Promise<InsertResult | null> {
     const newCar = new Car();
 
@@ -72,5 +72,6 @@ export class RepositoryCar implements InterfaceCar {
   }
 }
 
+export { RepositoryCar };
 
 //import { DeleteResult, In } from "typeorm";

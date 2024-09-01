@@ -1,7 +1,7 @@
-import { IoTCreate } from "./IoTCreate";
-import { IoTDelete } from "./IoTDelete";
-import { IoTList } from "./IoTList";
-import { IoTUpdate } from "./IoTUpdate";
+import { IoTCreate } from "./CreateCar";
+import { IoTDelete } from "./DeleteCar";
+import { IoTList } from "./ListCar";
+import { IoTUpdate } from "./UpdateCar";
 
 
 
