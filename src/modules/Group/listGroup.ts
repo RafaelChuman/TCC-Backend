@@ -1,4 +1,4 @@
-import { RepositoryGroup } from "@src/entity/Group/RepositoryGroup";
+import { RepositoryGroup } from "@src/entity/Order/RepositoryGroup";
 import { AppError } from "@src/errors/AppError";
 import { Response, Request } from "express";
 

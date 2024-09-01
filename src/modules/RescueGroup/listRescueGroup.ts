@@ -1,4 +1,4 @@
-import { RepositoryRescueGroup } from "@src/entity/RescueGroup/RepositoryRescueGroup";
+import { RepositoryRescueGroup } from "@src/entity/Item/RepositoryRescueGroup";
 import { Response, Request } from "express";
 
 class ListRescueGroup {

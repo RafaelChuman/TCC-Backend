@@ -1,5 +1,5 @@
-import { DTOCreateIoT, DTOUpdateIoT } from "@src/entity/IoT/InterfaceIoT";
-import { RepositoryIoT } from "@src/entity/IoT/RepositoryIoT";
+import { DTOCreateIoT, DTOUpdateIoT } from "@src/entity/Car/InterfaceIoT";
+import { RepositoryIoT } from "@src/entity/Car/RepositoryIoT";
 import { Request, Response } from "express";
 import { v4 as uuidv4 } from "uuid";
 

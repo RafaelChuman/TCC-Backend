@@ -1,4 +1,4 @@
-import { RepositoryIoT } from "@src/entity/IoT/RepositoryIoT";
+import { RepositoryIoT } from "@src/entity/Car/RepositoryIoT";
 import { Request, Response } from "express";
 
 export class IoTList {

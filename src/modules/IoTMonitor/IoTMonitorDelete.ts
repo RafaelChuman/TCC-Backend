@@ -1,5 +1,5 @@
-import { DTODeleteIoTMonitor } from "@src/entity/IoTMonitor/InterfaceIoTMonitor";
-import { RepositoryIoTMonitor } from "@src/entity/IoTMonitor/RepositoryIoTMonitor";
+import { DTODeleteIoTMonitor } from "@src/entity/OrderAndItem/InterfaceIoTMonitor";
+import { RepositoryIoTMonitor } from "@src/entity/OrderAndItem/RepositoryIoTMonitor";
 import { Request, Response } from "express";
 
 export class IoTMonitorDelete {

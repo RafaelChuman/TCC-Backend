@@ -1,5 +1,5 @@
-import { DTODeleteRescueGroup } from "@src/entity/RescueGroup/InterfaceRescueGroup";
-import { RepositoryRescueGroup } from "@src/entity/RescueGroup/RepositoryRescueGroup";
+import { DTODeleteRescueGroup } from "@src/entity/Item/InterfaceItem";
+import { RepositoryRescueGroup } from "@src/entity/Item/RepositoryRescueGroup";
 import { Response, Request } from "express";
 
 class DeleteRescueGroup {

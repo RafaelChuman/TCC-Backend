@@ -1,26 +1,29 @@
-import { DeleteResult } from "typeorm";
+import { DeleteResult, InsertResult } from "typeorm";
 import { User } from "./User";
 
 interface DTOCreateUser {
   name: string;
   userName: string;
   password: string;
-  isAdmin: boolean;
   imgPath: string;
   email: string;
-  celular: number;
+  cellphone: number;
   telegram: string;
+  isAdmin: boolean;
+  createdAt: Date;
 }
 
 interface DTOUpdateUser {
   id: string;
   name: string;
+  userName: string;
   password: string;
-  isAdmin: boolean;
   imgPath: string;
   email: string;
-  celular: number;
+  cellphone: number;
   telegram: string;
+  isAdmin: boolean;
+  createdAt: Date;
 }
 
 interface DTODeleteUser {
@@ -39,9 +42,9 @@ interface UserToken {
 }
 
 interface InterfaceUser {
-  create(data: DTOCreateUser): Promise<User>;
+  create(data: DTOCreateUser): Promise<InsertResult>;
   delete(data: DTODeleteUser): Promise<DeleteResult>;
-  update(user: DTOUpdateUser): Promise<User | null>;
+  update(user: DTOUpdateUser): Promise<InsertResult | null>;
   list(): Promise<User[]>;
   findByUserName(userName: string): Promise<User | null>;
   findById(IdParm: string): Promise<User | null>;

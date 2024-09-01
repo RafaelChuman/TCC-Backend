@@ -1,58 +1,54 @@
 import { v4 as uuidV4 } from "uuid";
-import { Entity, PrimaryGeneratedColumn, CreateDateColumn, Column, PrimaryColumn, ManyToOne, OneToMany} from "typeorm";
-import { Group } from "../Group/Group";
-import { RescueGroup } from "../RescueGroup/RescueGroup";
+import { Entity, PrimaryGeneratedColumn, CreateDateColumn, Column, PrimaryColumn, ManyToOne, OneToMany, JoinColumn } from "typeorm";
+import { Car } from "../Car/Car";
+import { Order } from "../Order/Order";
 
 @Entity("User")
 export class User {
 
     @PrimaryColumn()
     id: string
-
     @Column()
     name: string
-
     @Column()
     userName: string
-
     @Column()
     password: string
-
     @Column()
     imgPath: string
-
     @Column()
     email: string
-
     @Column()
-    celular: number
-
+    cellphone: number
     @Column()
     telegram: string
-
     @Column()
     isAdmin: boolean
-
     @CreateDateColumn()
     createdAt: Date
+    @Column({default:false})
+    deleted: boolean
+    @CreateDateColumn()
+    updated: Date
 
-    @OneToMany(()=> Group, (group) => group.User)
-    Group: Group[]
+    @OneToMany(() => Car, (car) => car.user)
+    car: Car[];
 
-    @OneToMany(()=> RescueGroup, (rescueGroup) => rescueGroup.User)
-    RescueGroup: RescueGroup[]
+    @OneToMany(() => Order, (order) => order.user)
+    order: Order[];
 
-
-
-    constructor(){
-        if(!this.id)
-        {
+    constructor() {
+        if (!this.id) {
             this.id = uuidV4();
             this.isAdmin = false;
         }
     }
-
 }
 
 
 
+// @OneToMany(()=> Group, (group) => group.User)
+// Group: Group[]
+
+// @OneToMany(()=> RescueGroup, (rescueGroup) => rescueGroup.User)
+// RescueGroup: RescueGroup[]

@@ -1,5 +1,5 @@
-import { DTOCreateRescueGroup} from "@src/entity/RescueGroup/InterfaceRescueGroup";
-import { RepositoryRescueGroup } from "@src/entity/RescueGroup/RepositoryRescueGroup";
+import { DTOCreateRescueGroup} from "@src/entity/Item/InterfaceItem";
+import { RepositoryRescueGroup } from "@src/entity/Item/RepositoryRescueGroup";
 import {Request, Response} from "express";
 
 class CreateRescueGroup{

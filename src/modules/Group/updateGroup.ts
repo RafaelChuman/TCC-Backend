@@ -1,5 +1,5 @@
-import { DTOUpdateGroup } from "@src/entity/Group/InterfaceGroup";
-import { RepositoryGroup } from "@src/entity/Group/RepositoryGroup";
+import { DTOUpdateGroup } from "@src/entity/Order/InterfaceGroup";
+import { RepositoryGroup } from "@src/entity/Order/RepositoryGroup";
 import { Response, Request, response } from "express";
 
 class UpdateGroup {

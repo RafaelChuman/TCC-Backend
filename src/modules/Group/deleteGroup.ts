@@ -1,8 +1,8 @@
 import { hash } from "bcrypt";
 import { AppError } from "@errors/AppError";
 import { Response, Request } from "express";
-import { RepositoryGroup } from "@src/entity/Group/RepositoryGroup";
-import { DTODeleteGroup } from "@src/entity/Group/InterfaceGroup";
+import { RepositoryGroup } from "@src/entity/Order/RepositoryGroup";
+import { DTODeleteGroup } from "@src/entity/Order/InterfaceGroup";
 
 class DeleteGroup{
   async execute(request: Request, response: Response): Promise<Response> {

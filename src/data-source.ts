@@ -1,9 +1,9 @@
 import { DataSource } from "typeorm";
 import { User } from "./entity/User/User";
-import { RescueGroup } from "./entity/RescueGroup/RescueGroup";
-import { IoT } from "./entity/IoT/IoT";
-import { Group } from "./entity/Group/Group";
-import { IoTMonitor } from "./entity/IoTMonitor/IoTMonitor";
+import { RescueGroup } from "./entity/Item/Item";
+import { IoT } from "./entity/Car/Car";
+import { Group } from "./entity/Order/Order";
+import { IoTMonitor } from "./entity/OrderAndItem/OrderAndItem";
 
 export const PostgresDS = new DataSource({
   type: "postgres",

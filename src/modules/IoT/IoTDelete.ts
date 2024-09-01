@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
 import { v4 as uuidv4 } from "uuid";
 import { idText } from "typescript";
-import { RepositoryIoT } from "@src/entity/IoT/RepositoryIoT";
-import { DTODeleteIoT } from "@src/entity/IoT/InterfaceIoT";
+import { RepositoryIoT } from "@src/entity/Car/RepositoryIoT";
+import { DTODeleteIoT } from "@src/entity/Car/InterfaceIoT";
 
 export class IoTDelete {
   async execute(request: Request, response: Response): Promise<Response> {
