@@ -6,7 +6,7 @@ import {
   TableIndex,
 } from "typeorm";
 
-export class CreateOrderAndItems1653500000000 implements MigrationInterface {
+export class CreateOrderAndItems0000000000005 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     const newOrderAndItemsTableOptions = {
       name: "OrderAndItems",

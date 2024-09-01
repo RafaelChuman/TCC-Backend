@@ -17,13 +17,15 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 # Define the INSERT queries with placeholders for the data
+
 insertIoTUser = sql.SQL("INSERT INTO public.\"User\"( \
-	id, name, \"userName\", password, \"imgPath\", email, celular, telegram, \"isAdmin\", \"createdAt\") \
-	VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s);")
+	id, name, \"userName\", password, \"imgPath\", email, cellphone, telegram, \"isAdmin\", \"createdAt\", deleted, updated) \
+	VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);")
+		 
 
 id = str(uuid.uuid4())
 createdAt = datetime.datetime.now() 
-cur.execute(insertIoTUser, (id, "Rafael", "chuman", "20101994", "", "rafael_chumansantana@outlook.com", 12997200179, "12997200179", True, createdAt))
+cur.execute(insertIoTUser, (id, "Rafael", "chuman", "20101994", "", "rafael_chumansantana@outlook.com", 12997200179, "12997200179", True, createdAt, False, createdAt))
 
 # # Define the INSERT queries with placeholders for the data
 # insertIoTMonitor = sql.SQL("INSERT INTO public.\"IoTMonitor\"( \

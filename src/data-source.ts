@@ -1,9 +1,9 @@
 import { DataSource } from "typeorm";
 import { User } from "./entity/User/User";
-import { RescueGroup } from "./entity/Item/Item";
-import { IoT } from "./entity/Car/Car";
-import { Group } from "./entity/Orders/Orders";
-import { IoTMonitor } from "./entity/OrderAndItems/OrderAndItems";
+import { Car } from "./entity/Car/Car";
+import { Item } from "./entity/Item/Item";
+import { Orders } from "./entity/Orders/Orders";
+import { OrderAndItems } from "./entity/OrderAndItems/OrderAndItems";
 
 export const PostgresDS = new DataSource({
   type: "postgres",
@@ -27,10 +27,10 @@ export const PostgresDS = new DataSource({
   //  },  
   entities: [
     User,
-    Group,
-    RescueGroup,
-    IoT,
-    IoTMonitor
+    Car,
+    Item,
+    Orders,
+    OrderAndItems
   ],
   migrations: ["./src/migration/*.m.ts"],
 });

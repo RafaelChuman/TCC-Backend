@@ -7,7 +7,6 @@ import { OrderAndItems } from "../OrderAndItems/OrderAndItems";
 @Entity("Orders")
 export class Orders {
     @PrimaryColumn()
-    @Column()
     id: string
     @Column()
     km: number

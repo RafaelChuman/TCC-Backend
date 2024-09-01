@@ -7,7 +7,7 @@ import {
   TableOptions,
 } from "typeorm";
 
-export class CreateCar1653300000000 implements MigrationInterface {
+export class CreateCar0000000000002 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     const newIoTTableOptions: TableOptions = {
       name: "Car",

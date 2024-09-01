@@ -6,7 +6,7 @@ import {
   TableIndex,
 } from "typeorm";
 
-export class CreateItem1652300000000 implements MigrationInterface {
+export class CreateItem0000000000003 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.createTable(
       new Table({
@@ -38,7 +38,7 @@ export class CreateItem1652300000000 implements MigrationInterface {
             default: false,
           },
           {
-            name: "createdAt",
+            name: "updated",
             type: "timestamp",
             default: "now()",
           },

@@ -1,1603 +1,1651 @@
-Discriminação
--
-8 Bp 398
-8 Bp 399
-8 Bp 400
-9 Bp 210
-9 Dp 152
-Abraçadeira
-Abraçadeira 32/44
-Abraçadeira 7 mm
-Abraçadeira Aditivo
-Abraçadeira Coifa
-Abraçadeira Coifa Câmbio
-Abraçadeira Distribuidor
-Abraçadeira Escapamento
-Abraçadeira Grande
-Abraçadeira Grande Radiador
-Abraçadeira Inferior Mangueira Reservatório
-Abraçadeira Mangueira
-Abraçadeira Mangueira Ar Quente
-Abraçadeira Média Grande
-Abraçadeira Media Reservatório
-Abraçadeira Pequena
-Abraçadeira S/Fim 14x22 Fita
-Abraçadeira S/Fim 32x44 Fita
-Abrir Rosca
-Aceleração
-Acertar O Ponto
-Acerto Ponto
-Acionamento Ventoinha
-Acoplamento
-Acoplamento Alavanca
-Acoplamento Câmbio
-Acoplamento Coluna Direção
-Acoplamento Completo
-Acoplamento Trambulador
-Adaptador
-Adaptador Cavalete Água
-Adaptador Coletor
-Aditivo
-Aditivo Limpeza Bico
-Aditivo Radiador
-Aditivo Radiador Azul
-Aditivo Radiador Orgânico
-Aditivo Radiador Rosa
-Aditivo Radiador UT-15
-Aditivo Radiador Verde
-Aditivo Radiador Vermelho
-Agregado
-Água Desmineralizada
-Agulha
-Agulha Boia
-Agulha Carburador
-Agulha Medida 200
-Ajustados Os Tensor Correia
-Ajuste
-Ajuste Alavanca
-Ajuste Alavanca Câmbio
-Alavanca
-Alavanca Câmbio
-Alavanca Engate
-Alavanca Freio Mão
-Alavanca Marcha
-Alavanca Porta Traseira
-Alavanca Retrovisor
-Alavanca Seletora
-Alavanca Trambulador
-Alça Escapamento
-Álcool
-Alinhamento
-Alinhamento Balanceamento
-Alinhamento Balanceamento Cambagem
-Alinhamento Cambagem
-Alinhamento Dianteiro
-Alinhamento Mancal
-Alinhamento Técnico
-Alternador
-Amortecedor
-Amortecedor Dianteiro
-Amortecedor Dianteiro Lado Esquerdo
-Amortecedor Dianteiro Recom
-Amortecedor Dianteiro Remano
-Amortecedor Dianteiro Usado
-Amortecedor Direção
-Amortecedor Porta Mala
-Amortecedor Suspensão
-Amortecedor Suspensão Dianteiro
-Amortecedor Tampa Traseira
-Amortecedor Traseiro
-Amortecedor Traseiro Remano
-Amortecedores
-Amortecedores 2 Traseiro
-Amortecedores Dianteiro
-Amortecedores Dianteiros
-Amortecedores Traseiro
-Analise Geral Gás
-Anéis Bico
-Anéis Encosto Stander
-Anéis Std
-Anel
-Anel 050
-Anel Anicha
-Anel Anti Chama
-Anel Bico
-Anel Bobina
-Anel Bocal
-Anel Bocal Tanque
-Anel Bomba
-Anel Bomba Água
-Anel Bujão
-Anel Bujão Óleo
-Anel Cárter
-Anel Coletor
-Anel Distribuidor
-Anel Diversos
-Anel Encosto
-Anel Encosto 050
-Anel Encosto Bronzina
-Anel Encosto Bronzina Mancal Std
-Anel Encosto Mancal
-Anel Escapamento
-Anel Flange Bomba Comb.
-Anel Injetor Gás
-Anel Lateral
-Anel Motor
-Anel O-ring
-Anel O-ring Bobina
-Anel O-ring Camisa
-Anel O-ring Distribuidor
-Anel O-ring Tampa Bobina
-Anel O-ring Vedação
-Anel O-ring Volante
-Anel Pescador
-Anel Pistão
-Anel Pistão 040
-Anel Reservatório
-Anel Reservatório Gás
-Anel Respiro
-Anel Sincronizado
-Anel Sincronizado 1ª 2ª
-Anel Sincronizado 2ª 3ª
-Anel Sincronizado 1ª 2ª 3ª 4ª
-Anel Sincronizado 1ª 4ª
-Anel Sincronizado 3ª 4ª
-Anel Sincronizado 5ª
-Anel Sincronizado Ré
-Anel Std
-Anel Tampa
-Anel Tampa Bobina
-Anel Tampa Válvula Respiro Motor
-Anel Tubo Óleo
-Anel Válvula
-Anel Válvula Termostática
-Anel Vedação
-Anel Vedação Anti Chama
-Anel Vedação Bobina
-Anel Vedação Bomba Combustível
-Anel Vedação Carcaça
-Anel Vedação D/Anti Chama
-Anel Vedação Distribuidor
-Anel Vedação Reservatório
-Anel Vedação Tampa
-Anel Vedação Vareta Óleo
-Anel Volante
-Anel Volante Motor
-Anelzinho Vira
-Anti Chama
-Anti Chama Com Mangueira
-Antena
-Anti Chama Com Rabicho Longo
-Anti Chama Motor
-Anti Chama Ponta Fixa
-Aparelho Injeção
-Aperto fuso Freio Dianteiro
-Aperto fuso Pedal
-Aperto fuso Roda Traseira
-Aperto Na Abraçadeira
-Aperto Na Suspensão
-Apertou Junta Carte
-Retífica Cabeçote
-Ar Sistema Freio
-Arruela
-Arruela Bujão Cárter
-Arruela Cabeçote
-Arruela Eixo Traseiro
-Arruela Encosto Std
-Arruela Encosto Virabrequim
-Arruela Pinhão Distribuidor
-Arruela Regulagem
-Articulação Axial
-Articulação Caixa
-Articulação Caixa Direção Hidráulica
-Articulação Caixa Direção Com Coifa
-Árvore Manivela
-Árvore Primaria
-Assoalho Lado Direito
-Assoalho Lado Esquerdo
-Atuador
-Atuador Auxiliar Embreagem
-Atuador Câmbio
-Atuador Embreagem
-Atuador Hidráulico
-Atuador Lado Esquerdo
-Atuador Marcha Lado Esquerdo
-Atuador Marcha
-Atuador Pedal Embreagem
-Atuador Posição Borboleta
-Serviço Elétrica em Terceirizada
-B. Biela
-B. Comando
-B. Mancal
-Bacalhau Traseiro
-Bandeja
-Baixinho
-Baixinho Que Atendeu
-Balancim
-Balanceamento
-Balancim Motor
-Bamba Combustível
-Bamba D'água
-Bandeja Inferior Lado Direito
-Bandeja Inferior Lado Esquerdo
-Bandeja Inferior Lado Direito Com Bucha
-Bandeja Superior Lado Direito
-Bandeja Superior Lado Esquerdo
-Bandeja Superior Lado Direito Com Bucha
-Banho Químico
-Banho Químico Com Selo
-Baquelite
-Baquelite Bomba Combustível
-Barra Axial Caixa Direção Lado Esquerdo
-Barra Axial Caixa Direção Lado Direito
-Barra Direção Central
-Barra Direção Lado Esquerdo
-Barra Direção Lado Direito
-Barra Estabilizadora
-Barra Fixação Pivô
-Barra Tensora
-Bateira 45 Ah
-Batente
-Batente Amortecedor Dianteiro Lado Direito
-Batente Amortecedor Dianteiro Lado Esquerdo
-Batente Amortecedor Traseiro Lado Direito
-Batente Amortecedor Traseiro Lado Esquerdo
-Batente Bandeja
-Batente Coluna Amortecedor
-Batente Diabinho
-Batente Dianteiro Bandeja
-Batente Feixe Mola
-Batente Lateral
-Batente Prato
-Bateria 50 Ah
-Bateria 60 Ah
-Bico Injetor
-Bico Injetor Álcool
-Bronzina 025
-Biela
-Mancal
-Bieleta Estabilizadora Dianteiro Direito
-Bieleta Estabilizadora Dianteiro Esquerda
-Bieleta Estabilizadora Traseira Direito
-Bieleta Estabilizadora Traseira Esquerda
-Bloco
-Bloco Alinhamento Mancal
-Bloco Banho Químico
-Bloco Banho Químico Com Selos
-Bloco Encamisar
-Bloco Motor
-Bloco Retifica
-Bobina
-Bobina 2 Cilindro
-Bobina Com Cabos Vela Ignição
-Bobina Ignição
-Borboleta Cabo Embreagem
-Bocal Enchimento
-Bocal Tanque
-Boia Carburador
-Boia Combustível
-Boia Reservatório Partida Frio
-Bolacha Homocinética Interna
-Bomba Água
-Bomba Água Com Polia Direção
-Bomba Combustível
-Bomba Combustível Completa
-Bomba D'água
-Bomba Direção Hidráulica
-Bomba Óleo
-Bomba Refil
-Bomba Vácuo
-Borboleta
-Borracha
-Borracha Junção Coletor
-Borracha Anti Chama
-Borracha Bocal Tanque
-Borracha Coletor Admissão
-Borracha Coxim Motor
-Borracha Escapamento
-Borracha Fixação Caixa
-Borracha Hidrovácuo
-Borracha Pedal Acelerador
-Borracha Portas
-Borracha Radiador Óleo
-Borracha Reservatório Gasolina
-Borracha Respiro Motor
-Borracha Respiro Tampa Válvula
-Borracha Suspensão
-Borracha Tampa Bomba Combustível
-Borracha Vedação Bomba Combustível
-Braçadeira
-Braçadeira 7 mm
-Braçadeira Coifa Câmbio
-Braçadeira Mangueira Ar Quente
-Braçadeira Mangueira Filtro Ar
-Braçadeira Mangueira Gasolina
-Braçadeira Pequena
-Braçadeira Radiador
-Braçadeira Radiador Grande
-Braçadeira Coifa Lado Câmbio
-Braçadeira Grande
-Braçadeira Médias
-Braçadeira Mangueira Radiador
-Braco Articulação Caixa
-Braço Auxiliar
-Braco Auxiliar Caixa Direção
-Braço Auxiliar Lado Direito Não Tem
-Braço Axial
-Braço Axial Caixa
-Braco Axial Caixa Direção
-Braço Axial Caixa Direção
-Braço Axial Caixa Estabilizadora
-Braço Caixa Direção
-Braco Estabilizador Traseiro Com Bucha
-Braço Limpador
-Braco Mutante
-Braco Oscilante Caixa Direção
-Braço Oscilante Caixa Direção
-Braço Oscilante Com Pivô
-Braço Tensor
-Brisa
-Bronzina Biela
-Bronzina Biela 020
-Bronzina Biela 025
-Bronzina Biela 030
-Bronzina Biela 050
-Bronzina Biela 075
-Bronzina Biela Std
-Bronzina Comando
-Bronzina Encosto
-Bronzina Encosto Std
-Bronzina Lateral
-Bronzina Lateral 012
-Bronzina Lateral Std
-Bronzina Mancal
-Bronzina Mancal 025
-Bronzina Mancal 030
-Bronzina Mancal 050
-Bronzina Mancal 075
-Bronzina Mancal Std
-Bucha
-Bucha Aço Braço Oscilante
-Bucha Agregado Traseiro
-Bucha Alavanca
-Bucha Amortecedor Traseiro
-Bucha Amortecedor Dianteiro
-Bucha Arvore Direção
-Bucha Bandeja
-Bucha Bandeja Dianteira
-Bucha Bandeja Inferior
-Bucha Bandeja Lado Direito
-Bucha Bandeja Lado Esquerdo
-Bucha Bandeja Superior
-Bucha Bandeja Traseira Inferior
-Bucha Bandeja Traseira Superior
-Bucha Barra Direção
-Bucha Barra Estabilizadora
-Bucha Barra Estabilizadora Dianteiro
-Bucha Barra Estabilizadora Ponta
-Bucha Barra Estabilizadora Traseira
-Bucha Biela
-Bucha Borracha Haste Volante
-Bucha Braço
-Bucha Braco Caixa Direção
-Bucha Braço Oscilante
-Bucha Braco Pivô
-Bucha Braço Tensor
-Bucha Cabo
-Bucha Caixa Direção
-Bucha Coletor Escape
-Bucha Coluna Direção
-Bucha Eixo Traseiro
-Bucha Eletrobomba
-Bucha Eletroválvula
-Bucha Escapamento
-Bucha Estirante
-Bucha Ferro Braco Oscilante
-Bucha Fixação Caixa
-Bucha Mancal
-Bucha Morceguinho
-Bucha Partida Frio
-Bucha Pedal Freio
-Bucha Pedal Acelerador
-Bucha Pedal Embreagem
-Bucha Pneuzinho Braco Tensor Suspensão
-Bucha Pneuzinho Tirante
-Bucha Varão Ponta
-Bucha Quadro Dianteiro
-Bucha Quadro Motor
-Bucha Quadro Suspensão
-Bucha Quadro Traseiro
-Bucha Radiador
-Bucha Reservatório D'água
-Bucha Rolamento
-Bucha Suspensão
-Bucha Suspensão Traseira
-Bucha Suspensão Traseira Ferro
-Bucha Tensor
-Bucha Tensor Dianteiro
-Bucha Terminal Direção
-Bucha Tirante
-Bucha Trambulador
-Bucha Bandeja Traseira
-Bucha Vampiro
-Bucha Varão
-Bucha Varão Alavanca
-Bucha Varão Câmbio
-Bucha Vareta Óleo
-Bucha Vedação
-Bujão
-Bujão Carte
-Bujão Carte Com Arruela
-Bujão Cárter
-Bujão Com Rosca
-Bujão Gaiola
-Bujão Óleo
-Buzina
-Buzina Caracol
-Cabeçote
-Cabeçote Completo
-Cabo
-Cabo Acelerador
-Cabo Afogador
-Cabo Alavanca Marcha
-Cabo Conexão
-Cabo Embreagem
-Cabo Freio
-Cabo Freio Mão
-Cabo Freio Mão 1 Grande 1 Pequeno
-Cabo Puxador Capo
-Cabo Tampa Traseira
-Cabo Vela Ignição
-Cabo Veloc.
-Cabo Velocímetro
-Caixa Alavanca
-Caixa Direção
-Caixa Direção Com Articulação
-Caixa Direção Completa
-Caixa Direção Mecânica
-Caixa Externa
-Caixa Filtro Ar
-Caixa Radiador Inferior
-Caixa Interna
-Caixa Radiador
-Caixa Radiador Lado Direito
-Caixa Rótula Câmbio
-Caixa Radiador Superior
-Caixa Válvula Termostática
-Calço 026
-Calço 032
-Calço 038
-Calço Amortecedor
-Calço Feixe Mola
-Calha
-Calota
-Calotinha Cubo Traseiro
-Câmara Ar
-Câmara Válvula Termostática
-Cambagem Dianteira
-Câmbio
-Câmbio Completo
-Câmbio Garfos
-Câmbio UT-158
-Cangalha
-Cano 10723
-Cano Água
-Cano Água 3 Saídas
-Cano Água Fero 3 Saída
-Cano Água Motor
-Cano Cilindro Mestre
-Capa Cabo
-Capa Correia Dentada
-Capa Correia Dentada Interna
-Capa Tucho
-Capsula Válvula Admissão
-Car80
-Carburador
-Carburador Completo
-Carcaça Bomba Água
-Carcaça Válvula Termostática
-Carcaça Motor
-Carcaça Reguladora Pressão
-Carga Bateria
-Cárter Motor
-Cárter Óleo
-Catalisador
-Catraca Embreagem
-Cavalete
-Cavalete Água
-Cavalete Água 3 Saídas
-Cavalete Com Sensor Injeção
-Cavalete Sensor Temperatura
-Cavalete Válvula Termostática Com Ar Quente
-Cavalete Válvula Termostática Sem Ar Quente
-Cebolão Radiador
-Cebolinha Óleo
-Cebolinha Óleo 3 Fios
-Cebolinha Óleo Inter
-Cebolinha Óleo Plugue Eletrônico
-Cebolinha Re
-Centralina Ignição
-Chapa
-Chapa Alavanca
-Chapa Com fuso Tensor
-Chapa Guia
-Chapa Guia Marcha Re
-Chapa Motor
-Chapa Proteção Volante
-Chapa Superior Motor
-Chapeuzinho Balancinho
-Chave Comutadora
-Chave Comutadora Completa
-Chave Emuladora Gás
-Chave Roda
-Chave Seletora
-Chave Seta
-Chave Seta Completa
-Chaveta
-Chicote
-Chicote Alarme
-Chicote Atuador
-Chicote Bico
-Chicote Bobina
-Chicote Bomba
-Chicote Cebolinha
-Chicote Distribuidor
-Chicote Ignição
-Chicote Sensor
-Chicote Tampa
-Chip Chave
-Cilindro Câmbio
-Cilindro Chave
-Cilindro Comando
-Cilindro Embreagem
-Cilindro Embreagem Pedal
-Cilindro Freio Dianteiro Esquerdo
-Cilindro Freio Dianteiro Direito
-Cilindro Freio Traseiro Esquerdo
-Cilindro Freio Traseiro Direito
-Cilindro Mestre
-Cilindro Mestre Com 4 Saídas
-Cinta Plástica
-Coifa
-Coifa Amortecedor
-Coifa Braco
-Coifa Caixa Direção
-Coifa Câmbio
-Coifa Câmbio Com Rolamento
-Coifa Direção
-Coifa Homocinética Lado Direito
-Coifa Homocinética Lado Esquerdo
-Coifa Homocinética Roda
-Coifa Interna Com Rolamento
-Coifa Trambulador
-Cola
-Cola 3 M
-Cola Araldite
-Cola Branca
-Cola Juntas
-Cola Multi Vedante
-Cola Preta
-Cola Silicone
-Cola Silicone Branca
-Cola Silicone Loktaite
-Cola Silicone Preta
-Cola Veda Escape
-Coletor Admissão
-Coletor Admissão Completo
-Coletor Escapamento
-Coluna Barra Direção
-Coluna Direção
-Comando Admissão
-Comando Balancinho
-Comando Escape
-Comando Válvula
-Combustível
-Comutador
-Comutador Completo
-Comutador Partida
-Condensador
-Conector Bico Solto
-Conector Cabo
-Conector Distribuidor
-Conector Filtro
-Conector Flauta
-Conector Lateral Alternador
-Conector Mangueira Gás
-Conector Quatro Vias
-Conector Reservatório Gasolina
-Conexão Cabeçote
-Conexão Coletor
-Conexão Cotovelo
-Conexão Entrada Água
-Conexão Mangueira
-Conexão Termostática
-Conjunto 5ª
-Conjunto Alavanca Câmbio
-Conjunto Bomba Usado
-Conjunto Câmbio
-Conjunto Ré
-Copo Bomba
-Copo Tucho
-Coroa
-Coroa Pinhão
-Corpo Borboleta
-Corpo TBI
-Corpo TBI Eletrônico
-Correia
-Correia Alternador Básica
-Correia Alternador Direção Hidráulica
-Correia Alternador Ar Condicionado
-Correia Alternador Frisada
-Correia Ar Condicionado
-Correia Ar Condicionado Direção Hidráulica
-Correia Bomba D'água
-Correia Comando Válvula
-Correia Dentada
-Correia Direção Hidráulica
-Correia Diversos
-Corrente Comando
-Cotovelo Ar Quente
-Cotovelo Carcaça
-Cotovelo Tampão Cht
-Cotovelo Válvula Termostática
-Coxim Amortecedor Traseiro Lado Esquerdo
-Coxim Amortecedor Traseiro Lado Direito
-Coxim Amortecedor Dianteiro Lado Esquerdo
-Coxim Amortecedor Dianteiro Lado Direito
-Coxim Biela
-Coxim Braço
-Coxim Câmbio Inferior
-Coxim Câmbio Superior
-Coxim Canoinha
-Coxim Eixo Traseira
-Coxim Motor Dianteiro Lado Direito
-Coxim Motor Dianteiro Lado Esquerdo
-Coxim Motor Traseiro Direito
-Coxim Motor Traseiro Esquerdo
-Coxim Radiador
-Coxim Tensor Motor
-Cruzeta Barra Direção
-Cruzeta Cardam
-Cubo Roda Dianteiro Lado Direito
-Cubo Roda Dianteiro Lado Esquerdo
-Cubo Roda Traseira Lado Direito
-Cubo Roda Traseira Lado Esquerdo
-Descarbonização
-Deslizante Câmbio
-Deslizante Lado Direito
-Diafragma Pressão
-Diagnostico Com Scanner
-Direção Hidráulica
-Disco Embreagem
-Disco Freio
-Disco Freio Sólido Dianteiro
-Disco Freio Sólido Traseiro
-Disco Freio Ventilado Dianteiro
-Disco Freio Ventilado Traseiro
-Distribuidor
-Eixo Câmbio Lado Direito
-Eixo Comando
-Eixo Homocinética
-Eixo Homocinética Direito
-Eixo Homocinética Esquerdo
-Eixo Pedal Embreagem
-Eixo Piloto
-Eixo Traseiro
-Eletrobomba
-Embreagem
-Embreagem Distribuidor
-Embuchamento Dianteiro
-Embuchamento Traseiro
-Emulador Bicos
-Encosto Balancinho
-Engate Cabo Trambulador
-Engrenagem
-Engrenagem 1ª
-Engrenagem 2ª
-Engrenagem 3ª
-Engrenagem 4ª
-Engrenagem 5ª
-Engrenagem Correia Dentada
-Engrenagem Distribuidor
-Engrenagem Ré
-Escapamento
-Escapamento Com 2 Ponteira
-Escora
-Escora Balancim
-Escora Válvula
-Escova Alternador
-Escova Ventoinha
-Espaçador
-Esticador Correia Alternador
-Esticador Correia Alternador Frisado
-Esticador Correia Ar
-Esticador Correia Dentada
-Esticador Corrente
-Esticador Direção Com Ar
-Esticador Liso
-Esticadores Correia Direção
-Extintor
-Farol Lado Direito
-Farol Lado Esquerdo
-Fechadura Porta
-Fechadura Tampa Traseiro
-Fecho Mola
-Feixe Mola
-Filtro Anti Chama Motor
-Filtro Ar
-Filtro Ar Condicionado
-Filtro Combustível
-Filtro Combustível Com Regulador
-Filtro Óleo
-Flange Bomba Combustível
-Flauta
-Flauta Completa
-Flexível
-Flexível Cabo Embreagem
-Flexível Freio Dianteiro Lado Direito
-Flexível Freio Dianteiro Lado Esquerdo
-Flexível Freio Traseiro Lado Direito
-Flexível Freio Traseira Lado Esquerdo
-Flexível Pinça Dianteiro
-Fluido Direção Hidráulica
-Fluido Embreagem
-Fluido Freio Dot3
-Fluido Freio Dot4
-Fluxo Ar
-Fluxo Ar Usado
-Folha Porta
-Freio Mão
-fuso Bandeja
-fuso Bolacha
-fuso Bomba Água
-fuso Cabeçote
-fuso Com Porca Coletor
-fuso Comando
-fuso Coxim
-fuso Coxim Motor
-fuso Engrenagem
-fuso Engrenagem Vira
-fuso Flauta
-fuso Homocinética
-fuso Lataria
-fuso Pinça
-fuso Pivô
-fuso Polia Vira
-fuso Que Prende O Pivô Na Bandeja
-fuso Regulador Válvula
-fuso Roda
-fuso Roda D E
-fuso Roda Dianteiro
-fuso Roda Traseira
-fuso Rodas
-fuso Semi Eixo
-fuso Solto
-fuso Suporte Motor
-fuso Suspensão
-fuso Tensor Dentada
-fuso Trava Pivô Bandeja
-fuso Virabrequim
-fuso Volante
-Garfo 1ª
-Garfo 2ª
-Garfo 3ª
-Garfo 4ª
-Garfo 5ª
-Garfo Embreagem
-Garfo Ré
-Garfo Seletor Câmbio
-Garfo Trambulador
-Grampo Bandeja
-Graxa Azul
-Graxa Marfak
-Guarda Po Amortecedor
-Guarda Pó Caixa Direção
-Guarnição Assoalho
-Guarnição Bomba Combustível
-Guarnição Câmbio
-Guarnição Flange Bomba Combustível
-Guarnição Tampa Bomba Combustível
-Guia Alavanca
-Guia Alternador
-Guia Correia Alternador
-Guia Correia Dentada
-Guia Corrente
-Guia Garfo Embreagem
-Guia Tensor
-Guia Vareta Óleo
-Haste Articulação Comum
-Haste Trambulador
-Hidrovácuo Freio
-Homocinética Interna Lado Esquerdo
-Homocinética Interna Lado Direito
-Homocinética Externa Lado Esquerdo
-Homocinética Externa Lado Direito
-Ilho Tampa
-Injetor Carburador
-Interruptor Luz Freio
-Interruptor Luz Ré
-Interruptor Óleo
-Interruptor Pedal Embreagem
-Interruptor Pedal Freio
-Interruptor Pressão Óleo
-Interruptor Radiador
-Interruptor Ré
-Interruptor Temperatura
-Junta Boia Combustível
-Junta Bomba Água
-Junta Bomba Combustível
-Junta Bomba Óleo
-Junta Cabeçote
-Junta Câmara
-Junta Câmbio
-Junta Cano Água
-Junta Carburador
-Junta Cárter
-Junta Cárter Câmbio
-Junta Cárter Com Defletor
-Junta Cavalete Bomba Água
-Junta Coletor Admissão
-Junta Coletor Escape
-Junta Defletora
-Junta Diferencial
-Junta Distribuidor
-Junta Diversas
-Junta Escapamento
-Junta Frange Comando
-Junta Frontal
-Junta Gaiola
-Junta Homocinética
-Junta Liquida
-Junta Mini Cárter
-Junta Motor
-Junta Pescador
-Junta Respiro Motor
-Junta Retifica
-Junta Semi Cárter
-Junta Silicone
-Junta Sistema Refrigeração
-Junta Suporte Filtro Óleo
-Junta Tampa Comando
-Junta Tampa Controle
-Junta Tampa Corrente
-Junta Tampa Diferencial
-Junta Tampa Distribuição
-Junta Tampa Gaiola
-Junta Tampa Óleo
-Junta Tampa Seletora
-Junta Tampa Trambulador
-Junta Tampa Válvula
-Junta Tanque
-Junta TBI
-Junta Trambulador Câmbio
-Junta Tubo Água
-Junta Válvula Termostática
-Junta Vareta Óleo
-K80
-Kit Acoplamento
-Kit Adaptação Bomba
-Kit Alavanca Câmbio
-Kit Alinhamento
-Kit Amortecedor Dianteiro
-Kit Amortecedor Traseiro
-Kit Anel Bico
-Kit Anel Tubo Água
-Kit Barra Estabilizadora
-Kit Batente Amortecedor Dianteiro
-Kit Batente Amortecedor Traseiro
-Kit Batente Dianteiro
-Kit Batente Traseiro
-Kit Bico Injetor
-Kit Borracha Bico
-Kit Braço Oscilante
-Kit Braço Tensor
-Kit Bucha Caixa Direção
-Kit Bucha Estabilizador
-Kit Câmbio
-Kit Camisa
-Kit Carburador
-Kit Coifa
-Kit Comando
-Kit Correia Dentada
-Kit Corrente Comando
-Kit Corrente Distribuição
-Kit Corrente Tensor
-Kit Distribuição
-Kit Embreagem
-Kit Estabilizador
-Kit Feixe Mola Traseira
-Kit fuso Assoalho
-Kit fuso Lataria
-Kit Injeção
-Kit Junta Carburador
-Kit Junta Coletor
-Kit Junta Injeção
-Kit Junta Motor
-Kit Junta Retificação Cabeçote
-Kit Junta Tampa Válvula
-Kit Junta TBI
-Kit Lona
-Kit Medidor Combustível
-Kit Modulo
-Kit Mola Freio Dianteiro
-Kit Mola Freio Traseiro
-Kit Mola Sapata
-Kit Mola Traseiro
-Kit Motor
-Kit O-ring Bico
-Kit Pedal
-Kit Peneira Bico
-Kit Pino Pastilha
-Kit Proteção Correia Dentada
-Kit Regulagem
-Kit Reparo Atuador Embreagem
-Kit Reparo Patim Traseiro
-Kit Reparo Pinça Freio
-Kit Reparo TBI
-Kit Reparo Trambulador
-Kit Retificação Cabeçote
-Kit Rolamento Roda Dianteiro
-Kit Rolamento Roda Traseiro
-Kit Suspensão Dianteiro
-Kit Suspensão Traseiro
-Kit Tampa Válvula
-Kit TBI
-Kit Tensionador Correia Dentada
-Kit Tensionador Correia Alternador
-Kit Trambulador Câmbio
-Kit Trava Patim
-Kit Vedador Caixa Termostática
-Lâmpada 1 Polo
-Lâmpada 2 Polo
-Lampada Farol
-Lampada Farol Baixo
-Lampada Freio
-Lampada H7
-Lampada Interna
-Lampada Ré
-Lanterna
-Lavagem
-Lavagem Completa
-Lavagem Higienização
-Lavagem Motor
-Liame Trambulador
-Ligação Água
-Limpa Contato
-Limpador Brisa
-Limpeza
-Limpeza Acelerador Corpo Borboleta
-Limpeza Agulha Carburador
-Limpeza Anti Chamas
-Limpeza Ar Condicionado
-Limpeza Aranha
-Limpeza Arrefecimento
-Limpeza Bico
-Limpeza Calibração Bicos Injetores
-Limpeza Carburador
-Limpeza Cárter
-Limpeza Cilindro
-Limpeza Corpo Borboleta
-Limpeza Corpo TBI
-Limpeza Freio
-Limpeza Motor
-Limpeza Motor Passos
-Limpeza Radiador
-Limpeza Redutor
-Limpeza Reservatório Água
-Limpeza Respiro
-Limpeza Sistema Refrigeração
-Limpeza Tanque Combustível
-Limpeza TBI
-Limpeza Vela Ignição
-Lixa Ferro
-Lona
-Lona Com Patim
-Lona Freio
-Lona Freio Traseira
-Luva 1ª
-Luva 2ª
-Luva 3ª 
-Luva 4 ª
-Luva 5ª
-Luva Ré
-Macaco
-Maçaneta
-Maçaneta Banco
-Mancal 025
-Mancal Balanceiro
-Mancalzinho
-Manga Eixo Lado Esquerdo
-Manga Eixo Lado Direito
-Mangueira
-Mangueira 4 mm
-Mangueira 5 mm
-Mangueira 6 mm
-Mangueira 7 mm
-Mangueira 8 mm
-Mangueira Água
-Mangueira Água Em T
-Mangueira Água Inferior
-Mangueira Água K1
-Mangueira Água Superior
-Mangueira Água Superior Com Saída No Meio
-Mangueira Alimenta Hidráulico
-Mangueira Alimentação
-Mangueira Anti Chama
-Mangueira Anti Chama Com Rabicho
-Mangueira Ar Hidrovácuo
-Mangueira Ar Quente
-Mangueira Ar Quente Coletor
-Mangueira Ar Quente Frente
-Mangueira Avanço
-Mangueira Bocal Tanque
-Mangueira Bomba Água
-Mangueira Bomba Combustível
-Mangueira Cano Água
-Mangueira Cavalete
-Mangueira Coletor
-Mangueira Coletor Admissão
-Mangueira Com Rabicho
-Mangueira Com Válvula
-Mangueira Combustível
-Mangueira Corrugada
-Mangueira Cotovelo
-Mangueira Cotovelo Respiro Motor
-Mangueira Direção Hidráulica
-Mangueira Diversas
-Mangueira Embreagem
-Mangueira Espaguete
-Mangueira Filtro Ar
-Mangueira Flauta
-Mangueira Fluxo Ar
-Mangueira Hidráulico
-Mangueira Hidrovácuo
-Mangueira Inferior Radiador
-Mangueira Injeção
-Mangueira Injeção Bomba
-Mangueira Injeção Eletrônica
-Mangueira Linha Combustível
-Mangueira Radiador
-Mangueira Reservatório
-Mangueira Respiro
-Mangueira Respiro Combustível
-Mangueira Respiro Cotovelo
-Mangueira Respiro Motor
-Mangueira Respiro S
-Mangueira Respiro Tampa Válvula
-Mangueira Retorno Óleo
-Mangueira TBI
-Mangueira Válvula Termostática
-Mão Obra
-Medidor Combustível
-Medidor Fluxo
-Miolo Câmbio
-Miolo Catalisador
-Miolo Chave
-Módulo
-Módulo Ignição
-Módulo Injeção
-Módulo Rei
-Módulo Ventoinha
-Mola Acelerador
-Mola Alavanca
-Mola Carburador
-Mola Diversas
-Mola Embreagem
-Mola Inferior
-Mola Pastilha Freio
-Mola Sapata
-Mola Suspensão Dianteira
-Mola Suspensão Traseira
-Morceguinho
-Motor
-Motor Arranque
-Motor Injeção
-Motor Limpador Para-brisa
-Motor Partida Frio
-Motor Passo
-Motor Ventilador
-Motor Ventoinha
-O-ring
-O-ring Bico
-O-ring Bobina
-O-ring Das Tulipas
-O-ring Distribuidor
-O-ring Lateral
-O-ring Tubo Água
-O-ring Vedação
-O-ring Vedação Bobina
-O-ring Vedação Tampa Bobina
-Óleo Câmbio
-Óleo Diferencial
-Óleo Direção Hidráulica
-Óleo Freio Dot 3
-Óleo Freio Dot 4
-Óleo Hidráulico
-Óleo Motor 15w40
-Óleo Motor 20w50
-Óleo Motor 5w30
-Óleo Motor 5w30sl
-Painel Quadro Radiador
-Palheta
-Pastilha Freio Sólido Dianteiro
-Pastilha Freio Sólido Traseiro
-Pastilha Freio Ventilado Dianteiro
-Pastilha Freio Ventilado Traseiro
-Patim Freio
-Patim Lona
-Patim Usado
-Pedal Acelerador
-Pedal Eletrônico
-Peneirinha Bico
-Peneirinha Cárter
-Pescador Bomba Óleo
-Pinça Freio
-Pinhão Cabo Velocímetro
-Pinhão Coroa
-Pinhão Distribuidor
-Pinhão Velocímetro
-Pino
-Pino Central
-Pino Elástico
-Pino Freio Mão
-Pino Haste
-Pino Pedal
-Pino Pedal Embreagem
-Pino Pistão
-Pino Planetário
-Pintura
-Pistão
-Pistão 040
-Pistão 050
-Pistão Anel
-Pistão Anel 040
-Pistão Anel 050
-Pistão Anel 060
-Pistão Anel 1 mm
-Pistão Anel 10 mm
-Pistão Anel Camisa
-Pistão Anel Std
-Pivô
-Pivô Bandeia Lado Esquerdo
-Pivô Bandeja Lado Direito
-Pivô Braco Oscilante
-Pivô Suspensão Superior Lado Direito
-Pivô Suspensão Superior Lado Esquerdo
-Pivô Suspensão Inferior Lado Esquerdo
-Pivô Suspensão Inferior Lado Direito
-Pivô Tirante
-Planetária
-Platô Embreagem
-Plugue Eletrônico
-Plugue Eletrônico Água
-Plugue Eletrônico Ar
-Plugue Eletrônico Azul
-Plugue Eletrônico Cinza
-Plugue Eletrônico Injeção
-Plugue Eletrônico Mte 4050
-Plugue Eletrônico Sensor Temperatura Injeção
-Pneu
-Pneu Alinhamento
-Pneuzinho Barra Direção
-Pneuzinho Braço Oscilante
-Pneuzinho Caixa Direção
-Polia Alternador
-Polia Ar Condicionado
-Polia Bomba D'água
-Polia Comando Admissão
-Polia Dianteira Vira Frisado
-Polia Tensor Correia Alternador
-Polia Virabrequim
-Polo Bateria
-Porca
-Porca Cabeçote
-Porca Cabo Embreagem
-Porca Castelo
-Porca Diversos
-Porca Homocinética
-Porca Roda
-Porca Rosca
-Porca Volante
-Porta Escova
-Potenciômetro
-Prato Amortecedor
-Pré-filtro
-Presilha Cabo Embreagem
-Presilha Roda Traseira
-Prisioneiro 08x180
-Prisioneiro 08x196
-Prisioneiro 08x231
-Prisioneiro Escapamento
-Prisioneiro Motor
-Prisioneiro Roda
-Prisioneiro Tensor Correia Dentada
-Programação Chave
-Proteção Coifa Homocinética
-Proteção Correia Dentada
-Proteção Correia Dentada Externa
-Proteção Correia Dentada Inferior
-Proteção Correia Dentada Interna
-Proteção Radiador
-Protetor Cárter
-Puxador Porta
-Radiador Água
-Radiador Ar Condicionado
-Radiador Óleo
-RCI-117-UT-360
-RCI-122-UT-332
-RCI-18-UT-323
-RCI-191-UT-325
-RCI-38 UT-15
-Rebites Grandes
-Rebites Lona
-Refil Bomba Combustível
-Reforço Dianteiro Esquerdo
-Regulador Alternador
-Regulador Pressão Combustível
-Regulador Válvula
-Rele Bomba Combustível
-Rele Injeção
-Remendo Pneu
-Reparo Alavanca Câmbio
-Reparo Alavanca Freio Mão
-Reparo Alternador
-Reparo Bandeja
-Reparo Bico
-Reparo Coletor
-Reparo Bomba Direção Hidráulico
-Reparo Cabo
-Reparo Caixa Direção
-Reparo Câmbio
-Reparo Carburador
-Reparo Chicote
-Reparo Completo Gnv
-Reparo Compressor Ar
-Reparo Feixe Mola
-Reparo Injeção
-Reparo Modulo
-Reparo Pinça
-Reparo Pino Guia
-Reparo Radiador
-Reparo Tensor
-Reparo Trambulador Câmbio
-Reparo Turbina
-Reparo Válvula Injeção
-Reprogramação
-Reprogramação Das Chaves
-Reprogramação Eletrônica
-Reservatório Água
-Reservatório Água Com Tampa
-Reservatório Direção Hidráulica
-Reservatório Gasolina
-Reservatório Óleo Freio
-Resistência Ar Condicionado
-Resistência Desembaçador
-Resistência Ventilação Forçada
-Respiro Câmbio
-Respiro Carter
-Respiro Motor
-Retentor Auxiliar
-Retentor Boma Água
-Retentor Bomba Óleo
-Retentor Caixa Direção
-Retentor Câmbio
-Retentor Cardan
-Retentor Cárter
-Retentor Comando Admissão
-Retentor Comando Escape
-Retentor Comando Auxiliar
-Retentor Comando Bomba Óleo
-Retentor Comando Distribuidor
-Retentor Comando Válvula Admissão
-Retentor Comando Válvula Escape
-Retentor Correia Dentada
-Retentor Cubo Roda
-Retentor Dianteiro Motor
-Retentor Dianteiro Polia
-Retentor Dianteiro Trambulador
-Retentor Dianteiro Virabrequim
-Retentor Diferencial
-Retentor Distribuidor
-Retentor Eixo Câmbio
-Retentor Eixo Comando
-Retentor Eixo Distribuidor
-Retentor Eixo Piloti
-Retentor Eixo Traseiro
-Retentor Haste Seletora
-Retentor Haste Trambulador
-Retentor Lateral Câmbio
-Retentor Mancal Traseiro
-Retentor Motor
-Retentor Piloto
-Retentor Polia Motor
-Retentor Ponta Comando
-Retentor Roda Dianteira
-Retentor Roda Externo
-Retentor Roda Interno
-Retentor Roda Traseira
-Retentor Semi Eixo
-Retentor Tambor
-Retentor Tampa Válvula
-Retentor Trambulador Câmbio
-Retentor Traseiro Motor
-Retentor Traseiro Virabrequim
-Retentor Traseiro Volante
-Retentor Tulipa
-Retentor Virabrequim Dianteiro
-Retentor Virabrequim Traseiro
-Retentor Volante
-Retentor Volante Motor
-Retentor Volante Traseiro
-Retifica
-Retífica
-Retifica Biela
-Retifica Bloco
-Retifica Cabeçote
-Retifica Cabeçote Completo
-Retifica Disco
-Retifica Embuchar
-Retifica Motor
-Retifica Plaina Solda
-Retifica Rosca
-Retifica Tambor
-Retifica Teste Trinca Plaina
-Retrovisor
-Revestimento Radiador Completo
-Roda Ferro
-Rolamento Alternador
-Rolamento Auxiliar Correia Alternador
-Rolamento Auxiliar Correia Dentada
-Rolamento Câmbio
-Rolamento Cardan
-Rolamento Coifa
-Rolamento Coluna Direção
-Rolamento Correia Alternador
-Rolamento Correia Ar Condicionado
-Rolamento Correia Dentada
-Rolamento Cubo Roda
-Rolamento Duplo Câmbio
-Rolamento Eixo Piloto
-Rolamento Embreagem
-Rolamento Esticador Correia Alternador
-Rolamento Externo Eixo Traseiro
-Rolamento Guia Correia Alternador
-Rolamento Guia Correia Ar Condicionado
-Rolamento Guia Correia Dentada
-Rolamento Guia Correia Direção Hidráulica
-Rolamento Guia Direção
-Rolamento Guia Piloto
-Rolamento Interno Eixo Traseiro
-Rolamento Lateral Coroa
-Rolamento Poli V
-Rolamento Roda Dianteiro
-Rolamento Roda Traseiro
-Rolamento Semi Eixo
-Rolamento Suspensão
-Rolamento Tensor Correia Alternador
-Rolamento Tensor Correia Ar Condicionado
-Rolamento Tensor Correia Dentada
-Rolamento Tensor Poli V
-Rolamento Ventoinha
-Rosca Cabeçote
-Rosca Cárter
-Rosca Tampa Bomba
-Rosca Tanque
-Rosca Tensor
-Rotor Alternador
-Rotor Distribuidor
-Rotula Alavanca Câmbio
-Sapata Freio Traseira
-Selo Bloco Motor
-Selo Cabeçote
-Selo Câmbio
-Selo Carcaça
-Selo Coletor Admissão
-Selo Comando Válvula
-Semieixo Homocinética
-Semieixo Câmbio
-Sensor Abs
-Sensor Borboleta
-Sensor Correia Dentada
-Sensor Detonação
-Sensor Fase
-Sensor Fluxo Ar
-Sensor Hall
-Sensor Injeção
-Sensor Macha Lenta
-Sensor MAP
-Sensor Modulo
-Sensor Óleo
-Sensor Pedal Freio
-Sensor Re
-Sensor Rotação
-Sensor TBI
-Sensor Temperatura Água
-Sensor Temperatura Ar
-Sensor Temperatura Injeção
-Sensor Velocidade
-Servo Freio
-Silencioso
-Silicone Alta Temp Wurt 1826
-Silicone Branco
-Silicone Cárter
-Silicone Preto
-Sonda Lambda
-Spray Preto
-Suporte Alavanca
-Suporte Alternador
-Suporte Cabeçote
-Suporte Caixa
-Suporte Câmbio
-Suporte Correia Dentada
-Suporte Coxim
-Suporte Filtro Ar
-Suporte Flexível
-Suporte Frontal
-Suporte Motor
-Suporte Plugue
-Suporte Tampa Óleo
-Suporte Tensor Correia
-Suporte Trambulador
-Suporte Ventoinha
-Suspensão
-Tambor Freio Dianteiro
-Tambor Freio Traseiro
-Tampa Bomba
-Tampa Bomba Com Regulador Pressão
-Tampa Bomba Combustível
-Tampa Cabeçote
-Tampa Carcaça Bomba Água
-Tampa Carcaça Bomba Combustível
-Tampa Carcaça Válvula Termostática
-Tampa Cárter
-Tampa Comando Válvula
-Tampa Combustível
-Tampa Motor
-Tampa Óleo
-Tampa Reservatório Água
-Tampa Reservatório Água Para-brisa
-Tampa Reservatório Direção Hidráulica
-Tampa Reservatório Radiador
-Tampa Seletora Câmbio
-Tampa Seletora Câmbio Com Retentor
-Tampa Tanque
-Tampa Válvula Termostática
-Tampão
-Tampão Ar Quente
-Tampão Bloco
-Tampão Bomba Água
-Tampao Cabeçote
-Tampão Comando Válvula
-Tampão Traseiro Câmbio
-Tampão Traseiro Comando
-Tampão Tubo Água
-Tanque Combustível
-TBI
-Tensor Correia Alternador
-Tensor Correia Ar Condicionado
-Tensor Correia Dentada
-Tensor Correia Direção Hidráulica
-Tensor Poli V
-Tensor Posição Borboleta
-Tensor Rolo Guia Alternador
-Terminal Axial Direção
-Terminal Bateria
-Terminal Direção Fêmea
-Terminal Distribuidor
-Torre Amortecedor
-Trambulador Alavanca
-Trambulador Câmbio
-Trambulador Marcha
-Trambulador Rotula
-Trava Cabo Embreagem
-Trava Coroa
-Trava Elétrica
-Trava Homocinética
-Trava Pastilha Traseira
-Trava Rolamento
-Trava Tulipa
-Travessa
-Triângulo
-Tubo Água
-Tubo Água Alumínio
-Tubo Água Motor
-Tubo Água Plástico 2 Saídas
-Tubo Água Radiador
-Tubo Combustível
-Tubo Flexível Embreagem
-Tubo Freio
-Tubo Homogeneizador
-Tubo Injetor
-Tubo Vareta Óleo
-Tucho Hidráulico
-Tucho Motor
-Tucho Válvula
-Tucho Vela Ignição
-Tulipa Câmbio
-Turbina
-Unidade Comando
-UT-102
-UT-103
-UT-107
-UT-110
-UT-116
-UT-121
-UT-126
-UT-127
-UT-128
-UT-138
-UT-144
-UT-15
-UT-154
-UT-157
-UT-158
-UT-159
-UT-176
-UT-185
-UT-186
-UT-194
-UT-225
-UT-226
-UT-316
-UT-321
-UT-323
-UT-325
-UT-331
-UT-332
-UT-334
-UT-335
-UT-336
-UT-337
-UT-341
-UT-343
-UT-344
-UT-349
-UT-352
-UT-356
-UT-360
-UT-367
-UT-379
-UT-397
-UT-398
-UT-433
-UT-64
-UT-72
-UT-77
-UT-89
-UT-94
-Ut159
-Ut340
-Ut379
-Válvula Admissão
-Válvula Afogador Carburador
-Válvula Ar Quente
-Válvula Boia
-Válvula Duas Vias
-Válvula Equalizadora Freio
-Válvula Escape
-Válvula Freio
-Válvula Hidrovácuo
-Válvula Ignição
-Válvula Injetora
-Válvula Partida Fria
-Válvula Pressão Óleo Cabeçote
-Válvula Reguladora
-Válvula Reguladora Pressão
-Válvula Reservatório Gasolina
-Válvula Retenção Óleo
-Válvula Solenoide
-Válvula Termostática
-Varão Câmbio
-Varão Trambulador
-Vareta Comando Válvula
-Vareta Óleo
-Vareta Trambulador
-Vareta Tucho Válvula
-Vareta Válvula
-Veda Escape
-Vela Ignição
-Vela Tripolar
-Ventoinha
-Virabrequim
-Virabrequim 050
-WD 40
+import psycopg2
+from psycopg2 import sql
+import datetime
+import uuid
+from random import randint
+
+
+# Connect to the PostgreSQL database
+conn = psycopg2.connect(
+    host= "127.0.0.1",
+    database= "postgres",
+    user="postgres",
+    password="tcc_univesp!"
+)
+
+# Create a cursor object to execute SQL queries
+cur = conn.cursor()
+
+# Define the INSERT queries with placeholders for the data
+
+insertItem = sql.SQL("INSERT INTO public.\"Item\"( \
+	id, name, type, \"createdAt\", deleted, updated) \
+	VALUES (%s, %s, %s, %s, %s, %s);")
+		 
+
+
+createdAt = datetime.datetime.now() 
+
+
+name = []	
+
+
+name.append("-")
+name.append("8 Bp 398")
+name.append("8 Bp 399")
+name.append("8 Bp 400")
+name.append("9 Bp 210")
+name.append("9 Dp 152")
+name.append("Abraçadeira")
+name.append("Abraçadeira 32/44")
+name.append("Abraçadeira 7 mm")
+name.append("Abraçadeira Aditivo")
+name.append("Abraçadeira Coifa")
+name.append("Abraçadeira Coifa Câmbio")
+name.append("Abraçadeira Distribuidor")
+name.append("Abraçadeira Escapamento")
+name.append("Abraçadeira Grande")
+name.append("Abraçadeira Grande Radiador")
+name.append("Abraçadeira Inferior Mangueira Reservatório")
+name.append("Abraçadeira Mangueira")
+name.append("Abraçadeira Mangueira Ar Quente")
+name.append("Abraçadeira Média Grande")
+name.append("Abraçadeira Media Reservatório")
+name.append("Abraçadeira Pequena")
+name.append("Abraçadeira S/Fim 14x22 Fita")
+name.append("Abraçadeira S/Fim 32x44 Fita")
+name.append("Abrir Rosca")
+name.append("Aceleração")
+name.append("Acertar O Ponto")
+name.append("Acerto Ponto")
+name.append("Acionamento Ventoinha")
+name.append("Acoplamento")
+name.append("Acoplamento Alavanca")
+name.append("Acoplamento Câmbio")
+name.append("Acoplamento Coluna Direção")
+name.append("Acoplamento Completo")
+name.append("Acoplamento Trambulador")
+name.append("Adaptador")
+name.append("Adaptador Cavalete Água")
+name.append("Adaptador Coletor")
+name.append("Aditivo")
+name.append("Aditivo Limpeza Bico")
+name.append("Aditivo Radiador")
+name.append("Aditivo Radiador Azul")
+name.append("Aditivo Radiador Orgânico")
+name.append("Aditivo Radiador Rosa")
+name.append("Aditivo Radiador UT-15")
+name.append("Aditivo Radiador Verde")
+name.append("Aditivo Radiador Vermelho")
+name.append("Agregado")
+name.append("Água Desmineralizada")
+name.append("Agulha")
+name.append("Agulha Boia")
+name.append("Agulha Carburador")
+name.append("Agulha Medida 200")
+name.append("Ajustados Os Tensor Correia")
+name.append("Ajuste")
+name.append("Ajuste Alavanca")
+name.append("Ajuste Alavanca Câmbio")
+name.append("Alavanca")
+name.append("Alavanca Câmbio")
+name.append("Alavanca Engate")
+name.append("Alavanca Freio Mão")
+name.append("Alavanca Marcha")
+name.append("Alavanca Porta Traseira")
+name.append("Alavanca Retrovisor")
+name.append("Alavanca Seletora")
+name.append("Alavanca Trambulador")
+name.append("Alça Escapamento")
+name.append("Álcool")
+name.append("Alinhamento")
+name.append("Alinhamento Balanceamento")
+name.append("Alinhamento Balanceamento Cambagem")
+name.append("Alinhamento Cambagem")
+name.append("Alinhamento Dianteiro")
+name.append("Alinhamento Mancal")
+name.append("Alinhamento Técnico")
+name.append("Alternador")
+name.append("Amortecedor")
+name.append("Amortecedor Dianteiro")
+name.append("Amortecedor Dianteiro Lado Esquerdo")
+name.append("Amortecedor Dianteiro Recom")
+name.append("Amortecedor Dianteiro Remano")
+name.append("Amortecedor Dianteiro Usado")
+name.append("Amortecedor Direção")
+name.append("Amortecedor Porta Mala")
+name.append("Amortecedor Suspensão")
+name.append("Amortecedor Suspensão Dianteiro")
+name.append("Amortecedor Tampa Traseira")
+name.append("Amortecedor Traseiro")
+name.append("Amortecedor Traseiro Remano")
+name.append("Amortecedores")
+name.append("Amortecedores 2 Traseiro")
+name.append("Amortecedores Dianteiro")
+name.append("Amortecedores Dianteiros")
+name.append("Amortecedores Traseiro")
+name.append("Analise Geral Gás")
+name.append("Anéis Bico")
+name.append("Anéis Encosto Stander")
+name.append("Anéis Std")
+name.append("Anel")
+name.append("Anel 050")
+name.append("Anel Anicha")
+name.append("Anel Anti Chama")
+name.append("Anel Bico")
+name.append("Anel Bobina")
+name.append("Anel Bocal")
+name.append("Anel Bocal Tanque")
+name.append("Anel Bomba")
+name.append("Anel Bomba Água")
+name.append("Anel Bujão")
+name.append("Anel Bujão Óleo")
+name.append("Anel Cárter")
+name.append("Anel Coletor")
+name.append("Anel Distribuidor")
+name.append("Anel Diversos")
+name.append("Anel Encosto")
+name.append("Anel Encosto 050")
+name.append("Anel Encosto Bronzina")
+name.append("Anel Encosto Bronzina Mancal Std")
+name.append("Anel Encosto Mancal")
+name.append("Anel Escapamento")
+name.append("Anel Flange Bomba Comb.")
+name.append("Anel Injetor Gás")
+name.append("Anel Lateral")
+name.append("Anel Motor")
+name.append("Anel O-ring")
+name.append("Anel O-ring Bobina")
+name.append("Anel O-ring Camisa")
+name.append("Anel O-ring Distribuidor")
+name.append("Anel O-ring Tampa Bobina")
+name.append("Anel O-ring Vedação")
+name.append("Anel O-ring Volante")
+name.append("Anel Pescador")
+name.append("Anel Pistão")
+name.append("Anel Pistão 040")
+name.append("Anel Reservatório")
+name.append("Anel Reservatório Gás")
+name.append("Anel Respiro")
+name.append("Anel Sincronizado")
+name.append("Anel Sincronizado 1ª 2ª")
+name.append("Anel Sincronizado 2ª 3ª")
+name.append("Anel Sincronizado 1ª 2ª 3ª 4ª")
+name.append("Anel Sincronizado 1ª 4ª")
+name.append("Anel Sincronizado 3ª 4ª")
+name.append("Anel Sincronizado 5ª")
+name.append("Anel Sincronizado Ré")
+name.append("Anel Std")
+name.append("Anel Tampa")
+name.append("Anel Tampa Bobina")
+name.append("Anel Tampa Válvula Respiro Motor")
+name.append("Anel Tubo Óleo")
+name.append("Anel Válvula")
+name.append("Anel Válvula Termostática")
+name.append("Anel Vedação")
+name.append("Anel Vedação Anti Chama")
+name.append("Anel Vedação Bobina")
+name.append("Anel Vedação Bomba Combustível")
+name.append("Anel Vedação Carcaça")
+name.append("Anel Vedação D/Anti Chama")
+name.append("Anel Vedação Distribuidor")
+name.append("Anel Vedação Reservatório")
+name.append("Anel Vedação Tampa")
+name.append("Anel Vedação Vareta Óleo")
+name.append("Anel Volante")
+name.append("Anel Volante Motor")
+name.append("Anelzinho Vira")
+name.append("Anti Chama")
+name.append("Anti Chama Com Mangueira")
+name.append("Antena")
+name.append("Anti Chama Com Rabicho Longo")
+name.append("Anti Chama Motor")
+name.append("Anti Chama Ponta Fixa")
+name.append("Aparelho Injeção")
+name.append("Aperto fuso Freio Dianteiro")
+name.append("Aperto fuso Pedal")
+name.append("Aperto fuso Roda Traseira")
+name.append("Aperto Na Abraçadeira")
+name.append("Aperto Na Suspensão")
+name.append("Apertou Junta Carte")
+name.append("Retífica Cabeçote")
+name.append("Ar Sistema Freio")
+name.append("Arruela")
+name.append("Arruela Bujão Cárter")
+name.append("Arruela Cabeçote")
+name.append("Arruela Eixo Traseiro")
+name.append("Arruela Encosto Std")
+name.append("Arruela Encosto Virabrequim")
+name.append("Arruela Pinhão Distribuidor")
+name.append("Arruela Regulagem")
+name.append("Articulação Axial")
+name.append("Articulação Caixa")
+name.append("Articulação Caixa Direção Hidráulica")
+name.append("Articulação Caixa Direção Com Coifa")
+name.append("Árvore Manivela")
+name.append("Árvore Primaria")
+name.append("Assoalho Lado Direito")
+name.append("Assoalho Lado Esquerdo")
+name.append("Atuador")
+name.append("Atuador Auxiliar Embreagem")
+name.append("Atuador Câmbio")
+name.append("Atuador Embreagem")
+name.append("Atuador Hidráulico")
+name.append("Atuador Lado Esquerdo")
+name.append("Atuador Marcha Lado Esquerdo")
+name.append("Atuador Marcha")
+name.append("Atuador Pedal Embreagem")
+name.append("Atuador Posição Borboleta")
+name.append("Serviço Elétrica em Terceirizada")
+name.append("B. Biela")
+name.append("B. Comando")
+name.append("B. Mancal")
+name.append("Bacalhau Traseiro")
+name.append("Bandeja")
+name.append("Baixinho")
+name.append("Baixinho Que Atendeu")
+name.append("Balancim")
+name.append("Balanceamento")
+name.append("Balancim Motor")
+name.append("Bamba Combustível")
+name.append("Bamba D'água")
+name.append("Bandeja Inferior Lado Direito")
+name.append("Bandeja Inferior Lado Esquerdo")
+name.append("Bandeja Inferior Lado Direito Com Bucha")
+name.append("Bandeja Superior Lado Direito")
+name.append("Bandeja Superior Lado Esquerdo")
+name.append("Bandeja Superior Lado Direito Com Bucha")
+name.append("Banho Químico")
+name.append("Banho Químico Com Selo")
+name.append("Baquelite")
+name.append("Baquelite Bomba Combustível")
+name.append("Barra Axial Caixa Direção Lado Esquerdo")
+name.append("Barra Axial Caixa Direção Lado Direito")
+name.append("Barra Direção Central")
+name.append("Barra Direção Lado Esquerdo")
+name.append("Barra Direção Lado Direito")
+name.append("Barra Estabilizadora")
+name.append("Barra Fixação Pivô")
+name.append("Barra Tensora")
+name.append("Bateira 45 Ah")
+name.append("Batente")
+name.append("Batente Amortecedor Dianteiro Lado Direito")
+name.append("Batente Amortecedor Dianteiro Lado Esquerdo")
+name.append("Batente Amortecedor Traseiro Lado Direito")
+name.append("Batente Amortecedor Traseiro Lado Esquerdo")
+name.append("Batente Bandeja")
+name.append("Batente Coluna Amortecedor")
+name.append("Batente Diabinho")
+name.append("Batente Dianteiro Bandeja")
+name.append("Batente Feixe Mola")
+name.append("Batente Lateral")
+name.append("Batente Prato")
+name.append("Bateria 50 Ah")
+name.append("Bateria 60 Ah")
+name.append("Bico Injetor")
+name.append("Bico Injetor Álcool")
+name.append("Bronzina 025")
+name.append("Biela")
+name.append("Mancal")
+name.append("Bieleta Estabilizadora Dianteiro Direito")
+name.append("Bieleta Estabilizadora Dianteiro Esquerda")
+name.append("Bieleta Estabilizadora Traseira Direito")
+name.append("Bieleta Estabilizadora Traseira Esquerda")
+name.append("Bloco")
+name.append("Bloco Alinhamento Mancal")
+name.append("Bloco Banho Químico")
+name.append("Bloco Banho Químico Com Selos")
+name.append("Bloco Encamisar")
+name.append("Bloco Motor")
+name.append("Bloco Retifica")
+name.append("Bobina")
+name.append("Bobina 2 Cilindro")
+name.append("Bobina Com Cabos Vela Ignição")
+name.append("Bobina Ignição")
+name.append("Borboleta Cabo Embreagem")
+name.append("Bocal Enchimento")
+name.append("Bocal Tanque")
+name.append("Boia Carburador")
+name.append("Boia Combustível")
+name.append("Boia Reservatório Partida Frio")
+name.append("Bolacha Homocinética Interna")
+name.append("Bomba Água")
+name.append("Bomba Água Com Polia Direção")
+name.append("Bomba Combustível")
+name.append("Bomba Combustível Completa")
+name.append("Bomba D'água")
+name.append("Bomba Direção Hidráulica")
+name.append("Bomba Óleo")
+name.append("Bomba Refil")
+name.append("Bomba Vácuo")
+name.append("Borboleta")
+name.append("Borracha")
+name.append("Borracha Junção Coletor")
+name.append("Borracha Anti Chama")
+name.append("Borracha Bocal Tanque")
+name.append("Borracha Coletor Admissão")
+name.append("Borracha Coxim Motor")
+name.append("Borracha Escapamento")
+name.append("Borracha Fixação Caixa")
+name.append("Borracha Hidrovácuo")
+name.append("Borracha Pedal Acelerador")
+name.append("Borracha Portas")
+name.append("Borracha Radiador Óleo")
+name.append("Borracha Reservatório Gasolina")
+name.append("Borracha Respiro Motor")
+name.append("Borracha Respiro Tampa Válvula")
+name.append("Borracha Suspensão")
+name.append("Borracha Tampa Bomba Combustível")
+name.append("Borracha Vedação Bomba Combustível")
+name.append("Braçadeira")
+name.append("Braçadeira 7 mm")
+name.append("Braçadeira Coifa Câmbio")
+name.append("Braçadeira Mangueira Ar Quente")
+name.append("Braçadeira Mangueira Filtro Ar")
+name.append("Braçadeira Mangueira Gasolina")
+name.append("Braçadeira Pequena")
+name.append("Braçadeira Radiador")
+name.append("Braçadeira Radiador Grande")
+name.append("Braçadeira Coifa Lado Câmbio")
+name.append("Braçadeira Grande")
+name.append("Braçadeira Médias")
+name.append("Braçadeira Mangueira Radiador")
+name.append("Braco Articulação Caixa")
+name.append("Braço Auxiliar")
+name.append("Braco Auxiliar Caixa Direção")
+name.append("Braço Auxiliar Lado Direito Não Tem")
+name.append("Braço Axial")
+name.append("Braço Axial Caixa")
+name.append("Braco Axial Caixa Direção")
+name.append("Braço Axial Caixa Direção")
+name.append("Braço Axial Caixa Estabilizadora")
+name.append("Braço Caixa Direção")
+name.append("Braco Estabilizador Traseiro Com Bucha")
+name.append("Braço Limpador")
+name.append("Braco Mutante")
+name.append("Braco Oscilante Caixa Direção")
+name.append("Braço Oscilante Caixa Direção")
+name.append("Braço Oscilante Com Pivô")
+name.append("Braço Tensor")
+name.append("Brisa")
+name.append("Bronzina Biela")
+name.append("Bronzina Biela 020")
+name.append("Bronzina Biela 025")
+name.append("Bronzina Biela 030")
+name.append("Bronzina Biela 050")
+name.append("Bronzina Biela 075")
+name.append("Bronzina Biela Std")
+name.append("Bronzina Comando")
+name.append("Bronzina Encosto")
+name.append("Bronzina Encosto Std")
+name.append("Bronzina Lateral")
+name.append("Bronzina Lateral 012")
+name.append("Bronzina Lateral Std")
+name.append("Bronzina Mancal")
+name.append("Bronzina Mancal 025")
+name.append("Bronzina Mancal 030")
+name.append("Bronzina Mancal 050")
+name.append("Bronzina Mancal 075")
+name.append("Bronzina Mancal Std")
+name.append("Bucha")
+name.append("Bucha Aço Braço Oscilante")
+name.append("Bucha Agregado Traseiro")
+name.append("Bucha Alavanca")
+name.append("Bucha Amortecedor Traseiro")
+name.append("Bucha Amortecedor Dianteiro")
+name.append("Bucha Arvore Direção")
+name.append("Bucha Bandeja")
+name.append("Bucha Bandeja Dianteira")
+name.append("Bucha Bandeja Inferior")
+name.append("Bucha Bandeja Lado Direito")
+name.append("Bucha Bandeja Lado Esquerdo")
+name.append("Bucha Bandeja Superior")
+name.append("Bucha Bandeja Traseira Inferior")
+name.append("Bucha Bandeja Traseira Superior")
+name.append("Bucha Barra Direção")
+name.append("Bucha Barra Estabilizadora")
+name.append("Bucha Barra Estabilizadora Dianteiro")
+name.append("Bucha Barra Estabilizadora Ponta")
+name.append("Bucha Barra Estabilizadora Traseira")
+name.append("Bucha Biela")
+name.append("Bucha Borracha Haste Volante")
+name.append("Bucha Braço")
+name.append("Bucha Braco Caixa Direção")
+name.append("Bucha Braço Oscilante")
+name.append("Bucha Braco Pivô")
+name.append("Bucha Braço Tensor")
+name.append("Bucha Cabo")
+name.append("Bucha Caixa Direção")
+name.append("Bucha Coletor Escape")
+name.append("Bucha Coluna Direção")
+name.append("Bucha Eixo Traseiro")
+name.append("Bucha Eletrobomba")
+name.append("Bucha Eletroválvula")
+name.append("Bucha Escapamento")
+name.append("Bucha Estirante")
+name.append("Bucha Ferro Braco Oscilante")
+name.append("Bucha Fixação Caixa")
+name.append("Bucha Mancal")
+name.append("Bucha Morceguinho")
+name.append("Bucha Partida Frio")
+name.append("Bucha Pedal Freio")
+name.append("Bucha Pedal Acelerador")
+name.append("Bucha Pedal Embreagem")
+name.append("Bucha Pneuzinho Braco Tensor Suspensão")
+name.append("Bucha Pneuzinho Tirante")
+name.append("Bucha Varão Ponta")
+name.append("Bucha Quadro Dianteiro")
+name.append("Bucha Quadro Motor")
+name.append("Bucha Quadro Suspensão")
+name.append("Bucha Quadro Traseiro")
+name.append("Bucha Radiador")
+name.append("Bucha Reservatório D'água")
+name.append("Bucha Rolamento")
+name.append("Bucha Suspensão")
+name.append("Bucha Suspensão Traseira")
+name.append("Bucha Suspensão Traseira Ferro")
+name.append("Bucha Tensor")
+name.append("Bucha Tensor Dianteiro")
+name.append("Bucha Terminal Direção")
+name.append("Bucha Tirante")
+name.append("Bucha Trambulador")
+name.append("Bucha Bandeja Traseira")
+name.append("Bucha Vampiro")
+name.append("Bucha Varão")
+name.append("Bucha Varão Alavanca")
+name.append("Bucha Varão Câmbio")
+name.append("Bucha Vareta Óleo")
+name.append("Bucha Vedação")
+name.append("Bujão")
+name.append("Bujão Carte")
+name.append("Bujão Carte Com Arruela")
+name.append("Bujão Cárter")
+name.append("Bujão Com Rosca")
+name.append("Bujão Gaiola")
+name.append("Bujão Óleo")
+name.append("Buzina")
+name.append("Buzina Caracol")
+name.append("Cabeçote")
+name.append("Cabeçote Completo")
+name.append("Cabo")
+name.append("Cabo Acelerador")
+name.append("Cabo Afogador")
+name.append("Cabo Alavanca Marcha")
+name.append("Cabo Conexão")
+name.append("Cabo Embreagem")
+name.append("Cabo Freio")
+name.append("Cabo Freio Mão")
+name.append("Cabo Freio Mão 1 Grande 1 Pequeno")
+name.append("Cabo Puxador Capo")
+name.append("Cabo Tampa Traseira")
+name.append("Cabo Vela Ignição")
+name.append("Cabo Veloc.")
+name.append("Cabo Velocímetro")
+name.append("Caixa Alavanca")
+name.append("Caixa Direção")
+name.append("Caixa Direção Com Articulação")
+name.append("Caixa Direção Completa")
+name.append("Caixa Direção Mecânica")
+name.append("Caixa Externa")
+name.append("Caixa Filtro Ar")
+name.append("Caixa Radiador Inferior")
+name.append("Caixa Interna")
+name.append("Caixa Radiador")
+name.append("Caixa Radiador Lado Direito")
+name.append("Caixa Rótula Câmbio")
+name.append("Caixa Radiador Superior")
+name.append("Caixa Válvula Termostática")
+name.append("Calço 026")
+name.append("Calço 032")
+name.append("Calço 038")
+name.append("Calço Amortecedor")
+name.append("Calço Feixe Mola")
+name.append("Calha")
+name.append("Calota")
+name.append("Calotinha Cubo Traseiro")
+name.append("Câmara Ar")
+name.append("Câmara Válvula Termostática")
+name.append("Cambagem Dianteira")
+name.append("Câmbio")
+name.append("Câmbio Completo")
+name.append("Câmbio Garfos")
+name.append("Câmbio UT-158")
+name.append("Cangalha")
+name.append("Cano 10723")
+name.append("Cano Água")
+name.append("Cano Água 3 Saídas")
+name.append("Cano Água Fero 3 Saída")
+name.append("Cano Água Motor")
+name.append("Cano Cilindro Mestre")
+name.append("Capa Cabo")
+name.append("Capa Correia Dentada")
+name.append("Capa Correia Dentada Interna")
+name.append("Capa Tucho")
+name.append("Capsula Válvula Admissão")
+name.append("Car80")
+name.append("Carburador")
+name.append("Carburador Completo")
+name.append("Carcaça Bomba Água")
+name.append("Carcaça Válvula Termostática")
+name.append("Carcaça Motor")
+name.append("Carcaça Reguladora Pressão")
+name.append("Carga Bateria")
+name.append("Cárter Motor")
+name.append("Cárter Óleo")
+name.append("Catalisador")
+name.append("Catraca Embreagem")
+name.append("Cavalete")
+name.append("Cavalete Água")
+name.append("Cavalete Água 3 Saídas")
+name.append("Cavalete Com Sensor Injeção")
+name.append("Cavalete Sensor Temperatura")
+name.append("Cavalete Válvula Termostática Com Ar Quente")
+name.append("Cavalete Válvula Termostática Sem Ar Quente")
+name.append("Cebolão Radiador")
+name.append("Cebolinha Óleo")
+name.append("Cebolinha Óleo 3 Fios")
+name.append("Cebolinha Óleo Inter")
+name.append("Cebolinha Óleo Plugue Eletrônico")
+name.append("Cebolinha Re")
+name.append("Centralina Ignição")
+name.append("Chapa")
+name.append("Chapa Alavanca")
+name.append("Chapa Com fuso Tensor")
+name.append("Chapa Guia")
+name.append("Chapa Guia Marcha Re")
+name.append("Chapa Motor")
+name.append("Chapa Proteção Volante")
+name.append("Chapa Superior Motor")
+name.append("Chapeuzinho Balancinho")
+name.append("Chave Comutadora")
+name.append("Chave Comutadora Completa")
+name.append("Chave Emuladora Gás")
+name.append("Chave Roda")
+name.append("Chave Seletora")
+name.append("Chave Seta")
+name.append("Chave Seta Completa")
+name.append("Chaveta")
+name.append("Chicote")
+name.append("Chicote Alarme")
+name.append("Chicote Atuador")
+name.append("Chicote Bico")
+name.append("Chicote Bobina")
+name.append("Chicote Bomba")
+name.append("Chicote Cebolinha")
+name.append("Chicote Distribuidor")
+name.append("Chicote Ignição")
+name.append("Chicote Sensor")
+name.append("Chicote Tampa")
+name.append("Chip Chave")
+name.append("Cilindro Câmbio")
+name.append("Cilindro Chave")
+name.append("Cilindro Comando")
+name.append("Cilindro Embreagem")
+name.append("Cilindro Embreagem Pedal")
+name.append("Cilindro Freio Dianteiro Esquerdo")
+name.append("Cilindro Freio Dianteiro Direito")
+name.append("Cilindro Freio Traseiro Esquerdo")
+name.append("Cilindro Freio Traseiro Direito")
+name.append("Cilindro Mestre")
+name.append("Cilindro Mestre Com 4 Saídas")
+name.append("Cinta Plástica")
+name.append("Coifa")
+name.append("Coifa Amortecedor")
+name.append("Coifa Braco")
+name.append("Coifa Caixa Direção")
+name.append("Coifa Câmbio")
+name.append("Coifa Câmbio Com Rolamento")
+name.append("Coifa Direção")
+name.append("Coifa Homocinética Lado Direito")
+name.append("Coifa Homocinética Lado Esquerdo")
+name.append("Coifa Homocinética Roda")
+name.append("Coifa Interna Com Rolamento")
+name.append("Coifa Trambulador")
+name.append("Cola")
+name.append("Cola 3 M")
+name.append("Cola Araldite")
+name.append("Cola Branca")
+name.append("Cola Juntas")
+name.append("Cola Multi Vedante")
+name.append("Cola Preta")
+name.append("Cola Silicone")
+name.append("Cola Silicone Branca")
+name.append("Cola Silicone Loktaite")
+name.append("Cola Silicone Preta")
+name.append("Cola Veda Escape")
+name.append("Coletor Admissão")
+name.append("Coletor Admissão Completo")
+name.append("Coletor Escapamento")
+name.append("Coluna Barra Direção")
+name.append("Coluna Direção")
+name.append("Comando Admissão")
+name.append("Comando Balancinho")
+name.append("Comando Escape")
+name.append("Comando Válvula")
+name.append("Combustível")
+name.append("Comutador")
+name.append("Comutador Completo")
+name.append("Comutador Partida")
+name.append("Condensador")
+name.append("Conector Bico Solto")
+name.append("Conector Cabo")
+name.append("Conector Distribuidor")
+name.append("Conector Filtro")
+name.append("Conector Flauta")
+name.append("Conector Lateral Alternador")
+name.append("Conector Mangueira Gás")
+name.append("Conector Quatro Vias")
+name.append("Conector Reservatório Gasolina")
+name.append("Conexão Cabeçote")
+name.append("Conexão Coletor")
+name.append("Conexão Cotovelo")
+name.append("Conexão Entrada Água")
+name.append("Conexão Mangueira")
+name.append("Conexão Termostática")
+name.append("Conjunto 5ª")
+name.append("Conjunto Alavanca Câmbio")
+name.append("Conjunto Bomba Usado")
+name.append("Conjunto Câmbio")
+name.append("Conjunto Ré")
+name.append("Copo Bomba")
+name.append("Copo Tucho")
+name.append("Coroa")
+name.append("Coroa Pinhão")
+name.append("Corpo Borboleta")
+name.append("Corpo TBI")
+name.append("Corpo TBI Eletrônico")
+name.append("Correia")
+name.append("Correia Alternador Básica")
+name.append("Correia Alternador Direção Hidráulica")
+name.append("Correia Alternador Ar Condicionado")
+name.append("Correia Alternador Frisada")
+name.append("Correia Ar Condicionado")
+name.append("Correia Ar Condicionado Direção Hidráulica")
+name.append("Correia Bomba D'água")
+name.append("Correia Comando Válvula")
+name.append("Correia Dentada")
+name.append("Correia Direção Hidráulica")
+name.append("Correia Diversos")
+name.append("Corrente Comando")
+name.append("Cotovelo Ar Quente")
+name.append("Cotovelo Carcaça")
+name.append("Cotovelo Tampão Cht")
+name.append("Cotovelo Válvula Termostática")
+name.append("Coxim Amortecedor Traseiro Lado Esquerdo")
+name.append("Coxim Amortecedor Traseiro Lado Direito")
+name.append("Coxim Amortecedor Dianteiro Lado Esquerdo")
+name.append("Coxim Amortecedor Dianteiro Lado Direito")
+name.append("Coxim Biela")
+name.append("Coxim Braço")
+name.append("Coxim Câmbio Inferior")
+name.append("Coxim Câmbio Superior")
+name.append("Coxim Canoinha")
+name.append("Coxim Eixo Traseira")
+name.append("Coxim Motor Dianteiro Lado Direito")
+name.append("Coxim Motor Dianteiro Lado Esquerdo")
+name.append("Coxim Motor Traseiro Direito")
+name.append("Coxim Motor Traseiro Esquerdo")
+name.append("Coxim Radiador")
+name.append("Coxim Tensor Motor")
+name.append("Cruzeta Barra Direção")
+name.append("Cruzeta Cardam")
+name.append("Cubo Roda Dianteiro Lado Direito")
+name.append("Cubo Roda Dianteiro Lado Esquerdo")
+name.append("Cubo Roda Traseira Lado Direito")
+name.append("Cubo Roda Traseira Lado Esquerdo")
+name.append("Descarbonização")
+name.append("Deslizante Câmbio")
+name.append("Deslizante Lado Direito")
+name.append("Diafragma Pressão")
+name.append("Diagnostico Com Scanner")
+name.append("Direção Hidráulica")
+name.append("Disco Embreagem")
+name.append("Disco Freio")
+name.append("Disco Freio Sólido Dianteiro")
+name.append("Disco Freio Sólido Traseiro")
+name.append("Disco Freio Ventilado Dianteiro")
+name.append("Disco Freio Ventilado Traseiro")
+name.append("Distribuidor")
+name.append("Eixo Câmbio Lado Direito")
+name.append("Eixo Comando")
+name.append("Eixo Homocinética")
+name.append("Eixo Homocinética Direito")
+name.append("Eixo Homocinética Esquerdo")
+name.append("Eixo Pedal Embreagem")
+name.append("Eixo Piloto")
+name.append("Eixo Traseiro")
+name.append("Eletrobomba")
+name.append("Embreagem")
+name.append("Embreagem Distribuidor")
+name.append("Embuchamento Dianteiro")
+name.append("Embuchamento Traseiro")
+name.append("Emulador Bicos")
+name.append("Encosto Balancinho")
+name.append("Engate Cabo Trambulador")
+name.append("Engrenagem")
+name.append("Engrenagem 1ª")
+name.append("Engrenagem 2ª")
+name.append("Engrenagem 3ª")
+name.append("Engrenagem 4ª")
+name.append("Engrenagem 5ª")
+name.append("Engrenagem Correia Dentada")
+name.append("Engrenagem Distribuidor")
+name.append("Engrenagem Ré")
+name.append("Escapamento")
+name.append("Escapamento Com 2 Ponteira")
+name.append("Escora")
+name.append("Escora Balancim")
+name.append("Escora Válvula")
+name.append("Escova Alternador")
+name.append("Escova Ventoinha")
+name.append("Espaçador")
+name.append("Esticador Correia Alternador")
+name.append("Esticador Correia Alternador Frisado")
+name.append("Esticador Correia Ar")
+name.append("Esticador Correia Dentada")
+name.append("Esticador Corrente")
+name.append("Esticador Direção Com Ar")
+name.append("Esticador Liso")
+name.append("Esticadores Correia Direção")
+name.append("Extintor")
+name.append("Farol Lado Direito")
+name.append("Farol Lado Esquerdo")
+name.append("Fechadura Porta")
+name.append("Fechadura Tampa Traseiro")
+name.append("Fecho Mola")
+name.append("Feixe Mola")
+name.append("Filtro Anti Chama Motor")
+name.append("Filtro Ar")
+name.append("Filtro Ar Condicionado")
+name.append("Filtro Combustível")
+name.append("Filtro Combustível Com Regulador")
+name.append("Filtro Óleo")
+name.append("Flange Bomba Combustível")
+name.append("Flauta")
+name.append("Flauta Completa")
+name.append("Flexível")
+name.append("Flexível Cabo Embreagem")
+name.append("Flexível Freio Dianteiro Lado Direito")
+name.append("Flexível Freio Dianteiro Lado Esquerdo")
+name.append("Flexível Freio Traseiro Lado Direito")
+name.append("Flexível Freio Traseira Lado Esquerdo")
+name.append("Flexível Pinça Dianteiro")
+name.append("Fluido Direção Hidráulica")
+name.append("Fluido Embreagem")
+name.append("Fluido Freio Dot3")
+name.append("Fluido Freio Dot4")
+name.append("Fluxo Ar")
+name.append("Fluxo Ar Usado")
+name.append("Folha Porta")
+name.append("Freio Mão")
+name.append("fuso Bandeja")
+name.append("fuso Bolacha")
+name.append("fuso Bomba Água")
+name.append("fuso Cabeçote")
+name.append("fuso Com Porca Coletor")
+name.append("fuso Comando")
+name.append("fuso Coxim")
+name.append("fuso Coxim Motor")
+name.append("fuso Engrenagem")
+name.append("fuso Engrenagem Vira")
+name.append("fuso Flauta")
+name.append("fuso Homocinética")
+name.append("fuso Lataria")
+name.append("fuso Pinça")
+name.append("fuso Pivô")
+name.append("fuso Polia Vira")
+name.append("fuso Que Prende O Pivô Na Bandeja")
+name.append("fuso Regulador Válvula")
+name.append("fuso Roda")
+name.append("fuso Roda D E")
+name.append("fuso Roda Dianteiro")
+name.append("fuso Roda Traseira")
+name.append("fuso Rodas")
+name.append("fuso Semi Eixo")
+name.append("fuso Solto")
+name.append("fuso Suporte Motor")
+name.append("fuso Suspensão")
+name.append("fuso Tensor Dentada")
+name.append("fuso Trava Pivô Bandeja")
+name.append("fuso Virabrequim")
+name.append("fuso Volante")
+name.append("Garfo 1ª")
+name.append("Garfo 2ª")
+name.append("Garfo 3ª")
+name.append("Garfo 4ª")
+name.append("Garfo 5ª")
+name.append("Garfo Embreagem")
+name.append("Garfo Ré")
+name.append("Garfo Seletor Câmbio")
+name.append("Garfo Trambulador")
+name.append("Grampo Bandeja")
+name.append("Graxa Azul")
+name.append("Graxa Marfak")
+name.append("Guarda Po Amortecedor")
+name.append("Guarda Pó Caixa Direção")
+name.append("Guarnição Assoalho")
+name.append("Guarnição Bomba Combustível")
+name.append("Guarnição Câmbio")
+name.append("Guarnição Flange Bomba Combustível")
+name.append("Guarnição Tampa Bomba Combustível")
+name.append("Guia Alavanca")
+name.append("Guia Alternador")
+name.append("Guia Correia Alternador")
+name.append("Guia Correia Dentada")
+name.append("Guia Corrente")
+name.append("Guia Garfo Embreagem")
+name.append("Guia Tensor")
+name.append("Guia Vareta Óleo")
+name.append("Haste Articulação Comum")
+name.append("Haste Trambulador")
+name.append("Hidrovácuo Freio")
+name.append("Homocinética Interna Lado Esquerdo")
+name.append("Homocinética Interna Lado Direito")
+name.append("Homocinética Externa Lado Esquerdo")
+name.append("Homocinética Externa Lado Direito")
+name.append("Ilho Tampa")
+name.append("Injetor Carburador")
+name.append("Interruptor Luz Freio")
+name.append("Interruptor Luz Ré")
+name.append("Interruptor Óleo")
+name.append("Interruptor Pedal Embreagem")
+name.append("Interruptor Pedal Freio")
+name.append("Interruptor Pressão Óleo")
+name.append("Interruptor Radiador")
+name.append("Interruptor Ré")
+name.append("Interruptor Temperatura")
+name.append("Junta Boia Combustível")
+name.append("Junta Bomba Água")
+name.append("Junta Bomba Combustível")
+name.append("Junta Bomba Óleo")
+name.append("Junta Cabeçote")
+name.append("Junta Câmara")
+name.append("Junta Câmbio")
+name.append("Junta Cano Água")
+name.append("Junta Carburador")
+name.append("Junta Cárter")
+name.append("Junta Cárter Câmbio")
+name.append("Junta Cárter Com Defletor")
+name.append("Junta Cavalete Bomba Água")
+name.append("Junta Coletor Admissão")
+name.append("Junta Coletor Escape")
+name.append("Junta Defletora")
+name.append("Junta Diferencial")
+name.append("Junta Distribuidor")
+name.append("Junta Diversas")
+name.append("Junta Escapamento")
+name.append("Junta Frange Comando")
+name.append("Junta Frontal")
+name.append("Junta Gaiola")
+name.append("Junta Homocinética")
+name.append("Junta Liquida")
+name.append("Junta Mini Cárter")
+name.append("Junta Motor")
+name.append("Junta Pescador")
+name.append("Junta Respiro Motor")
+name.append("Junta Retifica")
+name.append("Junta Semi Cárter")
+name.append("Junta Silicone")
+name.append("Junta Sistema Refrigeração")
+name.append("Junta Suporte Filtro Óleo")
+name.append("Junta Tampa Comando")
+name.append("Junta Tampa Controle")
+name.append("Junta Tampa Corrente")
+name.append("Junta Tampa Diferencial")
+name.append("Junta Tampa Distribuição")
+name.append("Junta Tampa Gaiola")
+name.append("Junta Tampa Óleo")
+name.append("Junta Tampa Seletora")
+name.append("Junta Tampa Trambulador")
+name.append("Junta Tampa Válvula")
+name.append("Junta Tanque")
+name.append("Junta TBI")
+name.append("Junta Trambulador Câmbio")
+name.append("Junta Tubo Água")
+name.append("Junta Válvula Termostática")
+name.append("Junta Vareta Óleo")
+name.append("K80")
+name.append("Kit Acoplamento")
+name.append("Kit Adaptação Bomba")
+name.append("Kit Alavanca Câmbio")
+name.append("Kit Alinhamento")
+name.append("Kit Amortecedor Dianteiro")
+name.append("Kit Amortecedor Traseiro")
+name.append("Kit Anel Bico")
+name.append("Kit Anel Tubo Água")
+name.append("Kit Barra Estabilizadora")
+name.append("Kit Batente Amortecedor Dianteiro")
+name.append("Kit Batente Amortecedor Traseiro")
+name.append("Kit Batente Dianteiro")
+name.append("Kit Batente Traseiro")
+name.append("Kit Bico Injetor")
+name.append("Kit Borracha Bico")
+name.append("Kit Braço Oscilante")
+name.append("Kit Braço Tensor")
+name.append("Kit Bucha Caixa Direção")
+name.append("Kit Bucha Estabilizador")
+name.append("Kit Câmbio")
+name.append("Kit Camisa")
+name.append("Kit Carburador")
+name.append("Kit Coifa")
+name.append("Kit Comando")
+name.append("Kit Correia Dentada")
+name.append("Kit Corrente Comando")
+name.append("Kit Corrente Distribuição")
+name.append("Kit Corrente Tensor")
+name.append("Kit Distribuição")
+name.append("Kit Embreagem")
+name.append("Kit Estabilizador")
+name.append("Kit Feixe Mola Traseira")
+name.append("Kit fuso Assoalho")
+name.append("Kit fuso Lataria")
+name.append("Kit Injeção")
+name.append("Kit Junta Carburador")
+name.append("Kit Junta Coletor")
+name.append("Kit Junta Injeção")
+name.append("Kit Junta Motor")
+name.append("Kit Junta Retificação Cabeçote")
+name.append("Kit Junta Tampa Válvula")
+name.append("Kit Junta TBI")
+name.append("Kit Lona")
+name.append("Kit Medidor Combustível")
+name.append("Kit Modulo")
+name.append("Kit Mola Freio Dianteiro")
+name.append("Kit Mola Freio Traseiro")
+name.append("Kit Mola Sapata")
+name.append("Kit Mola Traseiro")
+name.append("Kit Motor")
+name.append("Kit O-ring Bico")
+name.append("Kit Pedal")
+name.append("Kit Peneira Bico")
+name.append("Kit Pino Pastilha")
+name.append("Kit Proteção Correia Dentada")
+name.append("Kit Regulagem")
+name.append("Kit Reparo Atuador Embreagem")
+name.append("Kit Reparo Patim Traseiro")
+name.append("Kit Reparo Pinça Freio")
+name.append("Kit Reparo TBI")
+name.append("Kit Reparo Trambulador")
+name.append("Kit Retificação Cabeçote")
+name.append("Kit Rolamento Roda Dianteiro")
+name.append("Kit Rolamento Roda Traseiro")
+name.append("Kit Suspensão Dianteiro")
+name.append("Kit Suspensão Traseiro")
+name.append("Kit Tampa Válvula")
+name.append("Kit TBI")
+name.append("Kit Tensionador Correia Dentada")
+name.append("Kit Tensionador Correia Alternador")
+name.append("Kit Trambulador Câmbio")
+name.append("Kit Trava Patim")
+name.append("Kit Vedador Caixa Termostática")
+name.append("Lâmpada 1 Polo")
+name.append("Lâmpada 2 Polo")
+name.append("Lampada Farol")
+name.append("Lampada Farol Baixo")
+name.append("Lampada Freio")
+name.append("Lampada H7")
+name.append("Lampada Interna")
+name.append("Lampada Ré")
+name.append("Lanterna")
+name.append("Lavagem")
+name.append("Lavagem Completa")
+name.append("Lavagem Higienização")
+name.append("Lavagem Motor")
+name.append("Liame Trambulador")
+name.append("Ligação Água")
+name.append("Limpa Contato")
+name.append("Limpador Brisa")
+name.append("Limpeza")
+name.append("Limpeza Acelerador Corpo Borboleta")
+name.append("Limpeza Agulha Carburador")
+name.append("Limpeza Anti Chamas")
+name.append("Limpeza Ar Condicionado")
+name.append("Limpeza Aranha")
+name.append("Limpeza Arrefecimento")
+name.append("Limpeza Bico")
+name.append("Limpeza Calibração Bicos Injetores")
+name.append("Limpeza Carburador")
+name.append("Limpeza Cárter")
+name.append("Limpeza Cilindro")
+name.append("Limpeza Corpo Borboleta")
+name.append("Limpeza Corpo TBI")
+name.append("Limpeza Freio")
+name.append("Limpeza Motor")
+name.append("Limpeza Motor Passos")
+name.append("Limpeza Radiador")
+name.append("Limpeza Redutor")
+name.append("Limpeza Reservatório Água")
+name.append("Limpeza Respiro")
+name.append("Limpeza Sistema Refrigeração")
+name.append("Limpeza Tanque Combustível")
+name.append("Limpeza TBI")
+name.append("Limpeza Vela Ignição")
+name.append("Lixa Ferro")
+name.append("Lona")
+name.append("Lona Com Patim")
+name.append("Lona Freio")
+name.append("Lona Freio Traseira")
+name.append("Luva 1ª")
+name.append("Luva 2ª")
+name.append("Luva 3ª ")
+name.append("Luva 4 ª")
+name.append("Luva 5ª")
+name.append("Luva Ré")
+name.append("Macaco")
+name.append("Maçaneta")
+name.append("Maçaneta Banco")
+name.append("Mancal 025")
+name.append("Mancal Balanceiro")
+name.append("Mancalzinho")
+name.append("Manga Eixo Lado Esquerdo")
+name.append("Manga Eixo Lado Direito")
+name.append("Mangueira")
+name.append("Mangueira 4 mm")
+name.append("Mangueira 5 mm")
+name.append("Mangueira 6 mm")
+name.append("Mangueira 7 mm")
+name.append("Mangueira 8 mm")
+name.append("Mangueira Água")
+name.append("Mangueira Água Em T")
+name.append("Mangueira Água Inferior")
+name.append("Mangueira Água K1")
+name.append("Mangueira Água Superior")
+name.append("Mangueira Água Superior Com Saída No Meio")
+name.append("Mangueira Alimenta Hidráulico")
+name.append("Mangueira Alimentação")
+name.append("Mangueira Anti Chama")
+name.append("Mangueira Anti Chama Com Rabicho")
+name.append("Mangueira Ar Hidrovácuo")
+name.append("Mangueira Ar Quente")
+name.append("Mangueira Ar Quente Coletor")
+name.append("Mangueira Ar Quente Frente")
+name.append("Mangueira Avanço")
+name.append("Mangueira Bocal Tanque")
+name.append("Mangueira Bomba Água")
+name.append("Mangueira Bomba Combustível")
+name.append("Mangueira Cano Água")
+name.append("Mangueira Cavalete")
+name.append("Mangueira Coletor")
+name.append("Mangueira Coletor Admissão")
+name.append("Mangueira Com Rabicho")
+name.append("Mangueira Com Válvula")
+name.append("Mangueira Combustível")
+name.append("Mangueira Corrugada")
+name.append("Mangueira Cotovelo")
+name.append("Mangueira Cotovelo Respiro Motor")
+name.append("Mangueira Direção Hidráulica")
+name.append("Mangueira Diversas")
+name.append("Mangueira Embreagem")
+name.append("Mangueira Espaguete")
+name.append("Mangueira Filtro Ar")
+name.append("Mangueira Flauta")
+name.append("Mangueira Fluxo Ar")
+name.append("Mangueira Hidráulico")
+name.append("Mangueira Hidrovácuo")
+name.append("Mangueira Inferior Radiador")
+name.append("Mangueira Injeção")
+name.append("Mangueira Injeção Bomba")
+name.append("Mangueira Injeção Eletrônica")
+name.append("Mangueira Linha Combustível")
+name.append("Mangueira Radiador")
+name.append("Mangueira Reservatório")
+name.append("Mangueira Respiro")
+name.append("Mangueira Respiro Combustível")
+name.append("Mangueira Respiro Cotovelo")
+name.append("Mangueira Respiro Motor")
+name.append("Mangueira Respiro S")
+name.append("Mangueira Respiro Tampa Válvula")
+name.append("Mangueira Retorno Óleo")
+name.append("Mangueira TBI")
+name.append("Mangueira Válvula Termostática")
+name.append("Mão Obra")
+name.append("Medidor Combustível")
+name.append("Medidor Fluxo")
+name.append("Miolo Câmbio")
+name.append("Miolo Catalisador")
+name.append("Miolo Chave")
+name.append("Módulo")
+name.append("Módulo Ignição")
+name.append("Módulo Injeção")
+name.append("Módulo Rei")
+name.append("Módulo Ventoinha")
+name.append("Mola Acelerador")
+name.append("Mola Alavanca")
+name.append("Mola Carburador")
+name.append("Mola Diversas")
+name.append("Mola Embreagem")
+name.append("Mola Inferior")
+name.append("Mola Pastilha Freio")
+name.append("Mola Sapata")
+name.append("Mola Suspensão Dianteira")
+name.append("Mola Suspensão Traseira")
+name.append("Morceguinho")
+name.append("Motor")
+name.append("Motor Arranque")
+name.append("Motor Injeção")
+name.append("Motor Limpador Para-brisa")
+name.append("Motor Partida Frio")
+name.append("Motor Passo")
+name.append("Motor Ventilador")
+name.append("Motor Ventoinha")
+name.append("O-ring")
+name.append("O-ring Bico")
+name.append("O-ring Bobina")
+name.append("O-ring Das Tulipas")
+name.append("O-ring Distribuidor")
+name.append("O-ring Lateral")
+name.append("O-ring Tubo Água")
+name.append("O-ring Vedação")
+name.append("O-ring Vedação Bobina")
+name.append("O-ring Vedação Tampa Bobina")
+name.append("Óleo Câmbio")
+name.append("Óleo Diferencial")
+name.append("Óleo Direção Hidráulica")
+name.append("Óleo Freio Dot 3")
+name.append("Óleo Freio Dot 4")
+name.append("Óleo Hidráulico")
+name.append("Óleo Motor 15w40")
+name.append("Óleo Motor 20w50")
+name.append("Óleo Motor 5w30")
+name.append("Óleo Motor 5w30sl")
+name.append("Painel Quadro Radiador")
+name.append("Palheta")
+name.append("Pastilha Freio Sólido Dianteiro")
+name.append("Pastilha Freio Sólido Traseiro")
+name.append("Pastilha Freio Ventilado Dianteiro")
+name.append("Pastilha Freio Ventilado Traseiro")
+name.append("Patim Freio")
+name.append("Patim Lona")
+name.append("Patim Usado")
+name.append("Pedal Acelerador")
+name.append("Pedal Eletrônico")
+name.append("Peneirinha Bico")
+name.append("Peneirinha Cárter")
+name.append("Pescador Bomba Óleo")
+name.append("Pinça Freio")
+name.append("Pinhão Cabo Velocímetro")
+name.append("Pinhão Coroa")
+name.append("Pinhão Distribuidor")
+name.append("Pinhão Velocímetro")
+name.append("Pino")
+name.append("Pino Central")
+name.append("Pino Elástico")
+name.append("Pino Freio Mão")
+name.append("Pino Haste")
+name.append("Pino Pedal")
+name.append("Pino Pedal Embreagem")
+name.append("Pino Pistão")
+name.append("Pino Planetário")
+name.append("Pintura")
+name.append("Pistão")
+name.append("Pistão 040")
+name.append("Pistão 050")
+name.append("Pistão Anel")
+name.append("Pistão Anel 040")
+name.append("Pistão Anel 050")
+name.append("Pistão Anel 060")
+name.append("Pistão Anel 1 mm")
+name.append("Pistão Anel 10 mm")
+name.append("Pistão Anel Camisa")
+name.append("Pistão Anel Std")
+name.append("Pivô")
+name.append("Pivô Bandeia Lado Esquerdo")
+name.append("Pivô Bandeja Lado Direito")
+name.append("Pivô Braco Oscilante")
+name.append("Pivô Suspensão Superior Lado Direito")
+name.append("Pivô Suspensão Superior Lado Esquerdo")
+name.append("Pivô Suspensão Inferior Lado Esquerdo")
+name.append("Pivô Suspensão Inferior Lado Direito")
+name.append("Pivô Tirante")
+name.append("Planetária")
+name.append("Platô Embreagem")
+name.append("Plugue Eletrônico")
+name.append("Plugue Eletrônico Água")
+name.append("Plugue Eletrônico Ar")
+name.append("Plugue Eletrônico Azul")
+name.append("Plugue Eletrônico Cinza")
+name.append("Plugue Eletrônico Injeção")
+name.append("Plugue Eletrônico Mte 4050")
+name.append("Plugue Eletrônico Sensor Temperatura Injeção")
+name.append("Pneu")
+name.append("Pneu Alinhamento")
+name.append("Pneuzinho Barra Direção")
+name.append("Pneuzinho Braço Oscilante")
+name.append("Pneuzinho Caixa Direção")
+name.append("Polia Alternador")
+name.append("Polia Ar Condicionado")
+name.append("Polia Bomba D'água")
+name.append("Polia Comando Admissão")
+name.append("Polia Dianteira Vira Frisado")
+name.append("Polia Tensor Correia Alternador")
+name.append("Polia Virabrequim")
+name.append("Polo Bateria")
+name.append("Porca")
+name.append("Porca Cabeçote")
+name.append("Porca Cabo Embreagem")
+name.append("Porca Castelo")
+name.append("Porca Diversos")
+name.append("Porca Homocinética")
+name.append("Porca Roda")
+name.append("Porca Rosca")
+name.append("Porca Volante")
+name.append("Porta Escova")
+name.append("Potenciômetro")
+name.append("Prato Amortecedor")
+name.append("Pré-filtro")
+name.append("Presilha Cabo Embreagem")
+name.append("Presilha Roda Traseira")
+name.append("Prisioneiro 08x180")
+name.append("Prisioneiro 08x196")
+name.append("Prisioneiro 08x231")
+name.append("Prisioneiro Escapamento")
+name.append("Prisioneiro Motor")
+name.append("Prisioneiro Roda")
+name.append("Prisioneiro Tensor Correia Dentada")
+name.append("Programação Chave")
+name.append("Proteção Coifa Homocinética")
+name.append("Proteção Correia Dentada")
+name.append("Proteção Correia Dentada Externa")
+name.append("Proteção Correia Dentada Inferior")
+name.append("Proteção Correia Dentada Interna")
+name.append("Proteção Radiador")
+name.append("Protetor Cárter")
+name.append("Puxador Porta")
+name.append("Radiador Água")
+name.append("Radiador Ar Condicionado")
+name.append("Radiador Óleo")
+name.append("RCI-117-UT-360")
+name.append("RCI-122-UT-332")
+name.append("RCI-18-UT-323")
+name.append("RCI-191-UT-325")
+name.append("RCI-38 UT-15")
+name.append("Rebites Grandes")
+name.append("Rebites Lona")
+name.append("Refil Bomba Combustível")
+name.append("Reforço Dianteiro Esquerdo")
+name.append("Regulador Alternador")
+name.append("Regulador Pressão Combustível")
+name.append("Regulador Válvula")
+name.append("Rele Bomba Combustível")
+name.append("Rele Injeção")
+name.append("Remendo Pneu")
+name.append("Reparo Alavanca Câmbio")
+name.append("Reparo Alavanca Freio Mão")
+name.append("Reparo Alternador")
+name.append("Reparo Bandeja")
+name.append("Reparo Bico")
+name.append("Reparo Coletor")
+name.append("Reparo Bomba Direção Hidráulico")
+name.append("Reparo Cabo")
+name.append("Reparo Caixa Direção")
+name.append("Reparo Câmbio")
+name.append("Reparo Carburador")
+name.append("Reparo Chicote")
+name.append("Reparo Completo Gnv")
+name.append("Reparo Compressor Ar")
+name.append("Reparo Feixe Mola")
+name.append("Reparo Injeção")
+name.append("Reparo Modulo")
+name.append("Reparo Pinça")
+name.append("Reparo Pino Guia")
+name.append("Reparo Radiador")
+name.append("Reparo Tensor")
+name.append("Reparo Trambulador Câmbio")
+name.append("Reparo Turbina")
+name.append("Reparo Válvula Injeção")
+name.append("Reprogramação")
+name.append("Reprogramação Das Chaves")
+name.append("Reprogramação Eletrônica")
+name.append("Reservatório Água")
+name.append("Reservatório Água Com Tampa")
+name.append("Reservatório Direção Hidráulica")
+name.append("Reservatório Gasolina")
+name.append("Reservatório Óleo Freio")
+name.append("Resistência Ar Condicionado")
+name.append("Resistência Desembaçador")
+name.append("Resistência Ventilação Forçada")
+name.append("Respiro Câmbio")
+name.append("Respiro Carter")
+name.append("Respiro Motor")
+name.append("Retentor Auxiliar")
+name.append("Retentor Boma Água")
+name.append("Retentor Bomba Óleo")
+name.append("Retentor Caixa Direção")
+name.append("Retentor Câmbio")
+name.append("Retentor Cardan")
+name.append("Retentor Cárter")
+name.append("Retentor Comando Admissão")
+name.append("Retentor Comando Escape")
+name.append("Retentor Comando Auxiliar")
+name.append("Retentor Comando Bomba Óleo")
+name.append("Retentor Comando Distribuidor")
+name.append("Retentor Comando Válvula Admissão")
+name.append("Retentor Comando Válvula Escape")
+name.append("Retentor Correia Dentada")
+name.append("Retentor Cubo Roda")
+name.append("Retentor Dianteiro Motor")
+name.append("Retentor Dianteiro Polia")
+name.append("Retentor Dianteiro Trambulador")
+name.append("Retentor Dianteiro Virabrequim")
+name.append("Retentor Diferencial")
+name.append("Retentor Distribuidor")
+name.append("Retentor Eixo Câmbio")
+name.append("Retentor Eixo Comando")
+name.append("Retentor Eixo Distribuidor")
+name.append("Retentor Eixo Piloti")
+name.append("Retentor Eixo Traseiro")
+name.append("Retentor Haste Seletora")
+name.append("Retentor Haste Trambulador")
+name.append("Retentor Lateral Câmbio")
+name.append("Retentor Mancal Traseiro")
+name.append("Retentor Motor")
+name.append("Retentor Piloto")
+name.append("Retentor Polia Motor")
+name.append("Retentor Ponta Comando")
+name.append("Retentor Roda Dianteira")
+name.append("Retentor Roda Externo")
+name.append("Retentor Roda Interno")
+name.append("Retentor Roda Traseira")
+name.append("Retentor Semi Eixo")
+name.append("Retentor Tambor")
+name.append("Retentor Tampa Válvula")
+name.append("Retentor Trambulador Câmbio")
+name.append("Retentor Traseiro Motor")
+name.append("Retentor Traseiro Virabrequim")
+name.append("Retentor Traseiro Volante")
+name.append("Retentor Tulipa")
+name.append("Retentor Virabrequim Dianteiro")
+name.append("Retentor Virabrequim Traseiro")
+name.append("Retentor Volante")
+name.append("Retentor Volante Motor")
+name.append("Retentor Volante Traseiro")
+name.append("Retifica")
+name.append("Retífica")
+name.append("Retifica Biela")
+name.append("Retifica Bloco")
+name.append("Retifica Cabeçote")
+name.append("Retifica Cabeçote Completo")
+name.append("Retifica Disco")
+name.append("Retifica Embuchar")
+name.append("Retifica Motor")
+name.append("Retifica Plaina Solda")
+name.append("Retifica Rosca")
+name.append("Retifica Tambor")
+name.append("Retifica Teste Trinca Plaina")
+name.append("Retrovisor")
+name.append("Revestimento Radiador Completo")
+name.append("Roda Ferro")
+name.append("Rolamento Alternador")
+name.append("Rolamento Auxiliar Correia Alternador")
+name.append("Rolamento Auxiliar Correia Dentada")
+name.append("Rolamento Câmbio")
+name.append("Rolamento Cardan")
+name.append("Rolamento Coifa")
+name.append("Rolamento Coluna Direção")
+name.append("Rolamento Correia Alternador")
+name.append("Rolamento Correia Ar Condicionado")
+name.append("Rolamento Correia Dentada")
+name.append("Rolamento Cubo Roda")
+name.append("Rolamento Duplo Câmbio")
+name.append("Rolamento Eixo Piloto")
+name.append("Rolamento Embreagem")
+name.append("Rolamento Esticador Correia Alternador")
+name.append("Rolamento Externo Eixo Traseiro")
+name.append("Rolamento Guia Correia Alternador")
+name.append("Rolamento Guia Correia Ar Condicionado")
+name.append("Rolamento Guia Correia Dentada")
+name.append("Rolamento Guia Correia Direção Hidráulica")
+name.append("Rolamento Guia Direção")
+name.append("Rolamento Guia Piloto")
+name.append("Rolamento Interno Eixo Traseiro")
+name.append("Rolamento Lateral Coroa")
+name.append("Rolamento Poli V")
+name.append("Rolamento Roda Dianteiro")
+name.append("Rolamento Roda Traseiro")
+name.append("Rolamento Semi Eixo")
+name.append("Rolamento Suspensão")
+name.append("Rolamento Tensor Correia Alternador")
+name.append("Rolamento Tensor Correia Ar Condicionado")
+name.append("Rolamento Tensor Correia Dentada")
+name.append("Rolamento Tensor Poli V")
+name.append("Rolamento Ventoinha")
+name.append("Rosca Cabeçote")
+name.append("Rosca Cárter")
+name.append("Rosca Tampa Bomba")
+name.append("Rosca Tanque")
+name.append("Rosca Tensor")
+name.append("Rotor Alternador")
+name.append("Rotor Distribuidor")
+name.append("Rotula Alavanca Câmbio")
+name.append("Sapata Freio Traseira")
+name.append("Selo Bloco Motor")
+name.append("Selo Cabeçote")
+name.append("Selo Câmbio")
+name.append("Selo Carcaça")
+name.append("Selo Coletor Admissão")
+name.append("Selo Comando Válvula")
+name.append("Semieixo Homocinética")
+name.append("Semieixo Câmbio")
+name.append("Sensor Abs")
+name.append("Sensor Borboleta")
+name.append("Sensor Correia Dentada")
+name.append("Sensor Detonação")
+name.append("Sensor Fase")
+name.append("Sensor Fluxo Ar")
+name.append("Sensor Hall")
+name.append("Sensor Injeção")
+name.append("Sensor Macha Lenta")
+name.append("Sensor MAP")
+name.append("Sensor Modulo")
+name.append("Sensor Óleo")
+name.append("Sensor Pedal Freio")
+name.append("Sensor Re")
+name.append("Sensor Rotação")
+name.append("Sensor TBI")
+name.append("Sensor Temperatura Água")
+name.append("Sensor Temperatura Ar")
+name.append("Sensor Temperatura Injeção")
+name.append("Sensor Velocidade")
+name.append("Servo Freio")
+name.append("Silencioso")
+name.append("Silicone Alta Temp Wurt 1826")
+name.append("Silicone Branco")
+name.append("Silicone Cárter")
+name.append("Silicone Preto")
+name.append("Sonda Lambda")
+name.append("Spray Preto")
+name.append("Suporte Alavanca")
+name.append("Suporte Alternador")
+name.append("Suporte Cabeçote")
+name.append("Suporte Caixa")
+name.append("Suporte Câmbio")
+name.append("Suporte Correia Dentada")
+name.append("Suporte Coxim")
+name.append("Suporte Filtro Ar")
+name.append("Suporte Flexível")
+name.append("Suporte Frontal")
+name.append("Suporte Motor")
+name.append("Suporte Plugue")
+name.append("Suporte Tampa Óleo")
+name.append("Suporte Tensor Correia")
+name.append("Suporte Trambulador")
+name.append("Suporte Ventoinha")
+name.append("Suspensão")
+name.append("Tambor Freio Dianteiro")
+name.append("Tambor Freio Traseiro")
+name.append("Tampa Bomba")
+name.append("Tampa Bomba Com Regulador Pressão")
+name.append("Tampa Bomba Combustível")
+name.append("Tampa Cabeçote")
+name.append("Tampa Carcaça Bomba Água")
+name.append("Tampa Carcaça Bomba Combustível")
+name.append("Tampa Carcaça Válvula Termostática")
+name.append("Tampa Cárter")
+name.append("Tampa Comando Válvula")
+name.append("Tampa Combustível")
+name.append("Tampa Motor")
+name.append("Tampa Óleo")
+name.append("Tampa Reservatório Água")
+name.append("Tampa Reservatório Água Para-brisa")
+name.append("Tampa Reservatório Direção Hidráulica")
+name.append("Tampa Reservatório Radiador")
+name.append("Tampa Seletora Câmbio")
+name.append("Tampa Seletora Câmbio Com Retentor")
+name.append("Tampa Tanque")
+name.append("Tampa Válvula Termostática")
+name.append("Tampão")
+name.append("Tampão Ar Quente")
+name.append("Tampão Bloco")
+name.append("Tampão Bomba Água")
+name.append("Tampao Cabeçote")
+name.append("Tampão Comando Válvula")
+name.append("Tampão Traseiro Câmbio")
+name.append("Tampão Traseiro Comando")
+name.append("Tampão Tubo Água")
+name.append("Tanque Combustível")
+name.append("TBI")
+name.append("Tensor Correia Alternador")
+name.append("Tensor Correia Ar Condicionado")
+name.append("Tensor Correia Dentada")
+name.append("Tensor Correia Direção Hidráulica")
+name.append("Tensor Poli V")
+name.append("Tensor Posição Borboleta")
+name.append("Tensor Rolo Guia Alternador")
+name.append("Terminal Axial Direção")
+name.append("Terminal Bateria")
+name.append("Terminal Direção Fêmea")
+name.append("Terminal Distribuidor")
+name.append("Torre Amortecedor")
+name.append("Trambulador Alavanca")
+name.append("Trambulador Câmbio")
+name.append("Trambulador Marcha")
+name.append("Trambulador Rotula")
+name.append("Trava Cabo Embreagem")
+name.append("Trava Coroa")
+name.append("Trava Elétrica")
+name.append("Trava Homocinética")
+name.append("Trava Pastilha Traseira")
+name.append("Trava Rolamento")
+name.append("Trava Tulipa")
+name.append("Travessa")
+name.append("Triângulo")
+name.append("Tubo Água")
+name.append("Tubo Água Alumínio")
+name.append("Tubo Água Motor")
+name.append("Tubo Água Plástico 2 Saídas")
+name.append("Tubo Água Radiador")
+name.append("Tubo Combustível")
+name.append("Tubo Flexível Embreagem")
+name.append("Tubo Freio")
+name.append("Tubo Homogeneizador")
+name.append("Tubo Injetor")
+name.append("Tubo Vareta Óleo")
+name.append("Tucho Hidráulico")
+name.append("Tucho Motor")
+name.append("Tucho Válvula")
+name.append("Tucho Vela Ignição")
+name.append("Tulipa Câmbio")
+name.append("Turbina")
+name.append("Unidade Comando")
+name.append("UT-102")
+name.append("UT-103")
+name.append("UT-107")
+name.append("UT-110")
+name.append("UT-116")
+name.append("UT-121")
+name.append("UT-126")
+name.append("UT-127")
+name.append("UT-128")
+name.append("UT-138")
+name.append("UT-144")
+name.append("UT-15")
+name.append("UT-154")
+name.append("UT-157")
+name.append("UT-158")
+name.append("UT-159")
+name.append("UT-176")
+name.append("UT-185")
+name.append("UT-186")
+name.append("UT-194")
+name.append("UT-225")
+name.append("UT-226")
+name.append("UT-316")
+name.append("UT-321")
+name.append("UT-323")
+name.append("UT-325")
+name.append("UT-331")
+name.append("UT-332")
+name.append("UT-334")
+name.append("UT-335")
+name.append("UT-336")
+name.append("UT-337")
+name.append("UT-341")
+name.append("UT-343")
+name.append("UT-344")
+name.append("UT-349")
+name.append("UT-352")
+name.append("UT-356")
+name.append("UT-360")
+name.append("UT-367")
+name.append("UT-379")
+name.append("UT-397")
+name.append("UT-398")
+name.append("UT-433")
+name.append("UT-64")
+name.append("UT-72")
+name.append("UT-77")
+name.append("UT-89")
+name.append("UT-94")
+name.append("Ut159")
+name.append("Ut340")
+name.append("Ut379")
+name.append("Válvula Admissão")
+name.append("Válvula Afogador Carburador")
+name.append("Válvula Ar Quente")
+name.append("Válvula Boia")
+name.append("Válvula Duas Vias")
+name.append("Válvula Equalizadora Freio")
+name.append("Válvula Escape")
+name.append("Válvula Freio")
+name.append("Válvula Hidrovácuo")
+name.append("Válvula Ignição")
+name.append("Válvula Injetora")
+name.append("Válvula Partida Fria")
+name.append("Válvula Pressão Óleo Cabeçote")
+name.append("Válvula Reguladora")
+name.append("Válvula Reguladora Pressão")
+name.append("Válvula Reservatório Gasolina")
+name.append("Válvula Retenção Óleo")
+name.append("Válvula Solenoide")
+name.append("Válvula Termostática")
+name.append("Varão Câmbio")
+name.append("Varão Trambulador")
+name.append("Vareta Comando Válvula")
+name.append("Vareta Óleo")
+name.append("Vareta Trambulador")
+name.append("Vareta Tucho Válvula")
+name.append("Vareta Válvula")
+name.append("Veda Escape")
+name.append("Vela Ignição")
+name.append("Vela Tripolar")
+name.append("Ventoinha")
+name.append("Virabrequim")
+name.append("Virabrequim 050")
+name.append("WD 40")
+
+
+for nm in name:
+    cur.execute(insertItem, (str(uuid.uuid4()), nm, "PÇ", createdAt, False, createdAt))
+
+
+
+
+
+
+
+
+
+
+conn.commit()
+cur.close()
+conn.close()
