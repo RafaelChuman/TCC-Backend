@@ -1,20 +1,18 @@
 import { Request, Response } from "express";
-import { v4 as uuidv4 } from "uuid";
-import { idText } from "typescript";
-import { RepositoryIoT } from "@src/entity/Car/RepositoryIoT";
-import { DTODeleteIoT } from "@src/entity/Car/InterfaceIoT";
+import { RepositoryCar } from "@src/entity/Car/RepositoryCar";
+import { DTODeleteCar } from "@src/entity/Car/InterfaceCar";
 
-export class IoTDelete {
+export class DeleteCar {
   async execute(request: Request, response: Response): Promise<Response> {
-    const ioTRep = new RepositoryIoT();
+    const carRep = new RepositoryCar();
 
-    const data: DTODeleteIoT = {
-      ioT: request.body.ioT,
+    const data: DTODeleteCar = {
+      id: request.body.id,
     };
 
-    if (data.ioT) {
-      if (typeof data.ioT === "string") {
-        const resp = await ioTRep.delete(data);
+    if (data.id) {
+      if (typeof data.id === "string") {
+        const resp = await carRep.delete(data);
 
         return response.status(200).json(resp);
       }

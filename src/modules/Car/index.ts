@@ -1,13 +1,13 @@
-import { IoTCreate } from "./CreateCar";
-import { IoTDelete } from "./DeleteCar";
-import { IoTList } from "./ListCar";
-import { IoTUpdate } from "./UpdateCar";
+import { CreateCar } from "./CreateCar";
+import { DeleteCar } from "./DeleteCar";
+import { ListCar } from "./ListCar";
+import { UpdateCar } from "./UpdateCar";
 
 
 
-const ioTCreate = new IoTCreate();
-const ioTList = new IoTList();
-const ioTDelete = new IoTDelete();
-const ioTUpdate = new IoTUpdate();
+const createCar = new CreateCar();
+const listCar = new ListCar();
+const deleteCar = new DeleteCar();
+const updateCar = new UpdateCar();
 
-export { ioTCreate, ioTDelete, ioTUpdate,  ioTList};
+export { createCar, listCar, deleteCar,  updateCar};

@@ -25,7 +25,7 @@ interface DTOUpdateUser {
 }
 
 interface DTODeleteUser {
-  ids: string[];
+  id: string[];
 }
 
 interface DTOAuthenticateUser {

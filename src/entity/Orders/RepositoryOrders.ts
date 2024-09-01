@@ -3,7 +3,7 @@ import { DeleteResult, InsertResult, In } from "typeorm";
 import { Orders } from "./Orders";
 import { DTOCreateOrders, DTODeleteOrders, DTOUpdateOrders, InterfaceOrders } from "./InterfaceOrders";
 
-class RepositoryOrder implements InterfaceOrders {
+class RepositoryOrders implements InterfaceOrders {
 
   async listByUser(userId: string): Promise<Orders[]> {
     const ordersRepository = PostgresDS.manager.getRepository(Orders);
@@ -59,7 +59,7 @@ class RepositoryOrder implements InterfaceOrders {
     const ordersRepository = PostgresDS.manager.getRepository(Orders);
 
     return await ordersRepository.delete({
-      id: In(group.ids),
+      id: In(group.id),
     });
   }
 
@@ -84,4 +84,4 @@ class RepositoryOrder implements InterfaceOrders {
   }
 }
 
-export { RepositoryOrder };
+export { RepositoryOrders };

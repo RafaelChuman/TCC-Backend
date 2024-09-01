@@ -37,7 +37,7 @@ class RepositoryItem implements InterfaceItem {
 
   async delete(data: DTODeleteItem): Promise<DeleteResult> {
     const itemResponse = await PostgresDS.manager.delete(Item, {
-      id: In(data.ids),
+      id: In(data.id),
     });
 
     return itemResponse;

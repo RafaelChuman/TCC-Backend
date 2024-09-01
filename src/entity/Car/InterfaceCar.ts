@@ -36,7 +36,7 @@ interface InterfaceCar {
 
     create(data: DTOCreateCar): Promise<InsertResult | null>;
     update(data: DTOUpdateCar): Promise<InsertResult | null>;
-    listIoTByUser(userId: string): Promise<Car[] | null>;
+    listCarByUser(userId: string): Promise<Car[] | null>;
     delete(data: DTODeleteCar): Promise<DeleteResult>;
 
 };

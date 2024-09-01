@@ -12,7 +12,7 @@ interface DTOCreateOrderAndItems {
 }
 
 interface DTOListOrderAndItemsByOrder {
-  orders: Orders;
+  orderId: Orders;
   dateBegin?: Date;
   dateEnd?: Date;
 }

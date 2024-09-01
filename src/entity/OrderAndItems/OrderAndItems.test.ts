@@ -1,11 +1,10 @@
-import { v4 as uuidv4 } from "uuid";
-import { OrderAndItem } from "./OrderAndItems";
+import { OrderAndItems } from "./OrderAndItems";
 
 describe("Unit Test for Oil Monitor Class", () => {
 
     it("Should create a oil monitor", async () => {
 
-        const test = new OrderAndItem();
+        const test = new OrderAndItems();
 
         test.deleted = false;
 

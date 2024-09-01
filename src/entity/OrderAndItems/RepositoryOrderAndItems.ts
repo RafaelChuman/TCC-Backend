@@ -26,10 +26,10 @@ class RepositoryOrderAndItems implements InterfaceOrderAndItems {
 
     let whereConstrant = {};
 
-    if (data.orders)
+    if (data.orderId)
       whereConstrant = {
         ...whereConstrant,
-        order: data.orders,
+        order: data.orderId,
       };
 
     if (data.dateBegin && data.dateEnd) {

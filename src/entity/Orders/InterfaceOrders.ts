@@ -14,7 +14,7 @@ interface DTOCreateOrders {
 }
 
 interface DTODeleteOrders {
-  ids: string[];
+  id: string[];
 }
 
 interface DTOUpdateOrders {

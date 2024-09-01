@@ -1,11 +1,11 @@
 import { checkToken } from "@src/modules/Token";
 import { Router } from "express"
 
-const checkTokenRoutes = Router();
+const CheckTokenRoutes = Router();
 
 
-checkTokenRoutes.post("/", (request, response) => 
+CheckTokenRoutes.post("/", (request, response) => 
     checkToken.execute(request, response)
 );
 
-export {checkTokenRoutes};
+export {CheckTokenRoutes};

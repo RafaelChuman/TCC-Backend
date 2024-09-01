@@ -50,7 +50,7 @@ class RepositoryCar implements InterfaceCar {
     return await PostgresDS.manager.insert(Car, updtCar);
   }
 
-  async listIoTByUser(userId: string): Promise<Car[] | null> {
+  async listCarByUser(userId: string): Promise<Car[] | null> {
     const carRep = PostgresDS.getRepository(Car);
 
     return await carRep.find({

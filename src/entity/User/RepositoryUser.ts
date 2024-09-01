@@ -26,7 +26,7 @@ class RepositoryUser implements InterfaceUser {
 
   async delete(data: DTODeleteUser): Promise<DeleteResult> {
     return await PostgresDS.manager.delete(User, {
-      id: In(data.ids),
+      id: In(data.id),
     });
   }
 

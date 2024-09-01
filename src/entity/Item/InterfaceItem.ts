@@ -7,7 +7,7 @@ interface DTOCreateItem {
 }
 
 interface DTODeleteItem {
-  ids: string[];
+  id: string[];
 }
 
 interface DTOUpdateItem {

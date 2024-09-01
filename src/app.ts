@@ -4,14 +4,15 @@ import cors from "cors";
 import { AppError } from "@errors/AppError";
 import "express-async-errors";
 
-import { authenticateRoutes } from "@routes/authenticate.routes";
 import { ensureAuthenticated } from "./midlewares/ensureAuthenticated";
-import { ioTRoutes } from "./routes/IoT.routes";
-import { groupRoutes } from "./routes/Group.routes";
-import { userRoutes } from "./routes/User.routes";
-import { RescueGroupRoutes } from "./routes/RescueGroup.routes";
-import { iotMonitorRoutes } from "./routes/IoTMonitor.routes";
-import { checkTokenRoutes } from "./routes/CheckToke.routes";
+import { AuthenticateRoutes } from "./routes/authenticate.routes";
+import { UserRoutes } from "./routes/User.routes";
+import { CarRoutes } from "./routes/Car.routes";
+import { ItemRoutes } from "./routes/Item.routes";
+import { CheckTokenRoutes } from "./routes/CheckToke.routes";
+import { OrdersRoutes } from "./routes/Orders.routes";
+import { OrderAndItemsRoutes } from "./routes/OrderAndItems.routes";
+
 
 const app = express();
 
@@ -19,26 +20,22 @@ app.use(cors());
 
 app.use(express.json());
 
-app.use("/ioTMonitor", iotMonitorRoutes);
-
-app.use(authenticateRoutes);
-
-app.use("/user", userRoutes);
-
-app.use("/checkToken", checkTokenRoutes);
+app.use(AuthenticateRoutes);
 
 //Midleware para validar a autenticação de todas as rotas seguintes
-
 app.use(ensureAuthenticated);
 
-app.use("/group", groupRoutes);
+app.use("/user", UserRoutes);
 
+app.use("/car", CarRoutes);
 
+app.use("/item", ItemRoutes);
 
-app.use("/rescueGroup", RescueGroupRoutes);
+app.use("/orders", OrdersRoutes);
 
-app.use("/ioT", ioTRoutes);
+app.use("/orderAndItems", OrderAndItemsRoutes);
 
+app.use("/checkToken", CheckTokenRoutes);
 
 
 app.use(

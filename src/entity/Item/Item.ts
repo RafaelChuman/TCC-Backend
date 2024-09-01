@@ -1,6 +1,6 @@
 import { v4 as uuidV4 } from "uuid";
 import { Entity, CreateDateColumn,  PrimaryColumn, ManyToOne, Column, OneToMany} from "typeorm";
-import { OrderAndItem } from "../OrderAndItems/OrderAndItems";
+import { OrderAndItems } from "../OrderAndItems/OrderAndItems";
 
 @Entity("Item")
 export class Item {
@@ -20,8 +20,8 @@ export class Item {
     updated: Date
 
 
-    @OneToMany(()=>OrderAndItem, (orderandItem)=> orderandItem.item)
-    orderAndItem: OrderAndItem[]
+    @OneToMany(()=>OrderAndItems, (orderandItems)=> orderandItems.item)
+    orderAndItems: OrderAndItems[]
 
     // @ManyToOne(()=>Group, group => group.RescueGroup)
     // Group: Group;

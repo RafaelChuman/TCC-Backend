@@ -1,22 +1,22 @@
 import { createUser, deleteUser, listUser, updateUser } from "@src/modules/User";
 import { response, request, Router } from "express";
 
-const userRoutes = Router();
+const UserRoutes = Router();
 
-userRoutes.post("/", (request, response) => {
+UserRoutes.post("/", (request, response) => {
   createUser.execute(request, response);
 });
 
-userRoutes.get("/", (request, response) => {
+UserRoutes.get("/", (request, response) => {
   listUser.execute(request, response);
 });
 
-userRoutes.delete("/", (request, response) => {
+UserRoutes.delete("/", (request, response) => {
   deleteUser.execute(request, response);
 });
 
-userRoutes.put("/", (request, response) => {
+UserRoutes.put("/", (request, response) => {
   updateUser.execute(request, response);
 });
 
-export { userRoutes };
+export { UserRoutes };

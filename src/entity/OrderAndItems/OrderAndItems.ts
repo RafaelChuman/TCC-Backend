@@ -22,7 +22,7 @@ export class OrderAndItems {
     @CreateDateColumn()
     updated: Date
 
-    @ManyToOne( () => Item, (item)=> item.orderAndItem)
+    @ManyToOne( () => Item, (item)=> item.orderAndItems)
     @JoinColumn({name:"itemId"})
     item: Item
 
