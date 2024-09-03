@@ -31,8 +31,8 @@ interface InterfaceOrders {
   create(data: DTOCreateOrders): Promise<InsertResult>;
   delete(data: DTODeleteOrders): Promise<DeleteResult>;
   update(data: DTOUpdateOrders): Promise<InsertResult | null>;
-  listByUser(userId: string): Promise<Orders[]>;
-  findByCar(plate: string): Promise<Orders | null>;
+  listByUser(userId: string): Promise<Orders[] | null>;
+  findByCar(plate: string): Promise<Orders[] | null>;
 }
 
 export { InterfaceOrders, DTOCreateOrders, DTODeleteOrders, DTOUpdateOrders };

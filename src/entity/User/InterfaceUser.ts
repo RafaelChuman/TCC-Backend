@@ -45,7 +45,7 @@ interface InterfaceUser {
   update(user: DTOUpdateUser): Promise<InsertResult | null>;
   list(): Promise<User[]>;
   findByUserName(userName: string): Promise<User | null>;
-  findById(IdParm: string): Promise<User | null>;
+  findById(id: string): Promise<User | null>;
   listAllUsersGroupedByMonth(): Promise<User[]>;
 }
 

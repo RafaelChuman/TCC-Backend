@@ -5,7 +5,7 @@ import { DTOCreateOrders, DTODeleteOrders, DTOUpdateOrders, InterfaceOrders } fr
 
 class RepositoryOrders implements InterfaceOrders {
 
-  async listByUser(userId: string): Promise<Orders[]> {
+  async listByUser(userId: string): Promise<Orders[] | null> {
     const ordersRepository = PostgresDS.manager.getRepository(Orders);
 
     return await ordersRepository.find({
@@ -21,10 +21,10 @@ class RepositoryOrders implements InterfaceOrders {
     });
   }
 
-  async findByCar(plate: string): Promise<Orders | null> {
+  async findByCar(plate: string): Promise<Orders[] | null> {
     const ordersRepository = PostgresDS.manager.getRepository(Orders);
 
-    return await ordersRepository.findOne({
+    return await ordersRepository.find({
       relations: {
         car: true,
         user: true,

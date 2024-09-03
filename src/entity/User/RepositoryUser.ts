@@ -56,9 +56,9 @@ class RepositoryUser implements InterfaceUser {
     return user;
   }
 
-  async findById(IdParm: string): Promise<User | null> {
+  async findById(id: string): Promise<User | null> {
     const user = await PostgresDS.manager.findOneBy(User, {
-      id: IdParm,
+      id: id,
     });
 
     return user;
