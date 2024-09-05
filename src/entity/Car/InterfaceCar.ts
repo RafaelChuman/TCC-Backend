@@ -37,6 +37,8 @@ interface InterfaceCar {
     create(data: DTOCreateCar): Promise<InsertResult | null>;
     update(data: DTOUpdateCar): Promise<InsertResult | null>;
     listCarByUser(userId: string): Promise<Car[] | null>;
+    listCarByPlate(plate: string): Promise<Car[] | null>;
+    listCarById(id: string): Promise<Car | null>;
     delete(data: DTODeleteCar): Promise<DeleteResult>;
 
 };

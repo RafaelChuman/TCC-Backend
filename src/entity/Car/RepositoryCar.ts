@@ -50,6 +50,16 @@ class RepositoryCar implements InterfaceCar {
     return await PostgresDS.manager.insert(Car, updtCar);
   }
 
+  async listAll(): Promise<Car[] | null> {
+    const carRep = PostgresDS.getRepository(Car);
+
+    return await carRep.find({
+      relations: {
+        user: true
+      }
+    });
+  }
+
   async listCarByUser(userId: string): Promise<Car[] | null> {
     const carRep = PostgresDS.getRepository(Car);
 
@@ -65,10 +75,38 @@ class RepositoryCar implements InterfaceCar {
     });
   }
 
+  async listCarById(id: string): Promise<Car | null> {
+    const carRep = PostgresDS.getRepository(Car);
+
+    return await carRep.findOne({
+      relations: {
+        user: true
+      },
+      where: {
+        id: id,
+      },
+    });
+  }
+
+  async listCarByPlate(plate: string): Promise<Car[] | null> {
+    const carRep = PostgresDS.getRepository(Car);
+
+    return await carRep.find({
+      relations: {
+        user: true
+      },
+      where: {
+        plate: plate,
+      },
+    });
+  }
+
+
+
   async delete(data: DTODeleteCar): Promise<DeleteResult> {
     const carRep = PostgresDS.getRepository(Car);
 
-    return await carRep.delete({ id : In(data.id)} );
+    return await carRep.delete({ id: In(data.id) });
   }
 }
 

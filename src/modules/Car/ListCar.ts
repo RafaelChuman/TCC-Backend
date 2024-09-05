@@ -5,6 +5,18 @@ export class ListCar {
   async execute(request: Request, response: Response): Promise<Response> {
     const carRep = new RepositoryCar();
     const userId = request.body.userId;
+    const plate = request.body.plate;
+    const id = request.body.id;
+
+    if (id) {
+      if (typeof id === "string") {
+
+        const resp = await carRep.listCarByUser(id);
+        return response.status(200).json(resp);
+        
+      }
+      return response.status(422).json("Unprocessable Entity");
+    }
 
     if (userId) {
       if (typeof userId === "string") {
@@ -13,7 +25,20 @@ export class ListCar {
         return response.status(200).json(resp);
         
       }
+      return response.status(422).json("Unprocessable Entity");
     }
-    return response.status(422).json("Unprocessable Entity");
+
+    if (plate) {
+      if (typeof plate === "string") {
+
+        const resp = await carRep.listCarByPlate(plate);
+        return response.status(200).json(resp);
+        
+      }
+      return response.status(422).json("Unprocessable Entity");
+    }
+
+    const resp = await carRep.listCarById(plate);
+    return response.status(200).json(resp);
   }
 }
