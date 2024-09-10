@@ -9,19 +9,14 @@ import { User } from "./User";
 import { DeleteResult, In, InsertResult } from "typeorm";
 
 class RepositoryUser implements InterfaceUser {
-  async create(data: DTOCreateUser): Promise<InsertResult> {
-    const user = new User();
+  async create(user: User): Promise<InsertResult> {
 
-    user.name= data.name
-    user.userName= data.userName
-    user.password= data.password
-    user.imgPath= data.imgPath
-    user.email= data.email
-    user.cellphone= data.cellphone
-    user.telegram= data.telegram
-    user.isAdmin= data.isAdmin
+    console.log(user)
 
-    return await PostgresDS.manager.insert(User, user);
+    const resp = await PostgresDS.manager.insert(User, user);
+
+    console.log(resp)
+    return resp
   }
 
   async delete(data: DTODeleteUser): Promise<DeleteResult> {
@@ -91,3 +86,13 @@ class RepositoryUser implements InterfaceUser {
 }
 
 export { RepositoryUser };
+
+
+
+
+
+
+
+
+
+
