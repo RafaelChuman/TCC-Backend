@@ -40,13 +40,13 @@ interface UserToken {
 }
 
 interface InterfaceUser {
-  create(data: DTOCreateUser): Promise<InsertResult>;
-  delete(data: DTODeleteUser): Promise<DeleteResult>;
-  update(user: DTOUpdateUser): Promise<InsertResult | null>;
+  create(data: DTOCreateUser): Promise<InsertResult | null>;
+  delete(data: DTODeleteUser): Promise<DeleteResult | null>;
+  update(user: DTOUpdateUser): Promise<User | null>;
   list(): Promise<User[]>;
   findByUserName(userName: string): Promise<User | null>;
   findById(id: string): Promise<User | null>;
-  listAllUsersGroupedByMonth(): Promise<User[]>;
+  listAllUsersGroupedByMonth(): Promise<User[] | null>;
 }
 
 export {

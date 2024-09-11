@@ -26,9 +26,11 @@ export async function ensureAuthenticated(
   next: NextFunction
 ) {
 
+  console.log("ensureAuthenticated")
   const token = request.headers.authorization;
 
   if (!token) {
+    console.log("ensureAuthenticated Token Missing")
     throw new AppError("Token Missing", 401);
   }
 
@@ -36,7 +38,8 @@ export async function ensureAuthenticated(
     const decoded = verify(token, "brasil123");
 
     if (!decoded || typeof decoded == "string") {
-      throw new AppError("User does not exist.", 401);
+      console.log("ensureAuthenticated User does not exist")
+      throw new AppError("User does not exist", 401);
     }
 
     const userToken: UserToken = {
@@ -55,6 +58,7 @@ export async function ensureAuthenticated(
     // if (!user) {
     //   throw new AppError("User does not exist.", 401);
     // }
+    console.log("ensureAuthenticated userToken" + userToken)
 
     request.headers.userId = userToken.userId;
     request.headers.userName = userToken.userName;
@@ -66,6 +70,7 @@ export async function ensureAuthenticated(
     request.headers.userName = "";
     request.headers.isAdmin = "";
 
+    console.log("ensureAuthenticated Invalid Token")
     throw new AppError("Invalid Token", 401);
   }
 }
