@@ -52,7 +52,6 @@ class CreateUser {
       console.log(`CreateUser - execute Error: ${JSON.stringify(e)}`)
       return response.status(400).json(JSON.stringify(e));
     }
-    return response.status(200).json("");
   }
 }
 

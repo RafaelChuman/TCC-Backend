@@ -12,13 +12,13 @@ class RepositoryUser implements InterfaceUser {
   async create(user: User): Promise<InsertResult | null> {
 
     try {
-      console.log("create " + user)
+      console.log(`create " + ${JSON.stringify(user)}`)
 
       const resp = await PostgresDS.manager.insert(User, user);
       return resp
     }
     catch (e) {
-      console.log(`RepositoryUser - findByUserName Error: ${JSON.stringify(e)}`)
+      console.log(`RepositoryUser - create Error: ${JSON.stringify(e)}`)
     }
     return null;
   }
@@ -30,7 +30,7 @@ class RepositoryUser implements InterfaceUser {
       });
     }
     catch (e) {
-      console.log(`RepositoryUser - findByUserName Error: ${JSON.stringify(e)}`)
+      console.log(`RepositoryUser - delete Error: ${JSON.stringify(e)}`)
     }
     return null;
   }
@@ -54,7 +54,7 @@ class RepositoryUser implements InterfaceUser {
       return users;
     }
     catch (e) {
-      console.log(`RepositoryUser - findByUserName Error: ${JSON.stringify(e)}`)
+      console.log(`RepositoryUser - listAllUsersGroupedByMonth Error: ${JSON.stringify(e)}`)
     }
     return null;
   }
@@ -83,7 +83,7 @@ class RepositoryUser implements InterfaceUser {
       return user;
     }
     catch (e) {
-      console.log(`RepositoryUser - findByUserName Error: ${JSON.stringify(e)}`)
+      console.log(`RepositoryUser - findById Error: ${JSON.stringify(e)}`)
     }
     return null;
   }
@@ -96,10 +96,8 @@ class RepositoryUser implements InterfaceUser {
 
       if (!updtUser) return null;
 
-
       updtUser.name = user.name
       updtUser.userName = user.userName
-      updtUser.password = user.password
       updtUser.imgPath = user.imgPath
       updtUser.email = user.email
       updtUser.cellphone = user.cellphone
@@ -115,7 +113,7 @@ class RepositoryUser implements InterfaceUser {
     }
 
     catch (e) {
-      console.log(`RepositoryUser - findByUserName Error: ${JSON.stringify(e)}`)
+      console.log(`RepositoryUser - update Error: ${JSON.stringify(e)}`)
     }
     return null;
   }
