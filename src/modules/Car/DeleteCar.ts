@@ -8,11 +8,11 @@ export class DeleteCar {
       const carRep = new RepositoryCar();
 
       const data: DTODeleteCar = {
-        id: request.body.id,
+        carId: request.body.carId,
       };
 
-      if (data.id) {
-        if (typeof data.id === "string") {
+      if (data.carId) {
+        if (typeof data.carId === "string") {
           const resp = await carRep.delete(data);
 
           return response.status(200).json(resp);

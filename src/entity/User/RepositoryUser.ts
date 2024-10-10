@@ -26,7 +26,7 @@ class RepositoryUser implements InterfaceUser {
   async delete(data: DTODeleteUser): Promise<DeleteResult | null> {
     try {
       return await PostgresDS.manager.delete(User, {
-        id: In(data.id),
+        userId: In(data.userId),
       });
     }
     catch (e) {
@@ -74,10 +74,10 @@ class RepositoryUser implements InterfaceUser {
 
   }
 
-  async findById(id: string): Promise<User | null> {
+  async findById(userId: string): Promise<User | null> {
     try {
       const user = await PostgresDS.manager.findOneBy(User, {
-        id: id,
+        userId: userId,
       });
 
       return user;
@@ -91,7 +91,7 @@ class RepositoryUser implements InterfaceUser {
   async update(user: User): Promise<User | null> {
     try {
       const updtUser = await PostgresDS.manager.findOneBy(User, {
-        id: user.id,
+        userId: user.userId,
       });
 
       if (!updtUser) return null;

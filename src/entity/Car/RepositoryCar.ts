@@ -25,7 +25,7 @@ class RepositoryCar implements InterfaceCar {
   async update(data: Car): Promise<Car | null> {
     try {
       const updtCar = await PostgresDS.manager.findOneBy(Car, {
-        id: data.id,
+        carId: data.carId,
       });
 
       if (!updtCar) return null;
@@ -56,7 +56,7 @@ class RepositoryCar implements InterfaceCar {
 
       const query = PostgresDS.manager
       .createQueryBuilder(Car, "Car")
-      .select(`id, brand, model, kind, type, plate, "yearOfFabrication", "yearOfModel", color, "createdAt", deleted, updated, "userId"`)
+      .select(`"carId", brand, model, kind, type, plate, "yearOfFabrication", "yearOfModel", color, "createdAt", deleted, updated, "userId"`)
 
       return await query.execute();
       // return await carRep
@@ -85,7 +85,7 @@ class RepositoryCar implements InterfaceCar {
         },
         where: {
           user: {
-            id: userId,
+            userId: userId,
           },
         },
       });
@@ -95,7 +95,7 @@ class RepositoryCar implements InterfaceCar {
     return null;
   }
 
-  async listCarById(id: string): Promise<Car | null> {
+  async listCarById(carId: string): Promise<Car | null> {
     try {
       const carRep = PostgresDS.getRepository(Car);
 
@@ -104,7 +104,7 @@ class RepositoryCar implements InterfaceCar {
           user: true,
         },
         where: {
-          id: id,
+          carId: carId,
         },
       });
     } catch (e) {
@@ -135,7 +135,7 @@ class RepositoryCar implements InterfaceCar {
     try {
       const carRep = PostgresDS.getRepository(Car);
 
-      return await carRep.delete({ id: In(data.id) });
+      return await carRep.delete({ carId: In(data.carId) });
     } catch (e) {
       console.log(`RepositoryCar - delete Error: ${JSON.stringify(e)}`);
     }

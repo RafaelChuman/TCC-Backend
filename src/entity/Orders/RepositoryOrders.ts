@@ -39,6 +39,21 @@ class RepositoryOrders implements InterfaceOrders {
     });
   }
 
+
+  async findById(id: string[]): Promise<Orders[] | null> {
+    const ordersRepository = PostgresDS.manager.getRepository(Orders);
+
+    return await ordersRepository.find({
+      relations: {
+        car: true,
+        user: true,
+      },
+      where: {
+        id: In(id)
+      },
+    });
+  }
+
   async create(data: DTOCreateOrders): Promise<InsertResult> {
     const ordersRepository = PostgresDS.manager.getRepository(Orders);
 

@@ -13,7 +13,7 @@ export class CreateCar0000000000002 implements MigrationInterface {
       name: "Car",
       columns: [
         {
-          name: "id",
+          name: "carId",
           type: "uuid",
           isPrimary: true,
           isNullable: false,

@@ -3,7 +3,7 @@ import { User } from "../User/User";
 import { Car } from "./Car";
 
 interface DTOCreateCar {
-    id: string;
+    carId: string;
     brand: string;
     model: string;
     kind: string;
@@ -19,7 +19,7 @@ interface DTOCreateCar {
 };
 
 interface DTOUpdateCar {
-    id: string;
+    carId: string;
     brand: string;
     model: string;
     kind: string;
@@ -33,7 +33,7 @@ interface DTOUpdateCar {
 
 
 interface DTODeleteCar {
-    id: string[];
+    carId: string[];
 };
 
 interface InterfaceCar {
@@ -42,7 +42,7 @@ interface InterfaceCar {
     update(data: DTOUpdateCar): Promise<Car | null>;
     listCarByUser(userId: string): Promise<Car[] | null>;
     listCarByPlate(plate: string): Promise<Car[] | null>;
-    listCarById(id: string): Promise<Car | null>;
+    listCarById(carId: string): Promise<Car | null>;
     listAll(): Promise<Car[] | null> ;
     delete(data: DTODeleteCar): Promise<DeleteResult | null>;
 

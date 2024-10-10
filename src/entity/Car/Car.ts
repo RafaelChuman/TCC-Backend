@@ -7,7 +7,7 @@ import { User } from "../User/User";
 export class Car {
 
     @PrimaryColumn()
-    id: string
+    carId: string
     @Column()
     brand: string
     @Column()
@@ -39,8 +39,8 @@ export class Car {
     orders: Orders[]
 
     constructor() {
-        if (this.id === undefined) {
-            this.id = uuidv4();
+        if (this.carId === undefined) {
+            this.carId = uuidv4();
         }
     }
 }

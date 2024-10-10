@@ -32,13 +32,13 @@ class AuthenticaUser {
     const userToken: UserToken = {
       isAdmin: user.isAdmin,
       userName: user.userName,
-      userId: user.id,
+      userId: user.userId,
     };
 
     const resp  = {
       isAdmin: user.isAdmin,
       userName: user.userName,
-      userId: user.id,
+      userId: user.userId,
       token: sign(userToken, "brasil123",  {expiresIn: "10h"})
     };
 

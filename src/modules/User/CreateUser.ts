@@ -14,7 +14,7 @@ class CreateUser {
       console.log("CreateUser request.body " + JSON.stringify(request.body))
 
       request.body.forEach((element: User)  => {
-        user.id = element.id
+        user.userId = element.userId
         user.name = element.name
         user.password = element.password
         user.userName = element.userName

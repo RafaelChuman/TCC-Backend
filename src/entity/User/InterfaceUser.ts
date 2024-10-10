@@ -13,7 +13,7 @@ interface DTOCreateUser {
 }
 
 interface DTOUpdateUser {
-  id: string;
+  userId: string;
   name: string;
   userName: string;
   password: string;
@@ -25,7 +25,7 @@ interface DTOUpdateUser {
 }
 
 interface DTODeleteUser {
-  id: string[];
+  userId: string[];
 }
 
 interface DTOAuthenticateUser {

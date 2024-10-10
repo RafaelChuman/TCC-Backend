@@ -7,11 +7,11 @@ export class ListCar {
       const carRep = new RepositoryCar();
       const userId = request.body.userId;
       const plate = request.body.plate;
-      const id = request.body.id;
+      const carId = request.body.carId;
 
-      if (id) {
-        if (typeof id === "string") {
-          const resp = await carRep.listCarById(id);
+      if (carId) {
+        if (typeof carId === "string") {
+          const resp = await carRep.listCarById(carId);
           return response.status(200).json(resp);
         }
         return response.status(422).json("Unprocessable Entity");

@@ -9,7 +9,14 @@ export class OrderAndItems {
 
     @PrimaryColumn()
     id: string
-    @Column()    
+
+    @Column()
+    type: string
+    @Column()
+    name: string
+    @Column()
+    unitMeasurement: string
+    @Column()
     quantity: number
     @Column()
     price: number
@@ -22,9 +29,9 @@ export class OrderAndItems {
     @CreateDateColumn()
     updated: Date
 
-    @ManyToOne( () => Item, (item)=> item.orderAndItems)
-    @JoinColumn({name:"itemId"})
-    item: Item
+    // @ManyToOne( () => Item, (item)=> item.orderAndItems)
+    // @JoinColumn({name:"itemId"})
+    // item: Item
 
     @ManyToOne( ()=> Orders, (orders)=> orders.orderAndItem)
     @JoinColumn({name:"ordersId"})

@@ -4,11 +4,11 @@ import { RepositoryUser } from "@src/entity/User/RepositoryUser";
 
 export class DeleteUser {
   async execute(request: Request, response: Response): Promise<Response> {
-    const idParam: string[] = request.body.id;
+    const idParam: string[] = request.body.userId;
 
     if (idParam.length > 0) {
       const data: DTODeleteUser = {
-        id: idParam,
+        userId: idParam,
       };
       
       const userRepository = new RepositoryUser();

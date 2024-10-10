@@ -4,17 +4,10 @@ import { DTOCreateOrderAndItems, DTODeleteOrderAndItems, DTOListOrderAndItemsByO
 import { OrderAndItems } from "./OrderAndItems";
 
 class RepositoryOrderAndItems implements InterfaceOrderAndItems {
-  async create(data: DTOCreateOrderAndItems): Promise<InsertResult | null> {
+  async create(data: OrderAndItems[]): Promise<InsertResult | null> {
     const orderAndItemsRepository = PostgresDS.manager.getRepository(OrderAndItems)
 
     const newOrderAndItems = new OrderAndItems();
-
-    newOrderAndItems.quantity = data.quantity
-    newOrderAndItems.price = data.price
-    newOrderAndItems.discount = data.discount
-    newOrderAndItems.orders = data.orders
-    newOrderAndItems.item = data.item
-    newOrderAndItems.deleted = false
 
     const resp = await orderAndItemsRepository.insert(newOrderAndItems);
 

@@ -11,7 +11,7 @@ export class UpdateUser {
 
     const user = new User();
 
-    user.id = request.body.id
+    user.userId = request.body.userId
     user.name = request.body.name
     user.password = request.body.password
     user.userName = request.body.userName

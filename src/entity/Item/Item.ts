@@ -20,14 +20,10 @@ export class Item {
     updated: Date
 
 
-    @OneToMany(()=>OrderAndItems, (orderandItems)=> orderandItems.item)
-    orderAndItems: OrderAndItems[]
+    // @OneToMany(()=>OrderAndItems, (orderandItems)=> orderandItems.item)
+    // orderAndItems: OrderAndItems[]
 
-    // @ManyToOne(()=>Group, group => group.RescueGroup)
-    // Group: Group;
 
-    // @ManyToOne(()=>User, user => user.RescueGroup)
-    // User: User;
 
     constructor(){
         if(!this.id)
@@ -38,5 +34,9 @@ export class Item {
 
 }
 
+    // @ManyToOne(()=>Group, group => group.RescueGroup)
+    // Group: Group;
 
+    // @ManyToOne(()=>User, user => user.RescueGroup)
+    // User: User;
 

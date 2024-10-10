@@ -4,11 +4,17 @@ import { OrderAndItems } from "./OrderAndItems";
 import { Item } from "../Item/Item";
 
 interface DTOCreateOrderAndItems {
-  quantity: number
-  price: number
-  discount: number
-  item: Item,
-  orders: Orders,
+  id: string,      
+  type: string,
+  name: string,
+  unitMeasurement:  string,
+  quantity: number,
+  price: number,
+  discount: number,
+  createdAt: Date,
+  updated: Date,
+  deleted: boolean,
+  orderId: string,
 }
 
 interface DTOListOrderAndItemsByOrder {
@@ -28,7 +34,7 @@ interface DTODeleteOrderAndItems {
 }
 
 interface InterfaceOrderAndItems {
-  create(data: DTOCreateOrderAndItems): Promise<InsertResult | null>;
+  create(data: OrderAndItems[]): Promise<InsertResult | null>;
   listByOrder(data: DTOListOrderAndItemsByOrder): Promise<OrderAndItems[] | null>;
   listByUser(data: DTOListOrderAndItemsByUser): Promise<OrderAndItems[] | null>;
   delete(data: DTODeleteOrderAndItems): Promise<DeleteResult>;

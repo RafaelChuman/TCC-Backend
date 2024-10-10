@@ -25,7 +25,7 @@ export class UpdateCar {
 
         if(user == null) throw new AppError("Parâmetro userId incorreto", 503);
 
-        car.id = bodyItem.id;
+        car.carId = bodyItem.carId;
         car.brand = bodyItem.brand;
         car.model = bodyItem.model;
         car.kind = bodyItem.kind;

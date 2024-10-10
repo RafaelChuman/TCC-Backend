@@ -7,7 +7,7 @@ import { Orders } from "../Orders/Orders";
 export class User {
 
     @PrimaryColumn()
-    id: string
+    userId: string
     @Column()
     name: string
     @Column()
@@ -38,14 +38,14 @@ export class User {
     orders: Orders[];
 
     constructor() {
-        if (!this.id) {
-            this.id = uuidV4();
+        if (!this.userId) {
+            this.userId = uuidV4();
             this.isAdmin = false;
         }
     }
 
     public toString = () : string => {
-        return `User (id: ${this.id}, name: ${this.name}))`;
+        return `User (id: ${this.userId}, name: ${this.name}))`;
     }
 }
 
