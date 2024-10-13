@@ -82,8 +82,8 @@ export class CreateCar0000000000002 implements MigrationInterface {
     await queryRunner.createIndex(
       "Car",
       new TableIndex({
-        name: "IDX_CAR_ID",
-        columnNames: ["id"],
+        name: "IDX_CAR_CARID",
+        columnNames: ["carId"],
       })
     );
 
@@ -109,7 +109,7 @@ export class CreateCar0000000000002 implements MigrationInterface {
       new TableForeignKey({
         name: "FK_CAR_GROUP",
         columnNames: ["userId"],
-        referencedColumnNames: ["id"],
+        referencedColumnNames: ["userId"],
         referencedTableName: "User",
         onDelete: "CASCADE",
       })
@@ -117,11 +117,11 @@ export class CreateCar0000000000002 implements MigrationInterface {
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
-    await queryRunner.dropForeignKey("Car", "FK_CAR_GROUP");
-
-    await queryRunner.dropIndex("Car", "IDX_CAR_PLATE");
+    await queryRunner.dropIndex("Car", "IDX_CAR_CARID");
     await queryRunner.dropIndex("Car", "IDX_CAR_CREATEDAT");
-    await queryRunner.dropIndex("Car", "IDX_CAR_ID");
+    await queryRunner.dropIndex("Car", "IDX_CAR_PLATE");
+    
+    await queryRunner.dropForeignKey("Car", "FK_CAR_GROUP");
 
     await queryRunner.dropTable("Car");
   }

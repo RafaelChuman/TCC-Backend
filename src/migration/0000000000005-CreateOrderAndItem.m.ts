@@ -18,7 +18,18 @@ export class CreateOrderAndItems0000000000005 implements MigrationInterface {
           isNullable: false,
           isUnique: true,
         },
-
+        {
+          name: "type",
+          type: "varchar",
+        },
+        {
+          name: "name",
+          type: "varchar",
+        },
+        {
+          name: "unitMeasurement",
+          type: "varchar",
+        },
         {
           name: "quantity",
           type: "integer",
@@ -47,12 +58,7 @@ export class CreateOrderAndItems0000000000005 implements MigrationInterface {
           default: "now()",
         },
         {
-          name: "itemId",
-          type: "uuid",
-          isNullable: false,
-        },
-        {
-          name: "ordersId",
+          name: "orderId",
           type: "uuid",
           isNullable: false,
         },
@@ -71,23 +77,13 @@ export class CreateOrderAndItems0000000000005 implements MigrationInterface {
       })
     );
 
-    await queryRunner.createForeignKey(
-      "OrderAndItems",
-      new TableForeignKey({
-        name: "FK_ORDERANDITEMS_ITEM",
-        columnNames: ["itemId"],
-        referencedColumnNames: ["id"],
-        referencedTableName: "Item",
-        onDelete: "CASCADE",
-      })
-    );
 
     await queryRunner.createForeignKey(
       "OrderAndItems",
       new TableForeignKey({
         name: "FK_ORDERANDITEMS_ORDERS",
-        columnNames: ["ordersId"],
-        referencedColumnNames: ["id"],
+        columnNames: ["orderId"],
+        referencedColumnNames: ["orderId"],
         referencedTableName: "Orders",
         onDelete: "CASCADE",
       })
@@ -96,8 +92,6 @@ export class CreateOrderAndItems0000000000005 implements MigrationInterface {
 
   public async down(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.dropIndex("OrderAndItems", "IDX_ORDERANDITEMS_ID");
-
-    await queryRunner.dropForeignKey("OrderAndItems", "FK_ORDERANDITEMS_ITEM");
 
     await queryRunner.dropForeignKey("OrderAndItems", "FK_ORDERANDITEMS_ORDERS");
 

@@ -75,6 +75,45 @@ class RepositoryCar implements InterfaceCar {
     return null;
   }
 
+    async findByIdVector(carId: string[]): Promise<Car[] | null> {
+      try {
+        const carRep = PostgresDS.getRepository(Car);
+
+        return await carRep.find({
+          relations: {
+            user: true,
+          },
+          where: {
+            carId: In(carId)
+          },
+        });
+
+      } catch (e) {
+        console.log(`RepositoryCar - findById Error: ${JSON.stringify(e)}`);
+      }
+      return null;
+    }
+
+    async findById(carId: string): Promise<Car | null> {
+      try {
+        const carRep = PostgresDS.getRepository(Car);
+
+        return await carRep.findOne({
+          relations: {
+            user: true,
+          },
+          where: {
+            carId: carId
+          },
+        });
+
+      } catch (e) {
+        console.log(`RepositoryCar - findById Error: ${JSON.stringify(e)}`);
+      }
+      return null;
+    }
+
+
   async listCarByUser(userId: string): Promise<Car[] | null> {
     try {
       const carRep = PostgresDS.getRepository(Car);

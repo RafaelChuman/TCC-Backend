@@ -44,6 +44,8 @@ interface InterfaceCar {
     listCarByPlate(plate: string): Promise<Car[] | null>;
     listCarById(carId: string): Promise<Car | null>;
     listAll(): Promise<Car[] | null> ;
+    findByIdVector(carId: string[]): Promise<Car[] | null>;
+    findById(carId: string): Promise<Car | null>;
     delete(data: DTODeleteCar): Promise<DeleteResult | null>;
 
 };

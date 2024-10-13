@@ -4,13 +4,17 @@ import { User } from "../User/User";
 import { Car } from "../Car/Car";
 
 interface DTOCreateOrders {
-  km: number;
-  fuel: number;
-  statusExecution: string;
-  statusOrder: Boolean;
-  car: Car
-  user: User
+  orderId: string
+  km: number
+  fuel: number
+  statusExecution: string
+  statusOrder: Boolean
+  createdAt: Date
+  deleted: Boolean
+  updated: Date
 
+  carId: string
+  userId: string
 }
 
 interface DTODeleteOrders {
@@ -28,7 +32,7 @@ interface DTOUpdateOrders {
 }
 
 interface InterfaceOrders {
-  create(data: DTOCreateOrders): Promise<InsertResult>;
+  create(data: Orders): Promise<InsertResult | null>;
   delete(data: DTODeleteOrders): Promise<DeleteResult>;
   update(data: DTOUpdateOrders): Promise<InsertResult | null>;
   listByUser(userId: string): Promise<Orders[] | null>;

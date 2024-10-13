@@ -8,7 +8,7 @@ export class CreateOrders0000000000004 implements MigrationInterface {
             name:"Orders",
             columns:[
                 {
-                    name:"id",
+                    name:"orderId",
                     type:"uuid",
                     isPrimary: true,
                     isNullable: false,
@@ -27,7 +27,7 @@ export class CreateOrders0000000000004 implements MigrationInterface {
                     type: "varchar",
                 },
                 {
-                    name:"statusOrders",
+                    name:"statusOrder",
                     type:"boolean",
                     isNullable: false,
                     default:false,
@@ -69,6 +69,14 @@ export class CreateOrders0000000000004 implements MigrationInterface {
         await queryRunner.createIndex(
             "Orders",
             new TableIndex({
+                name: "IDX_ORDERS_ORDERID",
+                columnNames: ["orderId"],
+            })
+        );
+
+        await queryRunner.createIndex(
+            "Orders",
+            new TableIndex({
                 name: "IDX_ORDERS_CREATEDAT",
                 columnNames: ["createdAt"],
             })
@@ -79,7 +87,7 @@ export class CreateOrders0000000000004 implements MigrationInterface {
             new TableForeignKey({
               name: "FK_ORDERS_CAR",
               columnNames: ["carId"],
-              referencedColumnNames: ["id"],
+              referencedColumnNames: ["carId"],
               referencedTableName: "Car",
               onDelete: "CASCADE",
             })
@@ -90,7 +98,7 @@ export class CreateOrders0000000000004 implements MigrationInterface {
             new TableForeignKey({
               name: "FK_ORDERS_USER",
               columnNames: ["userId"],
-              referencedColumnNames: ["id"],
+              referencedColumnNames: ["userId"],
               referencedTableName: "User",
               onDelete: "CASCADE",
             })
@@ -99,9 +107,12 @@ export class CreateOrders0000000000004 implements MigrationInterface {
 
     public async down(queryRunner: QueryRunner): Promise<void> {
 
-        await queryRunner.dropIndex("Orders", "IDX_ORDERS_NAME");
 
-        await queryRunner.dropForeignKey("Orders", "FK_ORDERS_GROUP");
+        await queryRunner.dropIndex("Orders", "IDX_ORDERS_ORDERID");
+
+        await queryRunner.dropIndex("Orders", "IDX_ORDERS_CREATEDAT");
+
+        await queryRunner.dropForeignKey("Orders", "FK_ORDERS_CAR");
 
         await queryRunner.dropForeignKey("Orders", "FK_ORDERS_USER");
 

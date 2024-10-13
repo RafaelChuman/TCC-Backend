@@ -1,10 +1,14 @@
 import { PostgresDS } from "@src/data-source";
 import { DeleteResult, InsertResult, In } from "typeorm";
 import { Orders } from "./Orders";
-import { DTOCreateOrders, DTODeleteOrders, DTOUpdateOrders, InterfaceOrders } from "./InterfaceOrders";
+import {
+  DTOCreateOrders,
+  DTODeleteOrders,
+  DTOUpdateOrders,
+  InterfaceOrders,
+} from "./InterfaceOrders";
 
 class RepositoryOrders implements InterfaceOrders {
-
   async listByUser(userId: string): Promise<Orders[] | null> {
     const ordersRepository = PostgresDS.manager.getRepository(Orders);
 
@@ -15,7 +19,7 @@ class RepositoryOrders implements InterfaceOrders {
       },
       where: {
         user: {
-          id: userId,
+          userId: userId,
         },
       },
     });
@@ -33,12 +37,19 @@ class RepositoryOrders implements InterfaceOrders {
         user: {
           car: {
             plate: plate,
-          }
+          },
         },
       },
     });
   }
 
+  async findAll(): Promise<Orders[] | null> {
+    const query = PostgresDS.manager
+    .createQueryBuilder(Orders, "Orders")
+    .select(`"orderId", km, fuel, "statusExecution", "statusOrder", "createdAt", deleted, updated, "userId", "carId"`)
+
+    return await query.execute();
+  }
 
   async findById(id: string[]): Promise<Orders[] | null> {
     const ordersRepository = PostgresDS.manager.getRepository(Orders);
@@ -49,32 +60,37 @@ class RepositoryOrders implements InterfaceOrders {
         user: true,
       },
       where: {
-        id: In(id)
+        orderId: In(id),
       },
     });
   }
 
-  async create(data: DTOCreateOrders): Promise<InsertResult> {
-    const ordersRepository = PostgresDS.manager.getRepository(Orders);
+  async create(newOrder: Orders): Promise<InsertResult | null> {
+    try {
+      const ordersRepository = PostgresDS.manager.getRepository(Orders);
 
-    const newOrder = new Orders();
+      console.log(
+        "\n\n RepositoryOrders - create newOrder " +
+          JSON.stringify(newOrder) +
+          "\n\n"
+      );
+      const resp = await ordersRepository.insert(newOrder);
 
-    newOrder.km = data.km
-    newOrder.fuel = data.fuel
-    newOrder.statusExecution = data.statusExecution
-    newOrder.statusOrder = data.statusOrder
-    newOrder.deleted = false
-
-    const resp = await ordersRepository.insert(newOrder);
-
-    return resp;
+      console.log(
+        "\n\n RepositoryOrders - create resp " + JSON.stringify(resp) + "\n\n"
+      );
+      return resp;
+    } catch (e) {
+      console.log(`RepositoryOrders - create Error: ${JSON.stringify(e)}`);
+    }
+    return null;
   }
 
   async delete(group: DTODeleteOrders): Promise<DeleteResult> {
     const ordersRepository = PostgresDS.manager.getRepository(Orders);
 
     return await ordersRepository.delete({
-      id: In(group.id),
+      orderId: In(group.id),
     });
   }
 
@@ -82,20 +98,19 @@ class RepositoryOrders implements InterfaceOrders {
     const ordersRepository = PostgresDS.manager.getRepository(Orders);
 
     const updtOrder = await ordersRepository.findOneBy({
-      id: data.id,
+      orderId: data.id,
     });
 
     if (!updtOrder) return null;
 
-    updtOrder.km = data.km
-    updtOrder.fuel = data.fuel
-    updtOrder.statusExecution = data.statusExecution
-    updtOrder.statusOrder = data.statusOrder
-    updtOrder.deleted = false
-    updtOrder.createdAt = new Date(Date.now())
+    updtOrder.km = data.km;
+    updtOrder.fuel = data.fuel;
+    updtOrder.statusExecution = data.statusExecution;
+    updtOrder.statusOrder = data.statusOrder;
+    updtOrder.deleted = false;
+    updtOrder.createdAt = new Date(Date.now());
 
     return await ordersRepository.insert(updtOrder);
-
   }
 }
 

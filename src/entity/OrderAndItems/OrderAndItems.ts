@@ -34,7 +34,7 @@ export class OrderAndItems {
     // item: Item
 
     @ManyToOne( ()=> Orders, (orders)=> orders.orderAndItem)
-    @JoinColumn({name:"ordersId"})
+    @JoinColumn({name:"orderId"})
     orders: Orders
 
     

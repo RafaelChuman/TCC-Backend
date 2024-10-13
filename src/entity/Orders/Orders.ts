@@ -7,7 +7,7 @@ import { OrderAndItems } from "../OrderAndItems/OrderAndItems";
 @Entity("Orders")
 export class Orders {
     @PrimaryColumn()
-    id: string
+    orderId: string
     @Column()
     km: number
     @Column()
@@ -35,8 +35,8 @@ export class Orders {
     orderAndItem: OrderAndItems[]
 
     constructor() {
-        if (!this.id) {
-            this.id = uuidv4();
+        if (!this.orderId) {
+            this.orderId = uuidv4();
         }
     }
 }
