@@ -13,7 +13,7 @@ class CreateOrders {
       const userRep = new RepositoryUser();
       const carRep = new RepositoryCar();
 
-      const orders = new Orders();
+      const ordersList: Orders[] = [];
 
       console.log(
         "\n\nCreateOrders request.body " + JSON.stringify(request.body) + "\n\n"
@@ -26,7 +26,9 @@ class CreateOrders {
         if (user == null) throw new AppError("Parâmetro userId incorreto", 503);
 
         const car = await carRep.findById(bodyItem.carId);
-        if (car == null) throw new AppError("Parâmetro userId incorreto", 503);
+        if (car == null) throw new AppError("Parâmetro carId incorreto", 503);
+
+        const orders = new Orders();
 
         orders.orderId = bodyItem.orderId;
         orders.km = bodyItem.km;
@@ -38,9 +40,13 @@ class CreateOrders {
         orders.deleted = bodyItem.deleted;
         orders.car = car;
         orders.user = user;
+
+        ordersList.push(orders)
       }
 
-      const resp = await orderRep.create(orders);
+      if(ordersList.length <= 0) throw new AppError("Parâmetros incorretos", 503);
+
+      const resp = await orderRep.save(ordersList);
       return response.status(200).json(resp);
 
     } catch (e) {

@@ -45,8 +45,10 @@ class RepositoryOrders implements InterfaceOrders {
 
   async findAll(): Promise<Orders[] | null> {
     const query = PostgresDS.manager
-    .createQueryBuilder(Orders, "Orders")
-    .select(`"orderId", km, fuel, "statusExecution", "statusOrder", "createdAt", deleted, updated, "userId", "carId"`)
+      .createQueryBuilder(Orders, "Orders")
+      .select(
+        `"orderId", km, fuel, "statusExecution", "statusOrder", "createdAt", deleted, updated, "userId", "carId"`
+      );
 
     return await query.execute();
   }
@@ -65,23 +67,13 @@ class RepositoryOrders implements InterfaceOrders {
     });
   }
 
-  async create(newOrder: Orders): Promise<InsertResult | null> {
+  async save(newOrder: Orders[]): Promise<Orders[] | null> {
     try {
       const ordersRepository = PostgresDS.manager.getRepository(Orders);
 
-      console.log(
-        "\n\n RepositoryOrders - create newOrder " +
-          JSON.stringify(newOrder) +
-          "\n\n"
-      );
-      const resp = await ordersRepository.insert(newOrder);
-
-      console.log(
-        "\n\n RepositoryOrders - create resp " + JSON.stringify(resp) + "\n\n"
-      );
-      return resp;
+      return await ordersRepository.save(newOrder);
     } catch (e) {
-      console.log(`RepositoryOrders - create Error: ${JSON.stringify(e)}`);
+      console.log(`RepositoryOrders - save Error: ${JSON.stringify(e)}`);
     }
     return null;
   }
@@ -94,24 +86,7 @@ class RepositoryOrders implements InterfaceOrders {
     });
   }
 
-  async update(data: DTOUpdateOrders): Promise<InsertResult | null> {
-    const ordersRepository = PostgresDS.manager.getRepository(Orders);
 
-    const updtOrder = await ordersRepository.findOneBy({
-      orderId: data.id,
-    });
-
-    if (!updtOrder) return null;
-
-    updtOrder.km = data.km;
-    updtOrder.fuel = data.fuel;
-    updtOrder.statusExecution = data.statusExecution;
-    updtOrder.statusOrder = data.statusOrder;
-    updtOrder.deleted = false;
-    updtOrder.createdAt = new Date(Date.now());
-
-    return await ordersRepository.insert(updtOrder);
-  }
 }
 
 export { RepositoryOrders };

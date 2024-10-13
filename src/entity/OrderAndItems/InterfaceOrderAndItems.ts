@@ -34,10 +34,11 @@ interface DTODeleteOrderAndItems {
 }
 
 interface InterfaceOrderAndItems {
-  create(data: OrderAndItems[]): Promise<InsertResult | null>;
+  save(data: OrderAndItems[]): Promise<OrderAndItems[] | null>;
   listByOrder(data: DTOListOrderAndItemsByOrder): Promise<OrderAndItems[] | null>;
   listByUser(data: DTOListOrderAndItemsByUser): Promise<OrderAndItems[] | null>;
-  delete(data: DTODeleteOrderAndItems): Promise<DeleteResult>;
+  purgeById(id:  String[]): Promise<DeleteResult>;
+  purgeByOrderid(orderId:  String[]): Promise<DeleteResult>;
 }
 
 export {

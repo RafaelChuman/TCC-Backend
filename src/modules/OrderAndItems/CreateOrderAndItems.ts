@@ -46,7 +46,7 @@ export class CreateOrderAndItems {
 
         if(data.length <= 0) throw new AppError("Parâmetros incorretos", 503);
 
-        const resp = await orderAndItemsRep.create(data);
+        const resp = await orderAndItemsRep.save(data);
         return response.status(201).json(resp);
         
 
