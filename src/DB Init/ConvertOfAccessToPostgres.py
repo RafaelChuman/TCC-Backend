@@ -1,5 +1,3 @@
-import datetime
-import uuid
 from random import randint
 
 #pip install psycopg2-binary
@@ -10,15 +8,15 @@ from random import randint
 #sudo apt-get install unixodbc odbc-mdbtools -y
 import pyodbc
 import psycopg2
-from psycopg2 import sql
 
 
-
-# Caminho para o arquivo .accdb
-database_path = r'/home/chuman/Documentos/TCC/OficinaCarros.accdb'
+# Define the DSN that you configured earlier
+# Config the file /etc/odbc.ini
+# Config the file /etc/odbcinst.ini
+dsn = 'MyAccessDB'
 
 # String de conexão
-connection_string = ('DSN=AccessDB')
+connection_string = (f'DSN={dsn}')
 
 # Connect to the PostgreSQL database
 connPostgres = psycopg2.connect(
@@ -38,44 +36,44 @@ cursorAccess = conAccess.cursor()
 accessSql = []
 # Executando uma consulta SQL para listar todas as tabelas do Access
 
-#accessSql.append('SELECT name FROM MSysObjects WHERE Type=1 AND Flags=0')
-accessSql.append('SELECT TOP 5 * FROM [Avarias] WHERE 1=0')
-# accessSql.append('SELECT TOP 5 * FROM [Avarias1]')
-# accessSql.append('SELECT TOP 5 * FROM [Cheques]')
-# accessSql.append('SELECT TOP 5 * FROM [Clientes]')
-# accessSql.append('SELECT TOP 5 * FROM [Combustivél]')
-# accessSql.append('SELECT TOP 5 * FROM [Contas a pagar receber]')
-# accessSql.append('SELECT TOP 5 * FROM [Descrição RECEBIMENTO PAGAMENTO]')
-# accessSql.append('SELECT TOP 5 * FROM [Detalhes da Fatura]')
-# accessSql.append('SELECT TOP 5 * FROM [Detalhes do cheque]')
-# accessSql.append('SELECT TOP 5 * FROM [Dia]')
-# accessSql.append('SELECT TOP 5 * FROM [Empresa]')
-# accessSql.append('SELECT TOP 5 * FROM [Estoque]')
-# accessSql.append('SELECT TOP 5 * FROM [Fabricante]')
-# accessSql.append('SELECT TOP 5 * FROM [Faturas]')
-# accessSql.append('SELECT TOP 5 * FROM [Avaliação]')
-# accessSql.append('SELECT TOP 5 * FROM [Faturas1]')
-# accessSql.append('SELECT TOP 5 * FROM [Faturas2]')
-# accessSql.append('SELECT TOP 5 * FROM [Faturas3]')
-# accessSql.append('SELECT TOP 5 * FROM [Forma]')
-# accessSql.append('SELECT TOP 5 * FROM [Fornecedor]')
-# accessSql.append('SELECT TOP 5 * FROM [Funcionário]')
-# accessSql.append('SELECT TOP 5 * FROM [Garantia]')
-# accessSql.append('SELECT TOP 5 * FROM [Mês]')
-# accessSql.append('SELECT TOP 5 * FROM [Óleo]')
-# accessSql.append('SELECT TOP 5 * FROM [Pagamento]')
-# accessSql.append('SELECT TOP 5 * FROM [Pprazo]')
-# accessSql.append('SELECT TOP 5 * FROM [Pprazo detalhe]')
-# accessSql.append('SELECT TOP 5 * FROM [Rastreador]')
-# accessSql.append('SELECT TOP 5 * FROM [Referencia]')
-# accessSql.append('SELECT TOP 5 * FROM [Status]')
-# accessSql.append('SELECT TOP 5 * FROM [Status cheque]')
-# accessSql.append('SELECT TOP 5 * FROM [Tabela1]')
-# accessSql.append('SELECT TOP 5 * FROM [Tipo de finalidade]')
-# accessSql.append('SELECT TOP 5 * FROM [Troca de óleo]')
-# accessSql.append('SELECT TOP 5 * FROM [Erros ao colar]')
-# accessSql.append('SELECT TOP 5 * FROM [Extintor]')
-# accessSql.append('SELECT TOP 5 * FROM [Veículos]')
+accessSql.append('SELECT name FROM MSysObjects WHERE Type=1 AND Flags=0')
+accessSql.append('SELECT TOP 5 * FROM [Veículos]')
+accessSql.append('SELECT TOP 5 * FROM [Avarias]')
+accessSql.append('SELECT TOP 5 * FROM [Avarias1]')
+accessSql.append('SELECT TOP 5 * FROM [Cheques]')
+accessSql.append('SELECT TOP 5 * FROM [Clientes]')
+accessSql.append('SELECT TOP 5 * FROM [Combustivél]')
+accessSql.append('SELECT TOP 5 * FROM [Contas a pagar receber]')
+accessSql.append('SELECT TOP 5 * FROM [Descrição RECEBIMENTO PAGAMENTO]')
+accessSql.append('SELECT TOP 5 * FROM [Detalhes da Fatura]')
+accessSql.append('SELECT TOP 5 * FROM [Detalhes do cheque]')
+accessSql.append('SELECT TOP 5 * FROM [Dia]')
+accessSql.append('SELECT TOP 5 * FROM [Empresa]')
+accessSql.append('SELECT TOP 5 * FROM [Estoque]')
+accessSql.append('SELECT TOP 5 * FROM [Fabricante]')
+accessSql.append('SELECT TOP 5 * FROM [Faturas]')
+accessSql.append('SELECT TOP 5 * FROM [Avaliação]')
+accessSql.append('SELECT TOP 5 * FROM [Faturas1]')
+accessSql.append('SELECT TOP 5 * FROM [Faturas2]')
+accessSql.append('SELECT TOP 5 * FROM [Faturas3]')
+accessSql.append('SELECT TOP 5 * FROM [Forma]')
+accessSql.append('SELECT TOP 5 * FROM [Fornecedor]')
+accessSql.append('SELECT TOP 5 * FROM [Funcionário]')
+accessSql.append('SELECT TOP 5 * FROM [Garantia]')
+accessSql.append('SELECT TOP 5 * FROM [Mês]')
+accessSql.append('SELECT TOP 5 * FROM [Óleo]')
+accessSql.append('SELECT TOP 5 * FROM [Pagamento]')
+accessSql.append('SELECT TOP 5 * FROM [Pprazo]')
+accessSql.append('SELECT TOP 5 * FROM [Pprazo detalhe]')
+accessSql.append('SELECT TOP 5 * FROM [Rastreador]')
+accessSql.append('SELECT TOP 5 * FROM [Referencia]')
+accessSql.append('SELECT TOP 5 * FROM [Status]')
+accessSql.append('SELECT TOP 5 * FROM [Status cheque]')
+accessSql.append('SELECT TOP 5 * FROM [Tabela1]')
+accessSql.append('SELECT TOP 5 * FROM [Tipo de finalidade]')
+accessSql.append('SELECT TOP 5 * FROM [Troca de óleo]')
+accessSql.append('SELECT TOP 5 * FROM [Erros ao colar]')
+accessSql.append('SELECT TOP 5 * FROM [Extintor]')
 
 
 
@@ -85,9 +83,11 @@ for asql in accessSql:
     # Obtendo os resultados
     rows = cursorAccess.fetchall()
 
+    print(asql)
     # Iterando sobre os resultados e imprimindo-os
     for row in rows:
         print(row)
+    print('\n\n\n\n')
 
 
 
@@ -99,11 +99,6 @@ conAccess.close()
 # cursorPostgres.commit()
 cursorPostgres.close()
 connPostgres.close()
-
-
-
-
-
 
 
 # mdb-export /home/chuman/Documentos/TCC/OficinaCarros.accdb 'Avarias1' > /home/chuman/Documentos/TCC/OficinaCarros_Avarias1.csv
