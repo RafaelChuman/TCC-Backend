@@ -28,6 +28,11 @@ class OrderCSV:
         Modelo : str
         Ano : int
         Defeito : str
+        KM : int
+        Paga : str
+        Status : str
+        Cancelada : str
+        Combustivel : str
 
 
 def row_to_car(row):
@@ -51,7 +56,13 @@ def row_to_car(row):
         Modelo = row['Modelo'],
         Ano = row['Ano'],
         Defeito = row['Defeito'],
+        KM = row['KM'],
+        Paga = row['Paga'],
+        Status = row['Status'],
+        Cancelada = row['Cancelada'],
+        Combustivel = row['Combustivél'],
     )
+
 
 # Função para converter carData em dados compatíveis com o PostgreSQL
 def order_to_db(order: OrderCSV, userList, carList):
@@ -59,6 +70,7 @@ def order_to_db(order: OrderCSV, userList, carList):
     cadastro_datetime = pd.to_datetime(order.Entrada, format='%m/%d/%y %H:%M:%S', errors='coerce')
     userId = ""
     carId = ""
+    km = 0
 
     for user in userList:
         if(user[1] == order.Cliente):
@@ -73,10 +85,14 @@ def order_to_db(order: OrderCSV, userList, carList):
     if(userId == ""): userId = "aa7e2806-a982-406a-8735-4150367e7ec2"
     if(carId == ""): carId = "79bc6877-7ce0-4e9d-b528-5f6431a6b8b9"
 
+    try:
+        km = int(order.KM)
+    except ValueError:
+        km = 0 
 
     return (
         str(uuid.uuid4()),
-        0,
+        km,
         0,
         'finished',
         True,
@@ -117,6 +133,8 @@ userList = cur.fetchall()
 
 cur.execute("SELECT * FROM public.\"Car\";")
 carList = cur.fetchall()
+
+
 
 # Convertendo o DataFrame para uma lista de objetos carData
 cars_list = [row_to_car(row) for index, row in df.iterrows()]

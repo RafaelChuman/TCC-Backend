@@ -82,6 +82,14 @@ export class CreateOrders0000000000004 implements MigrationInterface {
             })
         );
 
+        await queryRunner.createIndex(
+            "Orders",
+            new TableIndex({
+                name: "IDX_ORDERS_UPDATED",
+                columnNames: ["updated"],
+            })
+        );
+
         await queryRunner.createForeignKey(
             "Orders",
             new TableForeignKey({
@@ -111,6 +119,8 @@ export class CreateOrders0000000000004 implements MigrationInterface {
         await queryRunner.dropIndex("Orders", "IDX_ORDERS_ORDERID");
 
         await queryRunner.dropIndex("Orders", "IDX_ORDERS_CREATEDAT");
+
+        await queryRunner.dropIndex("Orders", "IDX_ORDERS_UPDATED");
 
         await queryRunner.dropForeignKey("Orders", "FK_ORDERS_CAR");
 

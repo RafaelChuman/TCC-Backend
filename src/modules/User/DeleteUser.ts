@@ -5,6 +5,10 @@ import { AppError } from "@src/errors/AppError";
 
 export class DeleteUser {
   async execute(request: Request, response: Response): Promise<Response> {
+
+    console.log("DeleteUser request.body " + JSON.stringify(request.body));
+
+
     try {
       
       var id: string[] = request.body.userId;

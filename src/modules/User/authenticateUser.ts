@@ -17,8 +17,8 @@ class AuthenticaUser {
     }
 
     //Do not. It must be implemented at prodution
-    //const passwordMatch = await compare(password, user.password);
-    const passwordMatch = password == user.password;
+    const passwordMatch = await compare(password, user.password);
+    //const passwordMatch = password == user.password;
 
 
     console.log(request.body.password + " --- " + user.password + " === " + passwordMatch)

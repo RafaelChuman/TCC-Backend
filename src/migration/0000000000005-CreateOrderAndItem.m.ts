@@ -77,6 +77,22 @@ export class CreateOrderAndItems0000000000005 implements MigrationInterface {
       })
     );
 
+    await queryRunner.createIndex(
+      "Orders",
+      new TableIndex({
+          name: "IDX_ORDERANDITEMS_CREATEDAT",
+          columnNames: ["createdAt"],
+      })
+    );
+
+    await queryRunner.createIndex(
+      "Orders",
+      new TableIndex({
+          name: "IDX_ORDERANDITEMS_UPDATED",
+          columnNames: ["updated"],
+      })
+    );
+
 
     await queryRunner.createForeignKey(
       "OrderAndItems",
@@ -92,6 +108,10 @@ export class CreateOrderAndItems0000000000005 implements MigrationInterface {
 
   public async down(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.dropIndex("OrderAndItems", "IDX_ORDERANDITEMS_ID");
+
+    await queryRunner.dropIndex("Orders", "IDX_ORDERANDITEMS_CREATEDAT");
+
+    await queryRunner.dropIndex("Orders", "IDX_ORDERANDITEMS_UPDATED");
 
     await queryRunner.dropForeignKey("OrderAndItems", "FK_ORDERANDITEMS_ORDERS");
 

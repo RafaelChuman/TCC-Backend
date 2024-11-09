@@ -25,6 +25,19 @@ class RepositoryOrders implements InterfaceOrders {
     });
   }
 
+  async listByUpdated(updated: Date): Promise<Orders[] | null> {
+    const query = PostgresDS.manager
+      .createQueryBuilder(Orders, "Orders")
+      .select(
+        `"orderId", km, fuel, "statusExecution", "statusOrder", "createdAt", deleted, updated, "userId", "carId"`
+      ).where(
+        `updated > '${updated.toISOString()}'`
+      ).andWhere(
+        `deleted = false`);
+
+    return await query.execute();
+  }
+
   async findByCar(plate: string): Promise<Orders[] | null> {
     const ordersRepository = PostgresDS.manager.getRepository(Orders);
 
@@ -44,6 +57,16 @@ class RepositoryOrders implements InterfaceOrders {
   }
 
   async findAll(): Promise<Orders[] | null> {
+    const query = PostgresDS.manager
+      .createQueryBuilder(Orders, "Orders")
+      .select(
+        `"orderId", km, fuel, "statusExecution", "statusOrder", "createdAt", deleted, updated, "userId", "carId"`
+      );
+
+    return await query.execute();
+  }
+
+  async listByupdated(): Promise<Orders[] | null> {
     const query = PostgresDS.manager
       .createQueryBuilder(Orders, "Orders")
       .select(

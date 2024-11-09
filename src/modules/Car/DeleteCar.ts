@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import { RepositoryCar } from "@src/entity/Car/RepositoryCar";
 import { DTODeleteCar } from "@src/entity/Car/InterfaceCar";
+import { AppError } from "@src/errors/AppError";
 
 export class DeleteCar {
   async execute(request: Request, response: Response): Promise<Response> {
@@ -11,16 +12,12 @@ export class DeleteCar {
         carId: request.body.carId,
       };
 
-      if (data.carId) {
-        if (typeof data.carId === "string") {
-          const resp = await carRep.delete(data);
+      if (data.carId == null || data.carId.length == 0)
+        throw new AppError("Parâmetro userId incorreto", 503);
 
-          return response.status(200).json(resp);
-        }
-      }
+      const resp = await carRep.delete(data);
 
-      return response.status(422).json("Unprocessable Entity");
-      
+      return response.status(200).json(resp);
     } catch (e) {
       console.log(`DeleteCar - execute Error: ${JSON.stringify(e)}`);
       return response.status(400).json(JSON.stringify(e));

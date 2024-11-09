@@ -9,6 +9,9 @@ import { Request, Response } from "express";
 
 export class CreateOrderAndItems {
     async execute(request: Request, response: Response): Promise<Response> {
+
+        console.log("\nCreateOrderAndItems request.body " + JSON.stringify(request.body) + "\n");
+
         try {
         const orderAndItemsRep = new RepositoryOrderAndItems()
         const orderRep = new RepositoryOrders();
@@ -16,6 +19,18 @@ export class CreateOrderAndItems {
         var order: Orders | null = null;
         var bodyItem: DTOCreateOrderAndItems
         var data: OrderAndItems[] = new Array()
+
+
+        const updated = request.body[0];
+
+        if (updated) {
+            if (typeof updated === "string") {
+              const date = new Date(updated)
+              const resp = await orderAndItemsRep.listByUpdated(date);
+    
+              return response.status(200).json(resp);
+            }
+          }
 
         for (bodyItem of request.body ) {
   

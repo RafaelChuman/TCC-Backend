@@ -170,7 +170,27 @@ class RepositoryCar implements InterfaceCar {
     return null;
   }
 
-  async delete(data: DTODeleteCar): Promise<DeleteResult | null> {
+
+  async delete(data: DTODeleteCar): Promise<Car[] | null> {
+    try {
+      const delCar = await PostgresDS.manager.findBy(Car, {
+        carId: In(data.carId),
+      });
+
+      if (!delCar) return null;
+
+      delCar.forEach( (car) => {
+        car.deleted = true
+      })
+
+      return await PostgresDS.manager.save(Car, delCar);
+    } catch (e) {
+      console.log(`RepositoryCar - delete Error: ${JSON.stringify(e)}`);
+    }
+    return null;
+  }
+
+  async purge(data: DTODeleteCar): Promise<DeleteResult | null> {
     try {
       const carRep = PostgresDS.getRepository(Car);
 

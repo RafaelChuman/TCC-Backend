@@ -58,6 +58,20 @@ class RepositoryOrderAndItems implements InterfaceOrderAndItems {
     return await query.execute();
   }
 
+  async listByUpdated(updated: Date): Promise<OrderAndItems[] | null> {
+    const query = PostgresDS.manager
+      .createQueryBuilder(OrderAndItems, "OrderAndItems")
+      .select(
+        `"id", type, name, "unitMeasurement", quantity, price, discount, "createdAt", deleted, updated, "orderId"`
+      ).where(
+        `updated > '${updated.toISOString()}'`
+      ).andWhere(
+        `deleted = false`);
+
+    return await query.execute();
+  }
+
+
   async listByUser(
     data: DTOListOrderAndItemsByUser
   ): Promise<OrderAndItems[] | null> {

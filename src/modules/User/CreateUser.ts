@@ -11,32 +11,35 @@ class CreateUser {
     try {
       const user = new User();
 
-      console.log("CreateUser request.body " + JSON.stringify(request.body))
+      console.log("CreateUser request.body " + JSON.stringify(request.body));
 
-      request.body.forEach((element: User)  => {
-        user.userId = element.userId
-        user.name = element.name
-        user.password = element.password
-        user.userName = element.userName
-        user.imgPath = element.imgPath
-        user.cellphone = element.cellphone
-        user.telegram = element.telegram
-        user.email = element.email
-        user.isAdmin = element.isAdmin
-        user.createdAt = element.createdAt
-        user.isAdmin = element.isAdmin
-        user.updated = element.updated
-      }); 
-
-      const usersRepository = new RepositoryUser();
-
-      const userNameAlredyExist = await usersRepository.findByUserName(user.userName);
+      user.userId = request.body.userId;
+      user.name = request.body.name;
+      user.password = request.body.password;
+      user.userName = request.body.userName;
+      user.imgPath = request.body.imgPath;
+      user.cellphone = request.body.cellphone;
+      user.telegram = request.body.telegram;
+      user.email = request.body.email;
+      user.isAdmin = request.body.isAdmin;
+      user.deleted = request.body.deleted;
+      user.createdAt = request.body.createdAt;
+      user.isAdmin = request.body.isAdmin;
+      user.updated = request.body.updated;
 
       if (!user.password || !user.userName) {
+        console.log(`CreateUser - execute Error: Data out of bounds.`);
         throw new AppError("Data out of bounds.");
       }
 
+      const usersRepository = new RepositoryUser();
+
+      const userNameAlredyExist = await usersRepository.findByUserName(
+        user.userName
+      );
+
       if (userNameAlredyExist) {
+        console.log(`CreateUser - execute Error: User Already Exists.`);
         throw new AppError("User Already Exists.");
       }
 
@@ -47,9 +50,8 @@ class CreateUser {
       const resp = await usersRepository.create(user);
 
       return response.status(200).json(resp);
-    }
-    catch (e) {
-      console.log(`CreateUser - execute Error: ${JSON.stringify(e)}`)
+    } catch (e) {
+      console.log(`CreateUser - execute Error: ${JSON.stringify(e)}`);
       return response.status(400).json(JSON.stringify(e));
     }
   }

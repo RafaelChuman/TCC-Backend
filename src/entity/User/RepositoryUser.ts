@@ -23,11 +23,20 @@ class RepositoryUser implements InterfaceUser {
     return null;
   }
 
-  async delete(data: DTODeleteUser): Promise<DeleteResult | null> {
+  async delete(data: DTODeleteUser): Promise<User[] | null> {
     try {
-      return await PostgresDS.manager.delete(User, {
+
+      const updtUser = await PostgresDS.manager.findBy(User, {
         userId: In(data.userId),
       });
+
+      if (!updtUser) return null;
+
+      updtUser.forEach( (usr) => {
+        usr.deleted = true
+      })
+
+      return await PostgresDS.manager.save(User, updtUser);
     }
     catch (e) {
       console.log(`RepositoryUser - delete Error: ${JSON.stringify(e)}`)
@@ -40,6 +49,19 @@ class RepositoryUser implements InterfaceUser {
 
     return users;
   }
+
+  async purge(data: DTODeleteUser): Promise<DeleteResult | null> {
+    try {
+      return await PostgresDS.manager.delete(User, {
+        userId: In(data.userId),
+      });
+    }
+    catch (e) {
+      console.log(`RepositoryUser - purge Error: ${JSON.stringify(e)}`)
+    }
+    return null;
+  }
+
 
   async listAllUsersGroupedByMonth(): Promise<User[] | null> {
     try {

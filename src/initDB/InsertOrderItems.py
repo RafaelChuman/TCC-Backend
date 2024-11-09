@@ -38,27 +38,44 @@ def row_to_orderAndItems(row):
 # Função para converter orderAndItemsData em dados compatíveis com o PostgreSQL
 def orderItems_to_db(orderItems: OrderItemsCSV, ordList):
 
-    cadastro_datetime = pd.to_datetime(orderItems.Data, format='%m/%d/%y %H:%M:%S', errors='coerce')
+    cadastro_datetime = ""
     ordId = ""
-    type = str(orderItems.Ref)
-    qtd = str(orderItems.QTD)
-    price = str(orderItems.UNIT)
-
+    price = 0.0
+    qtd = 0
+    type = "PC"
+    
     for ord in ordList:
         if(ord[10] == orderItems.CodigoDaFatura):
             ordId = str(ord[0])
             break
-    if(ordId == ""):ordId = '74d17182-c188-4246-9e14-e3ff0844b6aa'
 
-    if(type == "nan"): type = "PC"
-    if(qtd == "nan"): qtd = 0        
-    if(price == "nan"): price = 0.0  
+    if(ordId == ""):ordId = '41f1151b-f33b-469f-bd37-87f5f683ee79'
+
+    try:
+        cadastro_datetime = pd.to_datetime(orderItems.Data, format='%m/%d/%y %H:%M:%S')
+    except ValueError:
+        cadastro_datetime = pd.to_datetime('01/01/00 00:00:00', format='%m/%d/%y %H:%M:%S')
+
+    try:
+        type = str(orderItems.Ref)
+    except ValueError:
+        type = "PC"
+
+    try:
+        qtd = int(float(orderItems.QTD))
+    except ValueError:
+        qtd = 0
+
+    try:
+        price = float(orderItems.UNIT)
+    except ValueError:
+        price = 0.0
 
 
     return (
         str(uuid.uuid4()),
-        int(float(qtd)),
-        float(price),
+        qtd,
+        price,
         0,
         cadastro_datetime,
         False,
@@ -99,7 +116,7 @@ orderAndItems_list = [row_to_orderAndItems(row) for index, row in df.iterrows()]
 
 i = 0
 for orderAndItems in orderAndItems_list:
-    print(orderAndItems.CodigoDoDetalheDaFatura)
+    #print(orderAndItems.CodigoDoDetalheDaFatura , orderAndItems.Data)
     #print(orderItems_to_db(orderAndItems, ordersList))
     cur.execute(insertOrder, orderItems_to_db(orderAndItems, ordersList))
     

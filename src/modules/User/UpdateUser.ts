@@ -25,7 +25,7 @@ export class UpdateUser {
     user.updated = request.body.updated
 
 
-    console.log("UpdateUser user " + user)
+    console.log("UpdateUser request.body " + JSON.stringify(request.body));
 
     const usersRepository = new RepositoryUser();
 

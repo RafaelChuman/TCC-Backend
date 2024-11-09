@@ -21,6 +21,18 @@ class CreateOrders {
 
       var bodyItem: DTOCreateOrders;
 
+
+      const updated = request.body[0];
+
+      if (updated) {
+        if (typeof updated === "string") {
+          const date = new Date(updated)
+          const resp = await orderRep.listByUpdated(date);
+
+          return response.status(200).json(resp);
+        }
+      }
+
       for (bodyItem of request.body) {
         const user = await userRep.findById(bodyItem.userId);
         if (user == null) throw new AppError("Parâmetro userId incorreto", 503);

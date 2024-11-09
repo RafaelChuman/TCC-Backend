@@ -46,7 +46,8 @@ interface InterfaceCar {
     listAll(): Promise<Car[] | null> ;
     findByIdVector(carId: string[]): Promise<Car[] | null>;
     findById(carId: string): Promise<Car | null>;
-    delete(data: DTODeleteCar): Promise<DeleteResult | null>;
+    purge(data: DTODeleteCar): Promise<DeleteResult | null>;
+    delete(data: DTODeleteCar): Promise<Car[] | null>;
 
 };
 

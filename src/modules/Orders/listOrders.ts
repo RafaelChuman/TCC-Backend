@@ -6,8 +6,18 @@ class ListOrders {
     try {
       const orderRep = new RepositoryOrders();
 
+
+      console.log(
+        "\n\ListOrders request.body " + JSON.stringify(request.body) + "\n\n"
+      );
+      console.log(
+        "\n\ListOrders request.body " + JSON.stringify(request.params) + "\n\n"
+      );
+
+
       const userId = request.body.userId;
       const carId = request.body.carId;
+
 
       if (carId) {
         if (typeof carId === "string") {

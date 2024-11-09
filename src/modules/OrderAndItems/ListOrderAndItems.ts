@@ -10,6 +10,10 @@ export class ListOrderAndItems {
     try {
       const orderAndItemsRep = new RepositoryOrderAndItems();
 
+      console.log(
+        "\n\ListOrderAndItems request.body " + JSON.stringify(request.body) + "\n\n"
+      );
+
       const userId = request.body.userId;
       const orderId = request.body.orderId;
 
